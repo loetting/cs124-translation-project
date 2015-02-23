@@ -1,0 +1,882 @@
+el lunes	Monday
+el martes	Tuesday
+el miércoles	Wednesday
+el jueves	Thursday
+el viernes	Friday
+el sábado	Saturday
+el domingo	Sunday
+ 
+enero	January
+febrero	February
+marzo	March
+abril	April
+mayo	May
+junio	June
+julio	July
+agosto	August
+septiembre	September
+octubre	October
+noviembre	November
+diciembre	December
+ 
+anteayer	the day before yesterday
+ayer	yesterday
+hoy	today
+mañana	tomorrow
+pasado mañana	the day after tomorrow
+ 
+la madrugada	dawn
+la medianoche	midnight
+el mediodía	noon
+la tarde	afternoon
+la noche	evening
+la noche	night
+ 
+el siglo	century
+la década	decade
+el año	year
+el mes	month
+la semana	week
+el día	day
+la abuela	grandmother
+el abuelo	grandfather
+casado	married
+la cuñada	sister-in-law
+el cuñado	brother-in-law
+divorciado	divorced
+el gemelo	twin
+la hermana	sister
+el hermano	brother
+la hija	daughter
+el hijastro	stepchild
+el hijo	son
+(el) huérfano	orphan
+la madrastra	stepmother
+la madre	mother
+el marido	husband
+la mujer	wife
+la mujer	woman
+la nieta	granddaughter
+el nieto	grandchild
+el nieto	grandson
+la nuera	daughter-in-law
+el padrastro	stepfather
+el padre	father
+los padres	parents
+el primo	cousin
+la sobrina	niece
+el sobrino	nephew
+la suegra	mother-in-law
+el suegro	father-in-law
+la tía	aunt
+el tío	uncle
+la viuda	widow
+el viudo	widower
+el yerno	son-in-law
+amarillo	yellow
+anaranjado	orange
+azul	blue
+blanco	white
+gris	grey
+marrón	brown
+negro	black
+pardo	brown
+rojo	red
+rosado	pink
+verde	green
+la abeja	bee
+el águila	eagle
+la alondra	lark
+la alondra	skylark
+el antílope	antelope
+la araña	spider
+la ardilla	squirrel
+el arenque	herring
+el atún	tuna
+el avestruz	ostrich
+la avispa	wasp
+la ballena	whale
+el bisonte	bison
+el bogavante	lobster
+el búfalo	buffalo
+el búho	owl
+el burro	donkey
+el caballo	horse
+la cabra	goat
+el cabrito	kid
+el calamar	squid
+el camaleón	chameleon
+el camello	camel
+el cangrejo	crayfish
+el cangrejo	crab
+el canguro	kangaroo
+el caracol	snail
+la carpa	carp
+el castor	beaver
+la cebra	zebra
+el cerdo	pig
+el ciervo	deer
+el ciervo	stag
+el ciervo volante	stag beetle
+la cigüeña	stork
+el cisne	swan
+la cobaya	guinea pig
+el cocodrilo	crocodile
+el cochinillo	piglet
+el colibri	hummingbird
+el conejo	rabbit
+el corzo	roe
+la cucaracha	cockroach
+el cuco	cuckoo
+el cuervo	raven
+el chacal	jackal
+el chimpancé	chimpanzee
+el chinche	chinch
+el chinche	bedbug
+el delfín	dolphin
+el elefante	elephant
+el erizo	hedgehog
+el escorpión	scorpion
+el estornino	starling
+el faisán	pheasant
+la foca	seal
+la gallina	hen
+el gallo	cock
+la gamuza	chamois
+la garrapata	tick
+el gato	cat
+la gaviota	gull
+la gaviota	seagull
+la golondrina	swallow
+el gorila	gorilla
+el gorrión	sparrow
+el grillo	cricket
+la grulla	crane
+el halcón	falcon
+el hámster	hamster
+la hiena	hyena
+el hipopótamo	hippo
+la hormiga	ant
+el hurón	ferret
+el jabalí	boar
+el jaguar	jaguar
+la jirafa	giraffe
+el lagarto	lizard
+la langosta	locust
+el león	lion
+el lince	lynx
+el lobo	wolf
+el loro	parrot
+el lucio	pike
+el mapache	raccoon
+la mariposa	butterfly
+la medusa	jellyfish
+la medusa	medusa
+la mosca	fly
+el mosquito	gnat
+el mosquito	mosquito
+el murciélago	bat
+la nutria	otter
+la oca	goose
+la onza	cheetah
+el oso	bear
+el oso polar	polar bear
+la ostra	oyster
+la oveja	sheep
+el pájaro	bird
+la paloma	dove
+la panda	panda bear
+la pantera	panther
+el paro	tit
+el pato	duck
+el pavo	turkey
+el pavón	peacock
+el pelícano	pelican
+el perezoso	sloth
+el perro	dog
+el pez	fish
+el pingüino	penguin
+el piojo	louse
+el pulpo	octopus
+el pollo	chicken
+el poni	pony
+el potro	foal
+la rana	frog
+la rata	rat
+el ratón	mouse
+la raya	ray fish
+el renacuajo	tadpole
+el rinoceronte	rhino
+el rinoceronte	rhinoceros
+el ruiseñor	nightingale
+el salmón	salmon
+el sapo	toad
+la serpiente	snake
+el ternero	calf
+el tiburón	shark
+el tigre	tiger
+el topo	mole
+el toro	bull
+la tortuga	turtle
+la trucha	trout
+la vaca	cow
+la víbora	viper
+la yegua	mare
+el zorro	fox
+aburrido	boring
+alegre	happy
+alto	tall
+amargo	bitter
+ancho	wide
+antiguo	old
+aplicado	diligent
+bajo	low
+bajo	short
+barato	cheap
+bueno	good
+caliente	warm
+cansado	tired
+caro	expensive
+claro	clear
+complicado	complicated
+cortés	polite
+corto	short
+curioso	curious
+débil	weak
+delgado	thin
+difícil	difficult
+divertido	entertaining
+dulce	sweet
+duro	hard
+enfermo	sick
+estrecho	narrow
+fácil	easy
+feliz	happy
+feo	ugly
+flaco	lean
+frío	cold
+fuerte	strong
+gordo	fat
+grande	big
+grueso	thick
+guapo	pretty
+guapo	handsome
+hermoso	beautiful
+honesto	honest
+injusto	unfair
+injusto	unjust
+interesante	interesting
+joven	young
+justo	fair
+justo	just
+largo	long
+lento	slow
+lleno	full
+malo	bad
+modesto	modest
+mucho	much
+mucho	many
+nervioso	nervous
+nuevo	new
+oscuro	dark
+pequeño	small
+perezoso	lazy
+pobre	poor
+poco	few
+puro	pure
+pyro	clean
+rápido	quick
+rico	rich
+salado	salty
+sano	healthy
+seco	dry
+sencillo	simple
+sucio	dirty
+tonto	stupid
+tranquilo	calm
+tranquilo	tranquil
+triste	sad
+vacío	empty
+viejo	old
+el abrigo	coat
+el algodón	cotton
+la bata	gown
+la bata	cloak
+la blusa	blouse
+el bolsillo	pocket
+las botas	boots
+el botón	button
+la bufanda	scarf
+el calcetín	socks
+la camisa	shirt
+el camisón	nightdress
+el camisón	nightshirt
+el cinturón	belt
+la corbata	necktie
+la cremallera	zipper, zip
+el cuero	leather
+el chaleco	vest, waistcoat
+el chándal	leisure suit, jogging suit
+la chaqueta	jacket
+el esmoquin	tuxedo
+la falda	skirt
+la franela	flannel
+las gafas de sol	sunglasses
+el gorro	cap
+los guantes	gloves
+el impermeable	raincoat
+la lana	wool
+la manga	sleeve
+la pana	corduroy
+el pantalón	trousers
+el pantalón corto	shorts
+el pañuelo	shawl, scarf
+el pijama	pajamas
+la ropa	dress, clothes
+la ropa interior	underwear
+la seda	silk
+el sombrero	hat
+el suéter	sweater
+el terciopelo	velvet
+el traje	suit, dress
+las zapatillas	slippers
+los zapatos	shoes
+Alemania	Germany
+Argelia	Algeria
+Armenia	Armenia
+Azerbaiyán	Azerbaijan
+Belarús	Belarus
+Bélgica	Belgium
+Bosnia-Herzegovina	Bosnia and Herzegovina
+Brasil	Brazil
+Bulgaria	Bulgaria
+Cabo Verde	Cape Verde
+Cambodia	Cambodia
+el Canadá	Canada
+Ciudad del Vaticano	Vatican City
+Colombia	Colombia
+Corea del Norte	North Korea
+Corea del Sur	South Korea
+Costa de Marfil	Ivory Coast
+Croacia	Croatia
+China	China
+Chipre	Cyprus
+Dinamarca	Denmark
+Egipto	Egypt
+Escocia	Scotland
+Eslovaquia	Slovakia
+Eslovenia	Slovenia
+España	Spain
+Estados Unidos	United States
+Estonia	Estonia
+Filipinas	Philippines
+Finlandia	Finland
+Francia	France
+Gales	Wales
+Georgia	Georgia
+Grecia	Greece
+Hungría	Hungary
+Inglaterra	England
+Irlanda	Ireland
+Islandia	Iceland
+Italia	Italy
+Japón	Japan
+Kazajstán	Kazakhstan
+Kirquistán	Kyrgyzstan
+Letonia	Latvia
+Líbano	Lebanon
+Lituania	Lithuania
+Luxemburgo	Luxembourg
+Malasia	Malaysia
+Maldivas	Maldives
+Marruecos	Morocco
+Mauritania	Mauritius
+Noruega	Norway
+Nueva Zelanda	New Zealand
+Países Bajos	Netherlands
+Papúa Nueva Guinea	Papua New Guinea
+Polonia	Poland
+Portugal	Portugal
+Reino Unido	United Kingdom
+República Centroafricana	Central African Republic
+República Checa	Czech Republic
+Rumanía	Romania
+Rusia	Russia
+Serbia y Montenegro	Serbia and Montenegro
+Sudáfrica	South Africa
+Suecia	Sweden
+Suiza	Switzerland
+Swazilandia	Swaziland
+Tailandia	Thailand
+Taiwán	Taiwan
+Tayikistán	Tajikistan
+Túnez	Tunisia
+Turquía	Turkey
+Ucrania	Ukraine
+el ajedrez	chess
+el atletismo	athletics
+el bádminton	badminton
+el baloncesto	basketball
+el balonmano	handball
+el béisbol	baseball
+el boxeo	boxing
+el campeonato	championship
+el ciclismo	cycling
+la copa	cup
+el deporte	sport
+el/la deportista	sportsman
+el empate	draw
+la equitación	riding
+la esgrima	fencing
+el esquí	skiing
+el fútbol	football, soccer
+la gimnasia	gymnastics
+el hockey hielo	ice hockey
+el lanzamiento de disco	discus throw
+el lanzamiento de jabalina	javelin throw
+la natación	swimming
+el partido	match
+el pentatlón	modern pentathlon
+el salto con pértiga	pole vault
+el salto de altura	high jump
+el salto de longitud	long jump
+el tenis	tennis
+el tenis de mesa	table tennis
+la vela	sailing
+el voleibol	volleyball
+el waterpolo	water polo
+el aceite de oliva	olive oil
+el agua	water
+el agua mineral	mineral water
+el aguardiente	brandy, spirit
+el arroz	rice
+el azúcar	sugar
+el bollo	cake
+el bombón	bonbon, candy
+el cacao	cocoa
+el café	coffee
+la canela	cinnamon
+la carne	meat
+la cerveza	beer
+la conserva	can, tin
+el champán	champagne
+el chocolate	chocolate
+el chorizo	sausage
+la especia	spice
+la galleta	biscuit, cookie
+la harina	flour
+el helado	ice cream
+el huevo	egg
+el jamón	ham
+el kéfir	kefir
+la leche	milk
+la leche en polvo	milk powder
+la mantequilla	butter
+la margarina	margarine
+la miel	honey
+la mostaza	mustard
+la nata	cream
+el pan	bread
+el panecillo	bun
+el pescado	fish
+la pimienta	pepper
+el queso	cheese
+el refresco	soft drink
+la sal	salt
+la salchicha	bratwurst
+la sidra	cider
+el té	tea
+la uva pasa	raisin
+el vinagre	vinegar
+el vino	wine
+el yogurt	yoghurt
+el zumo	juice
+el abogado	lawyer
+el actor	actor
+la actriz	actress
+el aduanero	customs officer
+el agricultor	farmer
+el albañil	bricklayer
+el ama de casa	housewife
+el arquitecto	architect
+el artesano	artisan
+el/la artista	artist
+el bailarín	dancer
+el banquero	banker
+el bibliotecario	librarian
+el bombero	firefighter
+el camarero	waiter
+el/la cantante	singer
+el carnicero	butcher
+el carpintero	joiner, carpenter
+el cartero	postman
+el cazador	huntsman
+el científico	scientist
+el cocinero	cook
+el comerciante	merchant
+el contable	bookkeeper
+el cura	priest
+el chófer	driver
+el/la dentista	dentist
+el/la dependiente	shop assistant
+(el) desempleado	unemployed
+el diputado	representative
+el/la economista	economist
+el/la electricista	electrician
+el empleado	employee
+el enfermero	nurse
+el escritor	writer
+el escultor	sculptor
+el experto	expert
+el farmacéutico	pharmacist
+el ferroviario	railwayman
+el/la florista	florist
+el fontanero	plumber
+el fotógrafo	photographer
+el herrero	smith
+el ingeniero	engineer
+el intérprete	interpreter
+el jardinero	gardener
+el joyero	jeweller
+el/la juez	judge
+el/la jurista	jurist
+el/la lingüista	linguist
+el maestro	grade teacher
+el marinero	sailor
+el mayorista	wholesaler
+el mecánico	mechanic
+el médico	doctor
+el minero	miner
+el músico	musician
+el notario	notary, clerk
+el obrero	worker
+el óptico	optician
+el panadero	baker
+el pastelero	confectioner
+el peluquero	hairdresser
+el/la pensionista	pensioner
+el/la periodista	journalist
+el pescador	fisherman
+el piloto	pilot
+el pintor	painter
+el poeta	poet
+el profesor	teacher
+el psicólogo	psychologist
+el químico	chemist
+el redactor	editor
+el relojero	watchmaker
+el reportero	correspondent
+el sastre	tailor
+el secretario	secretary
+el soldado	soldier
+el tapicero	upholsterer
+el tipógrafo	printer
+el traductor	translator
+el veterinario	veterinarian
+el vidriero	glazier
+el zapatero	shoemaker
+la acedera	sorrel
+la achicoria	chicory
+el aguacate	avocado
+el ajo	garlic
+la albahaca	basil
+el albaricoque	apricot
+la alcachofa	artichoke
+la almendra	almond
+el apio	celery
+el arándano	cranberry
+la berenjena	aubergine, egg plant
+el brécol	broccoli
+el bretón	Brussels sprouts
+la calabaza	pumpkin
+la castaña	chestnut
+la cereza	cherry
+la ciruela	plum
+la coliflor	cauliflower
+el colinabo	kohlrabi
+el comino	cumin
+el dátil	date
+la endrina	blackthorn
+el eneldo	dill
+el escaramujo	rosehip
+el espárrago	asparagus
+la espinaca	spinach
+la frambuesa	raspberry
+la fresa	strawberry
+la fresa silvestre	wild strawberry
+la grosella	currant
+la guinda	sour cherry
+el guisante	green peas
+el higo	fig
+la judía	bean
+las judías verdes	green beans
+la lenteja	lentil
+el limón	lemon
+el maíz	corn
+la mandarina	tangerine
+el mango	mango
+la manzana	apple
+el melocotón	peach
+el melón	cantaloupe
+el membrillo	quince
+la naranja	orange
+la níspola	medlar
+la nuez	nut
+la patata	potato
+el pepino	cucumber
+la pera	pear
+el perejil	parsley
+la pimienta	pepper
+el pimiento	green pepper
+la piña	pineapple
+el plátano	banana
+el rábano	radish
+el rábano picante	horse radish
+el repollo	cabbage
+el ruibarbo	rhubarb
+la sandía	water melon
+el saúco	elder
+la seta	mushroom
+el tomate	tomato
+la trufa	truffle
+la uva	grape
+la zanahoria	carrot
+la zarzamora	blackberry
+la alacena	cupboard
+la alfombra	carpet
+la almohada	pillow
+el armario	wardrobe, closet
+el azulejo	tile
+el balcón	balcony
+la bañera	bathtub
+el baño	bathroom
+la botella	bottle
+el cajón	drawer
+la cama	bed
+la casa	house, home
+la cocina	kitchen
+el computador	computer
+la cortina	curtain
+el cuarto	room
+la cuchara	spoon
+el cuchillo	knife
+la despensa	pantry, larder
+el desván	attic, loft
+el dormitorio	bedroom
+la ducha	shower
+el empapelado	wallpaper
+el escritorio	desk
+el espejo	mirror
+la flor	flower
+el fogón	stove, cooker
+el fregadero	sink
+el grifo	tap, faucet
+el horno	oven
+el jardín	garden
+la lámpara	lamp
+el lavabo	wash basin
+el libro	book
+la llave	key
+la maceta	flower pot
+la mesa	table
+el mueble	furniture
+la nevera	fridge
+el papel	paper
+la pared	wall
+el picaporte	door handle
+el piso	floor
+la plancha	iron
+el plato	dish
+la pluma	pen
+la puerta	door
+el radiador	radiator
+el refrigerador	fridge
+el reloj de pared	wall clock
+la sábana	sheet
+la servilleta	napkin, serviette
+la silla	chair
+el sillón	armchair
+el sótano	cellar
+la taza	cup
+el techo	ceiling
+la teja	tile
+la tele	television
+el teléfono	phone
+el tenedor	fork
+la terraza	terrace
+la toalla	towel
+el vaso	glass
+la ventana	window
+el vestíbulo	vestibule, hall
+la axila	armpit
+la barba	beard
+el bigote	moustache
+la boca	mouth
+el brazo	arm
+la cabeza	head
+la cadera	hips
+la cara	face
+la ceja	eyebrow
+el cerebro	brain
+la cintura	waist
+el codo	elbow
+el corazón	heart
+el cráneo	skull
+el cuello	neck
+el cuerpo	body
+el dedillo	little finger
+el dedo	finger
+el dedo anular	ring finger
+el dedo del pie	toe
+el diente	tooth
+la espalda	back
+el espinazo	backbone
+el esqueleto	skeleton
+el estómago	stomach
+la frente	forehead
+la garganta	throat
+el hígado	liver
+el hombro	shoulder
+el hueso	bone
+el índice	forefinger
+el intestino	intestines
+los labios	lips
+la lengua	tongue
+la mano	hand
+la mejilla	cheek
+la muñeca	wrist
+el músculo	muscle
+el muslo	thigh
+la nariz	nose
+el nervio	nerve
+la nuca	occiput
+el ojo	eye
+la oreja	ear
+el órgano	organ
+la palma	palm
+el pecho	chest
+el pelo	hair
+la pestaña	eyelash, lashes
+el pie	foot
+la piel	skin
+la pierna	leg
+la planta	sole
+el pulgar	thumb
+el pulmón	lung
+el puño	fist
+el riñón	kidney
+la rodilla	knee
+la sangre	blood
+la sien	temple
+el talón	heel
+el tobillo	ankle
+la uña	nail
+el útero	womb
+el vientre	belly
+la acera	pavement, sidewalk
+el aeropuerto	airport
+el almacén	department store
+el banco	bank
+la biblioteca	library
+la cafetería	café
+la cervecería	brasserie
+el escaparate	shop window
+la escuela	school
+la estación de bomberos	fire station, firehouse
+la estación de ferrocarril	railway station
+el estadio	stadium
+la farmacia	pharmacy
+la gasolinera	petrol station
+la guardería	kindergarten
+el hospital	hospital
+la librería	bookshop
+el mercado	market
+la municipalidad	municipality
+el museo	museum
+la parada	stop
+la policía	police station
+la posada	inn
+el restaurante	restaurant
+la tienda	shop, store
+la acción	share
+el/la accionista	shareholder
+la aduana	customs
+la auditoría	auditing
+el banco	bank
+los bienes	goods
+la bolsa	stock exchange / market
+el capital	capital
+el cliente	client
+el comercio	trade, commerce
+la competencia	competition
+el consumidor	consumer
+el consumo	consumption
+el crédito	credit
+la demanda	demand
+el desempleo	unemployment
+la deuda	debt
+el dinero	money
+la divisa	foreign exchange
+la economía	economy
+la empresa	company
+el exportador	exporter
+la factura	invoice
+la feria	fair
+la filial	affiliated company
+las finanzas	finances
+los gastos	expenses
+la huelga	strike
+el importador	importer
+el impuesto	tax
+el índice bursátil	stock market index
+la industria	industry
+el ingreso	income
+el interés	interest
+el lucro	profit
+el mercado	market
+la mercancía	merchandise
+el negocio	business
+la oferta	supply
+el pedido	order
+el precio	price
+la quiebra	bankruptcy
+los recursos	resources
+el saldo	balance
+el seguro	insurance
+la subasta	auction
+el superávit	surplus
+el surtido	assortment, selection
+la tienda	shop, store
+la transacción	transaction
+la campaña	campaign
+el candidato	candidate
+la coalición	coalition
+la democracia	democracy
+la dictadura	dictatorship
+la diplomacia	diplomacy
+el diputado	deputy, representative
+las elecciones	elections
+electoral	electoral
+el estado	state
+el gobierno	government
+el golpe de Estado	coup
+la libertad de expresión	freedom of speech
+la manifestación	demonstration
+el/la manifestante	demonstrator
+la mayoría	majority
+el ministerio	ministry
+el ministro	minister
+la minoría	minority
+el movimiento	movement
+la oposición	opposition
+el parlamento	parliament
+el partido	party
+el plebiscito	referendum
+el referendo	referendum
+la política exterior	foreign policy
+la política interior	internal affairs
+el político	politician
+el/la portavoz	spokesperson
+el presidente	president
+el primer ministro	prime minister
+el voto	vote

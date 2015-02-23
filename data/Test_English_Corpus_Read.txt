@@ -1,0 +1,10 @@
+Case sensitive means that e.g. Bush and bush are separate entries. The n-grams with parts of speech allow you to find (for example) all of the tens of thousands of NOUN + NOUN sequences, or any other search that refers to the part of speech of the word. For help with the part of speech tags, click here.
+ 
+Please note that your copy of the files is uniquely linked to your email address (gilbertdoan@gmail.com). A Google query will run every night to search for copies of the n-grams on the Web, and (if found) they will identify you as the source of this copy. Please do not place copies of this file on other websites or share copies with others. Just refer others users to this site: http://www.ngrams.info.
+ 
+Note that you can access these files (after you unzip them) with a robust text editor like TextPad (which is shareware), or input them into a database, where you will be able to search them much better.
+If this data results in a publication, please cite the data as follows: 
+
+Davies, Mark. (2011) N-grams data from the Corpus of Contemporary American English (COCA). Downloaded from http://www.ngrams.info on February 21, 2015. 
+
+Thanks.
