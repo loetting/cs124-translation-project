@@ -91,13 +91,13 @@ def validate_fluency_processor(dict_inst, fluency_processing_inst):
 
     #TESITNG AREA:
     # test_english_sentences = ["The cat jumped over the fence", "The cat hopped over the fence", "The cat moved over the fence", "The cat skipped over the fence"]
-    # test_english_sentences = ["The dog barks at the guy", "The dog barks at the fellow", "The dog barks at the male", "The dog barks at the man", "The dog barks at the human", "The dog barks at the homo sapien"]
+    test_english_sentences = ["The dog barks at the guy", "The dog barks at the fellow", "The dog barks at the male", "The dog barks at the man", "The dog barks at the human", "The dog barks at the homo sapien"]
     # test_english_sentences = ["The man is well read", "The man is literary", "The man is knowledgeable", "The man is erudite", "The man is smart", "The man is intelligent", "The man is a genius"]
     
     #EXAMPLE: chooses "The verdant witch"
     #Find possible English translations for: La bruja verde
     #Find most fluent translation
-    test_english_sentences = ["The green witch", "The underdeveloped witch", "The verdant witch", "The greeny witch", "The green hag", "The green beldam", "The green crone", "The green sorceress", "The green night-hag", "The green hex", "The green harridan", "The green bitch", "The verdant hag", "The verdant beldam", "The verdant crone", "The verdant sorceress", "The verdant night-hag", "The verdant hex", "The verdant harridan", "The verdant bitch", "The underdeveloped hag", "The underdeveloped beldam", "The underdeveloped crone", "The underdeveloped sorceress", "The underdeveloped night-hag", "The underdeveloped hex", "The under-developed harridan", "The underdeveloped bitch"]
+    # test_english_sentences = ["The green witch", "The underdeveloped witch", "The verdant witch", "The greeny witch", "The green hag", "The green beldam", "The green crone", "The green sorceress", "The green night-hag", "The green hex", "The green harridan", "The green bitch", "The verdant hag", "The verdant beldam", "The verdant crone", "The verdant sorceress", "The verdant night-hag", "The verdant hex", "The verdant harridan", "The verdant bitch", "The underdeveloped hag", "The underdeveloped beldam", "The underdeveloped crone", "The underdeveloped sorceress", "The underdeveloped night-hag", "The underdeveloped hex", "The under-developed harridan", "The underdeveloped bitch"]
     
 
     ccae_flag = True
@@ -136,8 +136,8 @@ def main(dir_name):
     
     custom_doc = "Test_English_Corpus_Read.txt"
     dict_inst.build_english_corpus(custom_doc, sys.argv[1])
-    validate_custom_bigram_dict(dict_inst)
-    validate_custom_trigram_dict(dict_inst)
+    # validate_custom_bigram_dict(dict_inst)
+    # validate_custom_trigram_dict(dict_inst)
 
 
     fluency_processing_inst = FluencyProcessing()

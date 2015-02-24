@@ -173,6 +173,7 @@ class Dictionary:
             self.english_fivegram_dict_unigram_dict[indexed_line[5].lower()] += 1
 
 
+        
     """
     Description: Reads from any English corpus delimited by sentences. Extracts bigrams and trigrams
     Evaluation: Runs slowly for large corpus. May use for fluency ranking in post-processing
@@ -192,6 +193,7 @@ class Dictionary:
             line = line.replace(")", "")
             line = line.replace(":", "")
             line = line.replace("!", "")
+            line = line.replace("?", "")
             line = line.replace("\n", "")
             line = line.replace("\"", "")
 
@@ -217,49 +219,57 @@ class Dictionary:
 
                 #make bigram dictionary of custom corpus
                 if len(sentence_word_list) >= 2:
-                    
-                    for i in xrange(0, len(sentence_word_list)-1):
-                        word1 = sentence_word_list[i]
-                        word2 = sentence_word_list[i+1]
-                        bigram = word1 + " " + word2
-                        self.custom_bigram_dict[bigram] = self.custom_bigram_dict[bigram] + 1
-                        
-                        self.custom_bigram_dict_unigram_dict[word1]
-
-                    bigram1 = "-" + " " + sentence_word_list[0]
-                    bigram2 = sentence_word_list[len(sentence_word_list)-1] + " " + "-"
-                    
-                    self.custom_bigram_dict[bigram1] = self.custom_bigram_dict[bigram1] + 1
-                    self.custom_bigram_dict[bigram2] = self.custom_bigram_dict[bigram2] + 1
-
-                    self.custom_bigram_dict_unigram_dict[len(sentence_word_list)-1]
-
-
+                    self.build_english_corpus_bigram_helper(sentence_word_list)
                 #make trigram dictionary of custom corpus
                 if len(sentence_word_list) >= 3:
+                    self.build_english_corpus_trigram_helper(sentence_word_list)
+
+
+    """
+    Helper functions for build_english_corpus, to extract bigrams and trigrams
+    """
+    def build_english_corpus_bigram_helper(self, sentence_word_list):
+        
+        for i in xrange(0, len(sentence_word_list)-1):
+            word1 = sentence_word_list[i]
+            word2 = sentence_word_list[i+1]
+            bigram = word1 + " " + word2
+            self.custom_bigram_dict[bigram] = self.custom_bigram_dict[bigram] + 1
+                        
+            self.custom_bigram_dict_unigram_dict[word1]
+
+        bigram1 = "-" + " " + sentence_word_list[0]
+        bigram2 = sentence_word_list[len(sentence_word_list)-1] + " " + "-"
                     
-                    for i in xrange(0, len(sentence_word_list)-2):
-                        word1 = sentence_word_list[i]
-                        word2 = sentence_word_list[i+1]
-                        word3 = sentence_word_list[i+2]
-                        trigram = word1 + " " + word2 + " " + word3
-                        self.custom_trigram_dict[trigram] = self.custom_trigram_dict[trigram] + 1
-                        self.custom_trigram_dict_unigram_dict[word1]
+        self.custom_bigram_dict[bigram1] = self.custom_bigram_dict[bigram1] + 1
+        self.custom_bigram_dict[bigram2] = self.custom_bigram_dict[bigram2] + 1
+
+        self.custom_bigram_dict_unigram_dict[len(sentence_word_list)-1]
+
+
+    def build_english_corpus_trigram_helper(self, sentence_word_list):
+        
+        for i in xrange(0, len(sentence_word_list)-2):
+            word1 = sentence_word_list[i]
+            word2 = sentence_word_list[i+1]
+            word3 = sentence_word_list[i+2]
+            trigram = word1 + " " + word2 + " " + word3
+            self.custom_trigram_dict[trigram] = self.custom_trigram_dict[trigram] + 1
+            self.custom_trigram_dict_unigram_dict[word1]
                         
 
-                    trigram1 = "-" + " " + "-" + " " + sentence_word_list[0]
-                    trigram2 = "-" + " " + sentence_word_list[0] + " " + sentence_word_list[1]
-                    trigram3 = sentence_word_list[len(sentence_word_list)-2] + " " + sentence_word_list[len(sentence_word_list)-1] + " " + "-"
-                    trigram4 = sentence_word_list[len(sentence_word_list)-1] + " " + "-" + " " + "-"
+        trigram1 = "-" + " " + "-" + " " + sentence_word_list[0]
+        trigram2 = "-" + " " + sentence_word_list[0] + " " + sentence_word_list[1]
+        trigram3 = sentence_word_list[len(sentence_word_list)-2] + " " + sentence_word_list[len(sentence_word_list)-1] + " " + "-"
+        trigram4 = sentence_word_list[len(sentence_word_list)-1] + " " + "-" + " " + "-"
 
-                    self.custom_trigram_dict[trigram1] = self.custom_trigram_dict[trigram1] + 1
-                    self.custom_trigram_dict[trigram2] = self.custom_trigram_dict[trigram2] + 1
-                    self.custom_trigram_dict[trigram3] = self.custom_trigram_dict[trigram3] + 1
-                    self.custom_trigram_dict[trigram4] = self.custom_trigram_dict[trigram4] + 1
+        self.custom_trigram_dict[trigram1] = self.custom_trigram_dict[trigram1] + 1
+        self.custom_trigram_dict[trigram2] = self.custom_trigram_dict[trigram2] + 1
+        self.custom_trigram_dict[trigram3] = self.custom_trigram_dict[trigram3] + 1
+        self.custom_trigram_dict[trigram4] = self.custom_trigram_dict[trigram4] + 1
 
-                    self.custom_trigram_dict_unigram_dict[len(sentence_word_list)-2]
-                    self.custom_trigram_dict_unigram_dict[len(sentence_word_list)-1]
-
+        self.custom_trigram_dict_unigram_dict[len(sentence_word_list)-2]
+        self.custom_trigram_dict_unigram_dict[len(sentence_word_list)-1]
 
 
     """
@@ -384,12 +394,14 @@ class Dictionary:
 
         for sentence in file_stream:
             if re.findall("[A-Za-z0-9]", sentence):
+                sentence = sentence.replace("!", "")
                 sentence = sentence.replace(".", "")
                 sentence = sentence.replace(",", "")
                 sentence = sentence.replace(";", "")
                 sentence = sentence.replace("(", "")
                 sentence = sentence.replace(")", "")
                 sentence = sentence.replace(":", "")
+                sentence = sentence.replace("?", "")
                 sentence = sentence.replace("\n", "")
                 sentence = sentence.replace("\"", "")
                 sentence = sentence.lower()
@@ -458,9 +470,12 @@ class Dictionary:
             even_odd_line += 1
             # print sentence
 
-        """
-        Custom Entry for sparse Translations
-        """
+        build_custom_dictionary_manual()
+
+    """
+    Custom Entry for sparse Translations
+    """
+    def build_custom_dictionary_manual():
         self.custom_dict["Úrsula"] = [["Úrsula", "noun"]]
         self.custom_dict["aureliano"] = [["Aureliano", "noun"]]
         self.custom_dict["quienes"] = [["who", "pronoun"], ["nobody", "pronoun"]]

@@ -21,4 +21,7 @@ This commit includes a fluency processor (of English sentences) that uses bigram
 The Dictionary class was also updated to reflect necessary data items needed to build the fluency processor. No changes aside from those discussed with Alessandro, were made to the custom dictionary (our corpus of 15 Spanish sentences).
 
 Driver was updated to show how to use the fluency processor.
+
+
+COMMIT/PUSH NAME: Refactored Dictionary and Fluency Processing. Added Bleu Score Evaluator given by CS124 Staff for translation evaluation.
 ___
