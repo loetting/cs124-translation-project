@@ -1,10 +1,1116 @@
-Case sensitive means that e.g. Bush and bush are separate entries. The n-grams with parts of speech allow you to find (for example) all of the tens of thousands of NOUN + NOUN sequences, or any other search that refers to the part of speech of the word. For help with the part of speech tags, click here.
- 
-Please note that your copy of the files is uniquely linked to your email address (gilbertdoan@gmail.com). A Google query will run every night to search for copies of the n-grams on the Web, and (if found) they will identify you as the source of this copy. Please do not place copies of this file on other websites or share copies with others. Just refer others users to this site: http://www.ngrams.info.
- 
-Note that you can access these files (after you unzip them) with a robust text editor like TextPad (which is shareware), or input them into a database, where you will be able to search them much better.
-If this data results in a publication, please cite the data as follows: 
+Paris had just heard of the disaster of Sedan. The Republic was proclaimed. All France was panting from a madness that lasted until the time of the commonwealth. Everybody was playing at soldier from one end of the country to the other.
 
-Davies, Mark. (2011) N-grams data from the Corpus of Contemporary American English (COCA). Downloaded from http://www.ngrams.info on February 21, 2015. 
+Capmakers became colonels, assuming the duties of generals; revolvers and daggers were displayed on large rotund bodies enveloped in red sashes; common citizens turned warriors, commanding battalions of noisy volunteers and swearing like troopers to emphasize their importance.
 
-Thanks.
+The very fact of bearing arms and handling guns with a system excited a people who hitherto had only handled scales and measures and made them formidable to the first comer, without reason. They even executed a few innocent people to prove that they knew how to kill, and in roaming through virgin fields still belonging to the Prussians they shot stray dogs, cows chewing the cud in peace or sick horses put out to pasture. Each believed himself called upon to play a great role in military affairs. The cafés of the smallest villages, full of tradesmen in uniform, resembled barracks or field hospitals.
+
+Now the town of Canneville did not yet know the exciting news of the army and the capital. It had, however, been greatly agitated for a month over an encounter between the rival political parties. The mayor, Viscount de Varnetot, a small thin man, already old, remained true to the Empire, especially since he saw rising up against him a powerful adversary in the great, sanguine form of Dr. Massarel, head of the Republican party in the district, venerable chief of the Masonic lodge, president of the Society of Agriculture and the Fire Department and organizer of the rural militia designed to save the country.
+
+In two weeks he had induced sixty-three men to volunteer in defense of their country--married men, fathers of families, prudent farmers and merchants of the town. These he drilled every morning in front of the mayor's window.
+
+Whenever the mayor happened to appear Commander Massarel, covered with pistols, passing proudly up and down in front of his troops, would make them shout, "Long live our country!" And this, they noticed, disturbed the little viscount, who no doubt heard in it menace and defiance and perhaps some odious recollection of the great Revolution.
+
+On the morning of the fifth of September, in uniform, his revolver on the table, the doctor gave consultation to an old peasant couple. The husband had suffered with a varicose vein for seven years but had waited until his wife had one too, so that they might go and hunt up a physician together, guided by the postman when he should come with the newspaper.
+
+Dr. Massarel opened the door, grew pale, straightened himself abruptly and, raising his arms to heaven in a gesture of exaltation, cried out with all his might, in the face of the amazed rustics:
+
+"Long live the Republic! Long live the Republic! Long live the Republic!"
+
+Then he dropped into his armchair weak with emotion.
+
+When the peasant explained that this sickness commenced with a feeling as if ants were running up and down his legs the doctor exclaimed: "Hold your peace. I have spent too much time with you stupid people. The Republic is proclaimed! The Emperor is a prisoner! France is saved! Long live the Republic!" And, running to the door, he bellowed: "Celeste! Quick! Celeste!"
+
+The frightened maid hastened in. He stuttered, so rapidly did he try to speak" "My boots, my saber--my cartridge box--and--the Spanish dagger which is on my night table. Hurry now!"
+
+The obstinate peasant, taking advantage of the moment's silence, began again: "This seemed like some cysts that hurt me when I walked."
+
+The exasperated physician shouted: "Hold your peace! For heaven's sake! If you had washed your feet oftener, it would not have happened." Then, seizing him by the neck, he hissed in his face: "Can you not comprehend that we are living in a republic, stupid!"
+
+But the professional sentiment calmed him suddenly, and he let the astonished old couple out of the house, repeating all the time:
+
+"Return tomorrow, return tomorrow, my friends; I have no more time today."
+
+While equipping himself from head to foot he gave another series of urgent orders to the maid:
+
+"Run to Lieutenant Picard's and to Sublieutenant Pommel's and say to them that I want them here immediately. Send Torcheboeuf to me too, with his drum. Quick now! Quick!" And when Celeste was gone he collected his thoughts and prepared to surmount the difficulties of the situation.
+
+The three men arrived together. They were in their working clothes. The commander, who had expected to see them in uniform, had a fit of surprise.
+
+"You know nothing, then? The Emperor has been taken prisoner. A republic is proclaimed. My position is delicate, not to say perilous."
+
+He reflected for some minutes before the astonished faces of his subordinates and then continued:
+
+"It is necessary to act, not to hesitate. Minutes now are worth hours at other times. Everything depends upon promptness of decision. You, Picard, go and find the curate and get him to ring the bell to bring the people together, while I get ahead of them. You, Torcheboeuf, beat the call to assemble the militia in arms, in the square, from even as far as the hamlets of Gerisaie and Salmare. You, Pommel, put on your uniform at once, that is, the jacket and cap. We, together, are going to take possession of the mairie and summon Monsieur de Varnetot to transfer his authority to me. Do you understand?"
+
+"Yes."
+
+"Act, then, and promptly. I will accompany you to your house, Pommel, since we are to work together."
+
+Five minutes later the commander and his subaltern, armed to the teeth, appeared in the square just at the moment when the little Viscount de Varnetot, with hunting gaiters on and his rifle on his shoulder, appeared by another street, walking rapidly and followed by three guards in green jackets, each carrying a knife at his side and a gun over his shoulder.
+
+While the doctor slapped, half stupefied, the four men entered the mayor's house and the door closed behind them.
+
+"We are forestalled," murmured the doctor; "it will be necessary now to wait for reinforcements; nothing can be done for a quarter of an hour."
+
+Here Lieutenant Picard appeared. "The curate refuses to obey," said he; "he has even shut himself up in the church with the beadle and the porter."
+
+On the other side of the square, opposite the white closed front of the mairie, the church, mute and black, showed its great oak door with the wrought-iron trimmings.
+
+Then, as the puzzled inhabitants put their noses out of the windows or came out upon the steps of their houses, the rolling of a drum was heard, and Torcheboeuf suddenly appeared, beating with fury the three quick strokes of the call to arms. He crossed the square with disciplined step and then disappeared on a road leading to the country.
+
+The commander drew his sword, advanced alone to the middle distance between the two buildings where the enemy was barricaded and, waving his weapon above his head, roared at the top of his lungs: "Long live the Republic! Death to traitors!" Then he fell back where his officers were. The butcher, the baker and the apothecary, feeling a little uncertain, put up their shutters and closed their shops. The grocery alone remained open.
+
+Meanwhile the men of the militia were arriving little by little, variously clothed but all wearing caps, the cap constituting the whole uniform of the corps. They were armed with their old rusty guns, guns that had hung on chimney pieces in kitchens for thirty years, and looked quite like a detachment of country soldiers.
+
+When there were about thirty around him the commander explained in a few words the state of affairs. Then, turning toward his major, he said: "Now we must act."
+
+While the inhabitants collected, talked over and discussed the matter the doctor quickly formed his plan of campaign.
+
+"Lieutenant Picard, you advance to the windows of the mayor's house and order Monsieur de Varnetot to turn over the town hall to me in the name of the Republic."
+
+But the lieutenant was a master mason and refused.
+
+"You are a scamp, you are. Trying to make a target of me! Those fellows in there are good shots, you know that. No, thanks! Execute your commissions yourself!"
+
+The commander turned red. "I order you to go in the name of discipline," said he.
+
+"I am not spoiling my features without knowing why," the lieutenant returned.
+
+Men of influence, in a group near by, were heard laughing. One of them called out: "You are right, Picard, it is not the proper time." The doctor, under his breath, muttered: "Cowards! " And placing his sword and his revolver in the hands of a soldier, he advanced with measured step, his eye fixed on the windows as if he expected to see a gun or a cannon pointed at him.
+
+When he was within a few steps of the building the doors at the two extremities, affording an entrance to two schools, opened, and a flood of little creatures, boys on one side, girls on the other, poured out and began playing in the open space, chattering around the doctor like a flock of birds. He scarcely knew what to make of it.
+
+As soon as the last were out the doors closed. The greater part of the little monkeys finally scattered, and then the commander called out in a loud voice:
+
+"Monsieur de Varnetot?" A window in the first story opened and M. de Varnetot appeared.
+
+The commander began: "Monsieur, you are aware of the great events which have changed the system of government. The party you represent no longer exists. The side I represent now comes into power. Under these sad but decisive circumstances I come to demand you, in the name of the Republic, to put in my hand the authority vested in you by the outgoing power."
+
+M. de Varnetot replied: "Doctor Massarel, I am mayor of Canneville, so placed by the proper authorities, and mayor of Canneville I shall remain until the title is revoked and replaced by an order from my superiors. As mayor, I am at home in the mairie, and there I shall stay. Furthermore, just try to put me out." And he closed the window.
+
+The commander returned to his troops. But before explaining anything, measuring Lieutenant Picard from head to foot, he said:
+
+"You are a numskull, you are--a goose, the disgrace of the army. I shall degrade you."
+
+The lieutenant replied: "I'll attend to that myself." And he went over to a group of muttering civilians.
+
+Then the doctor hesitated. What should he do? Make an assault? Would his men obey him? And then was he surely in the right? An idea burst upon him. He ran to the telegraph office on the other side of the square and hurriedly sent three dispatches: "To the Members of the Republican Government at Paris"; "To the New Republican Prefect of the Lower Seine at Rouen"; "To the New Republican Subprefect of Dieppe."
+
+He exposed the situation fully; told of the danger run by the commonwealth from remaining in the hands of the monarchistic mayor, offered his devout services, asked for orders and signed his name, following it up with all his titles. Then he returned to his army corps and, drawing ten francs out of his pocket, said:
+
+"Now, my friends, go and eat and drink a little something. Only leave here a detachment of ten men, so that no one leaves the mayor's house."
+
+Ex-Lieutenant Picard, chatting with the watchmaker, overheard this. With a sneer he remarked: "Pardon me, but if they go out, there will be an opportunity for you to go in. Otherwise I can't see how you are to get in there!"
+
+The doctor made no reply but went away to luncheon. In the afternoon he disposed of offices all about town, having the air of knowing of an impending surprise. Many times he passed before the doors of the mairie and of the church without noticing anything suspicious; one could have believed the two buildings empty.
+
+The butcher, the baker and the apothecary reopened their shops and stood gossiping on the steps. If the Emperor had been taken prisoner, there must be a traitor somewhere. They did not feel sure of the revenue of a new republic.
+
+Night came on. Toward nine o'clock the doctor returned quietly and alone to the mayor's residence, persuaded that his adversary had retired. And as he was trying to force an entrance with a few blows of a pickax the loud voice of a guard demanded suddenly: "Who goes there?" M. Massarel beat a retreat at the top of his speed.
+
+Another day dawned without any change in the situation. The militia in arms occupied the square. The inhabitants stood around awaiting the solution. People from neighboring villages came to look on. Finally the doctor, realizing that his reputation was at stake, resolved to settle the thing in one way or another. He had just decided that it must be something energetic when the door of the telegraph office opened and the little servant of the directress appeared, holding in her hand two papers.
+
+She went directly to the commander and gave him one of the dispatches; then, crossing the square, intimidated by so many eyes fixed upon her, with lowered head and mincing steps, she rapped gently at the door of the barricaded house as if ignorant that a part of the army was concealed there.
+
+The door opened slightly; the hand of a man received the message, and the girl returned, blushing and ready to weep from being stared at.
+
+The doctor demanded with stirring voice: "A little silence, if you please." And after the populace became quiet he continued proudly:
+
+Here is a communication which I have received from the government." And, raising the dispatch, he read:
+
+"Old mayor deposed. Advise us what is most necessary. Instructions later.
+
+"For the Subprefect,
+
+"SAPIN, Counselor."
+
+He had triumphed. His heart was beating with joy. His hand trembled, when Picard, his old subaltern, cried out to him from the neighboring group:
+
+"That's all right; but if the others in there won't go out, your paper hasn't a leg to stand on." The doctor grew a little pale. If they would not go out--in fact, he must go ahead now. It was not only his right but his duty. And he looked anxiously at the house of the mayoralty, hoping that he might see the door open and his adversary show himself. But the door remained closed. What was to be done? The crowd was increasing, surrounding the militia. Some laughed.
+
+One thought, especially, tortured the doctor. If he should make an assault, he must march at the head of his men; and as with him dead all contest would cease, it would be at him and at him alone that M. de Varnetot and the three guards would aim. And their aim was good, very good! Picard had reminded him of that.
+
+But an idea shone in upon him, and turning to Pommel, he said: "Go, quickly, and ask the apothecary to send me a napkin and a pole."
+
+The lieutenant hurried off. The doctor was going to make a political banner, a white one, that would, perhaps, rejoice the heart of that old legitimist, the mayor.
+
+Pommel returned with the required linen and a broom handle. With some pieces of string they improvised a standard, which Massarel seized in both hands. Again he advanced toward the house of mayoralty, bearing the standard before him. When in front of the door, he called out: "Monsieur de Varnetot!"
+
+The door opened suddenly, and M. de Varnetot and the three guards appeared on the threshold. The doctor recoiled instinctively. Then he saluted his enemy courteously and announced, almost strangled by emotion: "I have come, sir, to communicate to you the instructions I have just received."
+
+That gentleman, without any salutation whatever, replied: "I am going to withdraw, sir, but you must understand that it is not because of fear or in obedience to an odious government that has usurped the power." And, biting off each word, he declared: "I do not wish to have the appearance of serving the Republic for a single day. That is all."
+
+Massarel, amazed, made no reply; and M. de Varnetot, walking off at a rapid pace, disappeared around the corner, followed closely by his escort. Then the doctor, slightly dismayed, returned to the crowd. When he was near enough to be heard he cried: "Hurrah! Hurrah! The Republic triumphs all along the line!"
+
+But no emotion was manifested. The doctor tried again. "The people are free! You are free and independent! Do you understand? Be proud of it!"
+
+The listless villagers looked at him with eyes unlit by glory. In his turn he looked at them, indignant at their indifference, seeking for some wore that could make a grand impression, electrify this placid country and make good his mission. The inspiration came, and turning to Pommel, he said "Lieutenant, go and get the bust of the ex-emperor, which is in the Council Hall, and bring it to me with a chair."
+
+And soon the man reappears, carrying on his right shoulder Napoleon II in plaster and holding in his left hand a straw-bottomed chair.
+
+Massarel met him, took the chair, placed it on the ground, put the white image upon it, fell back a few steps and called out in sonorous voice:
+
+"Tyrant! Tyrant! Here do you fall! Fall in the dust and in the mire. An expiring country groans under your feet. Destiny has called you the Avenger. Defeat and shame cling to you. You fall conquered, a prisoner to the Prussians, and upon the ruins of the crumbling Empire the young and radiant Republic arises, picking up your broken sword."
+
+He awaited applause. But there was no voice, no sound. The bewildered peasants remained silent. And the bust, with its pointed mustaches extending beyond the cheeks on each side, the bust, so motionless and well groomed as to be fit for a hairdresser's sign, seemed to be looking at M. Massarel with a plaster smile, a smile ineffaceable and mocking.
+
+They remained thus face to face, Napoleon on the chair, the doctor I front of him about three steps away. Suddenly the commander grew angry.
+
+What was to be done? What was there that would move this people and bring about a definite victory in opinion? His hand happened to rest on his hip and to come in contact there with the butt end of his revolver under his red sash. No inspiration, no further word would come. But he drew his pistol, advanced two steps and, taking aim, fired at the late monarch. The ball entered the forehead, leaving a little black hole like a spot, nothing more. There was no effect. Then he fired a second shot, which made a second hole, then a third; and then, without stopping, he emptied his revolver. The brow of Napoleon disappeared in white powder, but the eyes, the nose and the fine points of the mustaches remained intact. Then, exasperated, the doctor overturned the chair with a blow of his fist and, resting a foot on the remainder of the bust in a position of triumph, he shouted: "So let all tyrants perish!"
+
+Still no enthusiasm was manifest, and as the spectators seemed to be in a kind of stupor from astonishment the commander called to the militiamen:
+
+You may now go to your homes." And he went toward his own house with great strides, as if he were pursued.
+
+His maid, when he appeared, told him that some patients had been waiting in his office for three hours. He hastened in. There were the two varicose-vein patients, who had returned at daybreak, obstinate but patient.
+
+The old man immediately began his explanation: "This began by a feeling like ants running up and down the legs."
+
+"Oh, there is one, of course, but you'll never know it."
+
+The assertion, laughingly flung out six months earlier in a bright June garden, came back to Mary Boyne with a sharp perception of its latent significance as she stood, in the December dusk, waiting for the lamps to be brought into the library.
+
+The words had been spoken by their friend Alida Stair, as they sat at tea on her lawn at Pangbourne, in reference to the very house of which the library in question was the central, the pivotal "feature." Mary Boyne and her husband, in quest of a country place in one of the southern or southwestern counties, had, on their arrival in England, carried their problem straight to Alida Stair, who had successfully solved it in her own case; but it was not until they had rejected, almost capriciously, several practical and judicious suggestions that she threw it out: "Well, there's Lyng, in Dorsetshire. It belongs to Hugo's cousins, and you can get it for a song."
+
+The reasons she gave for its being obtainable on these terms -- its remoteness from a station, its lack of electric light, hot-water pipes, and other vulgar necessities -- were exactly those pleading in its favor with two romantic Americans perversely in search of the economic drawbacks which were associated, in their tradition, with unusual architectural felicities.
+
+"I should never believe I was living in an old house unless I was thoroughly uncomfortable," Ned Boyne, the more extravagant of the two, had jocosely insisted; "the least hint of 'convenience' would make me think it had been bought out of an exhibition, with the pieces numbered, and set up again." And they had proceeded to enumerate, with humorous precision, their various suspicions and exactions, refusing to believe that the house their cousin recommended was really Tudor till they learned it had no heating system, or that the village church was literally in the grounds till she assured them of the deplorable uncertainty of the water supply.
+
+"It's too uncomfortable to be true!" Edward Boyne had continued to exult as the avowal of each disadvantage was successively wrung from her; but he had cut short his rhapsody to ask, with a sudden relapse to distrust: "And the ghost? You've been concealing from us the fact that there is no ghost!"
+
+Mary, at the moment, had laughed with him, yet almost with her laugh, being possessed of several sets of independent perceptions, had noted a sudden flatness of tone in Alida's answering hilarity.
+
+"Oh, Dorsetshire's full of ghosts, you know."
+
+"Yes, yes; but that won't do. I don't want to have to drive ten miles to see somebody else's ghost. I want one of my own on the premises. Is there a ghost at Lyng?"
+
+His rejoinder had made Alida laugh again, and it was then that she had flung back tantalizingly: "Oh, there is one, of course, but you'll never know it."
+
+"Never know it?" Boyne pulled her up. "But what in the world constitutes a ghost except the fact of its being known for one?"
+
+"I can't say. But that's the story."
+
+"That there's a ghost, but that nobody knows it's a ghost?"
+
+"Well -- not till afterward, at any rate."
+
+"Till afterward?"
+
+"Not till long, long afterward."
+
+"But if it's once been identified as an unearthly visitant, why hasn't its signalement been handed down in the family? How has it managed to preserve its incognito?"
+
+Alida could only shake her head. "Don't ask me. But it has."
+
+"And then suddenly --" Mary spoke up as if from some cavernous depth of divination --"suddenly, long afterward, one says to one's self, 'That was it?'"
+
+She was oddly startled at the sepulchral sound with which her question fell on the banter of the other two, and she saw the shadow of the same surprise flit across Alida's clear pupils. "I suppose so. One just has to wait."
+
+"Oh, hang waiting!" Ned broke in. "Life's too short for a ghost who can only be enjoyed in retrospect. Can't we do better than that, Mary?"
+
+But it turned out that in the event they were not destined to, for within three months of their conversation with Mrs. Stair they were established at Lyng, and the life they had yearned for to the point of planning it out in all its daily details had actually begun for them.
+
+It was to sit, in the thick December dusk, by just such a widehooded fireplace, under just such black oak rafters, with the sense that beyond the mullioned panes the downs were darkening to a deeper solitude: it was for the ultimate indulgence in such sensations that Mary Boyne had endured for nearly fourteen years the soul-deadening ugliness of the Middle West, and that Boyne had ground on doggedly at his engineering till, with a suddenness that still made her blink, the prodigious windfall of the Blue Star Mine had put them at a stroke in possession of life and the leisure to taste it. They had never for a moment meant their new state to be one of idleness; but they meant to give themselves only to harmonious activities. She had her vision of painting and gardening against a background of gray walls, he dreamed of the production of his long-planned book on the "Economic Basis of Culture"; and with such absorbing work ahead no existence could be too sequestered; they could not get far enough from the world, or plunge deep enough into the past.
+
+Dorsetshire had attracted them from the first by a semblance of remoteness out of all proportion to its geographical position. But to the Boynes it was one of the ever-recurring wonders of the whole incredibly compressed island -- a nest of counties, as they put it -- that for the production of its effects so little of a given quality went so far: that so few miles made a distance, and so short a distance a difference.
+
+"It's that," Ned had once enthusiastically explained, "that gives such depth to their effects, such relief to their least contrasts. They've been able to lay the butter so thick on every exquisite mouthful."
+
+The butter had certainly been laid on thick at Lyng: the old gray house, hidden under a shoulder of the downs, had almost all the finer marks of commerce with a protracted past. The mere fact that it was neither large nor exceptional made it, to the Boynes, abound the more richly in its special sense -- the sense of having been for centuries a deep, dim reservoir of life. The life had probably not been of the most vivid order: for long periods, no doubt, it had fallen as noiselessly into the past as the quiet drizzle of autumn fell, hour after hour, into the green fish-pond between the yews; but these back-waters of existence sometimes breed, in their sluggish depths, strange acuities of emotion, and Mary Boyne had felt from the first the occasional brush of an intenser memory.
+
+The feeling had never been stronger than on the December afternoon when, waiting in the library for the belated lamps, she rose from her seat and stood among the shadows of the hearth. Her husband had gone off, after luncheon, for one of his long tramps on the downs. She had noticed of late that he preferred to be unaccompanied on these occasions; and, in the tried security of their personal relations, had been driven to conclude that his book was bothering him, and that he needed the afternoons to turn over in solitude the problems left from the morning's work. Certainly the book was not going as smoothly as she had imagined it would, and the lines of perplexity between his eyes had never been there in his engineering days. Then he had often looked fagged to the verge of illness, but the native demon of "worry" had never branded his brow. Yet the few pages he had so far read to her -- the introduction, and a synopsis of the opening chapter -- gave evidences of a firm possession of his subject, and a deepening confidence in his powers.
+
+The fact threw her into deeper perplexity, since, now that he had done with "business" and its disturbing contingencies, the one other possible element of anxiety was eliminated. Unless it were his health, then? But physically he had gained since they had come to Dorsetshire, grown robuster, ruddier, and fresher-eyed. It was only within a week that she had felt in him the undefinable change that made her restless in his absence, and as tongue-tied in his presence as though it were she who had a secret to keep from him!
+
+The thought that there was a secret somewhere between them struck her with a sudden smart rap of wonder, and she looked about her down the dim, long room.
+
+"Can it be the house?" she mused.
+
+The room itself might have been full of secrets. They seemed to be piling themselves up, as evening fell, like the layers and layers of velvet shadow dropping from the low ceiling, the dusky walls of books, the smoke-blurred sculpture of the hooded hearth.
+
+"Why, of course -- the house is haunted!" she reflected.
+
+The ghost -- Alida's imperceptible ghost -- after figuring largely in the banter of their first month or two at Lyng, had been gradually discarded as too ineffectual for imaginative use. Mary had, indeed, as became the tenant of a haunted house, made the customary inquiries among her few rural neighbors, but, beyond a vague, "They du say so, Ma'am," the villagers had nothing to impart. The elusive specter had apparently never had sufficient identity for a legend to crystallize about it, and after a time the Boynes had laughingly set the matter down to their profit-and-loss account, agreeing that Lyng was one of the few houses good enough in itself to dispense with supernatural enhancements.
+
+"And I suppose, poor, ineffectual demon, that's why it beats its beautiful wings in vain in the void," Mary had laughingly concluded.
+
+"Or, rather," Ned answered, in the same strain, "why, amid so much that's ghostly, it can never affirm its separate existence as the ghost." And thereupon their invisible housemate had finally dropped out of their references, which were numerous enough to make them promptly unaware of the loss.
+
+Now, as she stood on the hearth, the subject of their earlier curiosity revived in her with a new sense of its meaning -- a sense gradually acquired through close daily contact with the scene of the lurking mystery. It was the house itself, of course, that possessed the ghost-seeing faculty, that communed visually but secretly with its own past; and if one could only get into close enough communion with the house, one might surprise its secret, and acquire the ghost-sight on one's own account. Perhaps, in his long solitary hours in this very room, where she never trespassed till the afternoon, her husband had acquired it already, and was silently carrying the dread weight of whatever it had revealed to him. Mary was too well-versed in the code of the spectral world not to know that one could not talk about the ghosts one saw: to do so was almost as great a breach of goodbreeding as to name a lady in a club. But this explanation did not really satisfy her. "What, after all, except for the fun of the frisson," she reflected, "would he really care for any of their old ghosts?" And thence she was thrown back once more on the fundamental dilemma: the fact that one's greater or less susceptibility to spectral influences had no particular bearing on the case, since, when one did see a ghost at Lyng, one did not know it.
+
+"Not till long afterward," Alida Stair had said. Well, supposing Ned had seen one when they first came, and had known only within the last week what had happened to him? More and more under the spell of the hour, she threw back her searching thoughts to the early days of their tenancy, but at first only to recall a gay confusion of unpacking, settling, arranging of books, and calling to each other from remote corners of the house as treasure after treasure of their habitation revealed itself to them. It was in this particular connection that she presently recalled a certain soft afternoon of the previous October, when, passing from the first rapturous flurry of exploration to a detailed inspection of the old house, she had pressed like a novel heroine a panel that opened at her touch, on a narrow flight of stairs leading to an unsuspected flat ledge of the roof -- the roof which, from below, seemed to slope away on all sides too abruptly for any but practised feet to scale.
+
+The view from this hidden coign was enchanting, and she had flown down to snatch Ned from his papers and give him the freedom of her discovery. She remembered still how, standing on the narrow ledge, he had passed his arm about her while their gaze flew to the long, tossed horizon-line of the downs, and then dropped contentedly back to trace the arabesque of yew hedges about the fish-pond, and the shadow of the cedar on the lawn.
+
+"And now the other way," he had said, gently turning her about within his arm; and closely pressed to him, she had absorbed, like some long, satisfying draft, the picture of the gray-walled court, the squat lions on the gates, and the lime-avenue reaching up to the highroad under the downs.
+
+It was just then, while they gazed and held each other, that she had felt his arm relax, and heard a sharp "Hullo!" that made her turn to glance at him.
+
+Distinctly, yes, she now recalled she had seen, as she glanced, a shadow of anxiety, of perplexity, rather, fall across his face; and, following his eyes, had beheld the figure of a man -- a man in loose, grayish clothes, as it appeared to her -- who was sauntering down the lime-avenue to the court with the tentative gait of a stranger seeking his way. Her short-sighted eyes had given her but a blurred impression of slightness and grayness, with something foreign, or at least unlocal, in the cut of the figure or its garb; but her husband had apparently seen more -- seen enough to make him push past her with a sharp "Wait!" and dash down the twisting stairs without pausing to give her a hand for the descent.
+
+A slight tendency to dizziness obliged her, after a provisional clutch at the chimney against which they had been leaning, to follow him down more cautiously; and when she had reached the attic landing she paused again for a less definite reason, leaning over the oak banister to strain her eyes through the silence of the brown, sun-flecked depths below. She lingered there till, somewhere in those depths, she heard the closing of a door; then, mechanically impelled, she went down the shallow flights of steps till she reached the lower hall.
+
+The front door stood open on the mild sunlight of the court, and hall and court were empty. The library door was open, too, and after listening in vain for any sound of voices within, she quickly crossed the threshold, and found her husband alone, vaguely fingering the papers on his desk.
+
+He looked up, as if surprised at her precipitate entrance, but the shadow of anxiety had passed from his face, leaving it even, as she fancied, a little brighter and clearer than usual.
+
+"What was it? Who was it?" she asked.
+
+"Who?" he repeated, with the surprise still all on his side.
+
+"The man we saw coming toward the house."
+
+He seemed honestly to reflect. "The man? Why, I thought I saw Peters; I dashed after him to say a word about the stable-drains, but he had disappeared before I could get down."
+
+"Disappeared? Why, he seemed to be walking so slowly when we saw him."
+
+Boyne shrugged his shoulders. "So I thought; but he must have got up steam in the interval. What do you say to our trying a scramble up Meldon Steep before sunset?"
+
+That was all. At the time the occurrence had been less than nothing, had, indeed, been immediately obliterated by the magic of their first vision from Meldon Steep, a height which they had dreamed of climbing ever since they had first seen its bare spine heaving itself above the low roof of Lyng. Doubtless it was the mere fact of the other incident's having occurred on the very day of their ascent to Meldon that had kept it stored away in the unconscious fold of association from which it now emerged; for in itself it had no mark of the portentous. At the moment there could have been nothing more natural than that Ned should dash himself from the roof in the pursuit of dilatory tradesmen. It was the period when they were always on the watch for one or the other of the specialists employed about the place; always lying in wait for them, and dashing out at them with questions, reproach, or reminders. And certainly in the distance the gray figure had looked like Peters.
+
+Yet now, as she reviewed the rapid scene, she felt her husband's explanation of it to have been invalidated by the look of anxiety on his face. Why had the familiar appearance of Peters made him anxious? Why, above all, if it was of such prime necessity to confer with that authority on the subject of the stable-drains, had the failure to find him produced such a look of relief? Mary could not say that any one of these considerations had occurred to her at the time, yet, from the promptness with which they now marshaled themselves at her summons, she had a sudden sense that they must all along have been there, waiting their hour.
+
+II
+
+Weary with her thoughts, she moved toward the window. The library was now completely dark, and she was surprised to see how much faint light the outer world still held.
+
+As she peered out into it across the court, a figure shaped itself in the tapering perspective of bare lines: it looked a mere blot of deeper gray in the grayness, and for an instant, as it moved toward her, her heart thumped to the thought, "It's the ghost!"
+
+She had time, in that long instant, to feel suddenly that the man of whom, two months earlier, she had a brief distant vision from the roof was now, at his predestined hour, about to reveal himself as not having been Peters; and her spirit sank under the impending fear of the disclosure. But almost with the next tick of the clock the ambiguous figure, gaining substance and character, showed itself even to her weak sight as her husband's; and she turned away to meet him, as he entered, with the confession of her folly.
+
+"It's really too absurd," she laughed out from the threshold, "but I never can remember!"
+
+"Remember what?" Boyne questioned as they drew together.
+
+"That when one sees the Lyng ghost one never knows it."
+
+Her hand was on his sleeve, and he kept it there, but with no response in his gesture or in the lines of his fagged, preoccupied face.
+
+"Did you think you'd seen it?" he asked, after an appreciable interval.
+
+"Why, I actually took you for it, my dear, in my mad determination to spot it!"
+
+"Me -- just now?" His arm dropped away, and he turned from her with a faint echo of her laugh. "Really, dearest, you'd better give it up, if that's the best you can do."
+
+"Yes, I give it up -- I give it up. Have you?" she asked, turning round on him abruptly.
+
+The parlor-maid had entered with letters and a lamp, and the light struck up into Boyne's face as he bent above the tray she presented.
+
+"Have you?" Mary perversely insisted, when the servant had disappeared on her errand of illumination.
+
+"Have I what?" he rejoined absently, the light bringing out the sharp stamp of worry between his brows as he turned over the letters.
+
+"Given up trying to see the ghost." Her heart beat a little at the experiment she was making.
+
+Her husband, laying his letters aside, moved away into the shadow of the hearth.
+
+"I never tried," he said, tearing open the wrapper of a newspaper.
+
+"Well, of course," Mary persisted, "the exasperating thing is that there's no use trying, since one can't be sure till so long afterward."
+
+He was unfolding the paper as if he had hardly heard her; but after a pause, during which the sheets rustled spasmodically between his hands, he lifted his head to say abruptly, "Have you any idea how long?"
+
+Mary had sunk into a low chair beside the fireplace. From her seat she looked up, startled, at her husband's profile, which was darkly projected against the circle of lamplight.
+
+"No; none. Have YOU?" she retorted, repeating her former phrase with an added keenness of intention.
+
+Boyne crumpled the paper into a bunch, and then inconsequently turned back with it toward the lamp.
+
+"Lord, no! I only meant," he explained, with a faint tinge of impatience, "is there any legend, any tradition, as to that?"
+
+"Not that I know of," she answered; but the impulse to add, "What makes you ask?" was checked by the reappearance of the parlor maid with tea and a second lamp.
+
+With the dispersal of shadows, and the repetition of the daily domestic office, Mary Boyne felt herself less oppressed by that sense of something mutely imminent which had darkened her solitary afternoon. For a few moments she gave herself silently to the details of her task, and when she looked up from it she was struck to the point of bewilderment by the change in her husband's face. He had seated himself near the farther lamp, and was absorbed in the perusal of his letters; but was it something he had found in them, or merely the shifting of her own point of view, that had restored his features to their normal aspect? The longer she looked, the more definitely the change affirmed itself. The lines of painful tension had vanished, and such traces of fatigue as lingered were of the kind easily attributable to steady mental effort. He glanced up, as if drawn by her gaze, and met her eyes with a smile.
+
+"I'm dying for my tea, you know; and here's a letter for you," he said.
+
+She took the letter he held out in exchange for the cup she proffer him, and, returning to her seat, broke the seal with the languid gesture of the reader whose interests are all inclosed in the circle of one cherished presence.
+
+Her next conscious motion was that of starting to her feet, the letter falling to them as she rose, while she held out to her husband a long newspaper clipping.
+
+"Ned! What's this? What does it mean?"
+
+He had risen at the same instant, almost as if hearing her cry before she uttered it; and for a perceptible space of time he and she studied each other, like adversaries watching for an advantage, across the space between her chair and his desk.
+
+"What's what? You fairly made me jump!" Boyne said at length, moving toward her with a sudden, half-exasperated laugh. The shadow of apprehension was on his face again, not now a look of fixed foreboding, but a shifting vigilance of lips and eyes that gave her the sense of his feeling himself invisibly surrounded.
+
+Her hand shook so that she could hardly give him the clipping.
+
+"This article -- from the 'Waukesha Sentinel' -- that a man named Elwell has brought suit against you -- that there was something wrong about the Blue Star Mine. I can't understand more than half."
+
+They continued to face each other as she spoke, and to her astonishment, she saw that her words had the almost immediate effect of dissipating the strained watchfulness of his look.
+
+"Oh, that!" He glanced down the printed slip, and then folded it with the gesture of one who handles something harmless and familiar. "What's the matter with you this afternoon, Mary? I thought you'd got bad news."
+
+She stood before him with her undefinable terror subsiding slowly under the reassuring touch of his composure.
+
+"You knew about this, then -- it's all right?"
+
+"Certainly I knew about it; and it's all right."
+
+"But what is it? I don't understand. What does this man accuse you of?"
+
+"Oh, pretty nearly every crime in the calendar." Boyne had tossed the clipping down, and thrown himself comfortably into an arm-chair near the fire. "Do you want to hear the story? It's not particularly interesting -- just a squabble over interests in the Blue Star."
+
+"But who is this Elwell? I don't know the name."
+
+"Oh, he's a fellow I put into it -- gave him a hand up. I told you all about him at the time."
+
+"I daresay. I must have forgotten." Vainly she strained back among her memories. "But if you helped him, why does he make this return?"
+
+"Oh, probably some shyster lawyer got hold of him and talked him over. It's all rather technical and complicated. I thought that kind of thing bored you."
+
+His wife felt a sting of compunction. Theoretically, she deprecated the American wife's detachment from her husband's professional interests, but in practice she had always found it difficult to fix her attention on Boyne's report of the transactions in which his varied interests involved him. Besides, she had felt from the first that, in a community where the amenities of living could be obtained only at the cost of efforts as arduous as her husband's professional labors, such brief leisure as they could command should be used as an escape from immediate preoccupations, a flight to the life they always dreamed of living. Once or twice, now that this new life had actually drawn its magic circle about them, she had asked herself if she had done right; but hitherto such conjectures had been no more than the retrospective excursions of an active fancy. Now, for the first time, it startled her a little to find how little she knew of the material foundation on which her happiness was built.
+
+She glanced again at her husband, and was reassured by the composure of his face; yet she felt the need of more definite grounds for her reassurance.
+
+"But doesn't this suit worry you? Why have you never spoken to me about it?"
+
+He answered both questions at once: "I didn't speak of it at first because it did worry me -- annoyed me, rather. But it's all ancient history now. Your correspondent must have got hold of a back number of the 'Sentinel.'"
+
+She felt a quick thrill of relief. "You mean it's over? He's lost his case?"
+
+There was a just perceptible delay in Boyne's reply. "The suit's been withdrawn -- that's all."
+
+But she persisted, as if to exonerate herself from the inward charge of being too easily put off. "Withdrawn because he saw he had no chance?"
+
+"Oh, he had no chance," Boyne answered.
+
+She was still struggling with a dimly felt perplexity at the back of her thoughts.
+
+"How long ago was it withdrawn?"
+
+He paused, as if with a slight return of his former uncertainty. "I've just had the news now; but I've been expecting it."
+
+"Just now -- in one of your letters?"
+
+"Yes; in one of my letters."
+
+She made no answer, and was aware only, after a short interval of waiting, that he had risen, and strolling across the room, had placed himself on the sofa at her side. She felt him, as he did so, pass an arm about her, she felt his hand seek hers and clasp it, and turning slowly, drawn by the warmth of his cheek, she met the smiling clearness of his eyes.
+
+"It's all right -- it's all right?" she questioned, through the flood of her dissolving doubts; and "I give you my word it never was righter!" he laughed back at her, holding her close.
+
+III
+
+One of the strangest things she was afterward to recall out of all the next day's incredible strangeness was the sudden and complete recovery of her sense of security.
+
+It was in the air when she woke in her low-ceilinged, dusky room; it accompanied her down-stairs to the breakfast-table, flashed out at her from the fire, and re-duplicated itself brightly from the flanks of the urn and the sturdy flutings of the Georgian teapot. It was as if, in some roundabout way, all her diffused apprehensions of the previous day, with their moment of sharp concentration about the newspaper article, -- as if this dim questioning of the future, and startled return upon the past,-had between them liquidated the arrears of some haunting moral obligation. If she had indeed been careless of her husband's affairs, it was, her new state seemed to prove, because her faith in him instinctively justified such carelessness; and his right to her faith had overwhelmingly affirmed itself in the very face of menace and suspicion. She had never seen him more untroubled, more naturally and unconsciously in possession of himself, than after the cross-examination to which she had subjected him: it was almost as if he had been aware of her lurking doubts, and had wanted the air cleared as much as she did.
+
+It was as clear, thank Heaven! as the bright outer light that surprised her almost with a touch of summer when she issued from the house for her daily round of the gardens. She had left Boyne at his desk, indulging herself, as she passed the library door, by a last peep at his quiet face, where he bent, pipe in his mouth, above his papers, and now she had her own morning's task to perform. The task involved on such charmed winter days almost as much delighted loitering about the different quarters of her demesne as if spring were already at work on shrubs and borders. There were such inexhaustible possibilities still before her, such opportunities to bring out the latent graces of the old place, without a single irreverent touch of alteration, that the winter months were all too short to plan what spring and autumn executed. And her recovered sense of safety gave, on this particular morning, a peculiar zest to her progress through the sweet, still place. She went first to the kitchen-garden, where the espalier pear-trees drew complicated patterns on the walls, and pigeons were fluttering and preening about the silvery-slated roof of their cot. There was something wrong about the piping of the hothouse, and she was expecting an authority from Dorchester, who was to drive out between trains and make a diagnosis of the boiler. But when she dipped into the damp heat of the greenhouses, among the spiced scents and waxy pinks and reds of old-fashioned exotics, -- even the flora of Lyng was in the note!-she learned that the great man had not arrived, and the day being too rare to waste in an artificial atmosphere, she came out again and paced slowly along the springy turf of the bowling-green to the gardens behind the house. At their farther end rose a grass terrace, commanding, over the fish-pond and the yew hedges, a view of the long house-front, with its twisted chimney-stacks and the blue shadows of its roof angles, all drenched in the pale gold moisture of the air.
+
+Seen thus, across the level tracery of the yews, under the suffused, mild light, it sent her, from its open windows and hospitably smoking chimneys, the look of some warm human presence, of a mind slowly ripened on a sunny wall of experience. She had never before had so deep a sense of her intimacy with it, such a conviction that its secrets were all beneficent, kept, as they said to children, "for one's good," so complete a trust in its power to gather up her life and Ned's into the harmonious pattern of the long, long story it sat there weaving in the sun.
+
+She heard steps behind her, and turned, expecting to see the gardener, accompanied by the engineer from Dorchester. But only one figure was in sight, that of a youngish, slightly built man, who, for reasons she could not on the spot have specified, did not remotely resemble her preconceived notion of an authority on hot-house boilers. The new-comer, on seeing her, lifted his hat, and paused with the air of a gentleman -- perhaps a traveler-desirous of having it immediately known that his intrusion is involuntary. The local fame of Lyng occasionally attracted the more intelligent sight-seer, and Mary half-expected to see the stranger dissemble a camera, or justify his presence by producing it. But he made no gesture of any sort, and after a moment she asked, in a tone responding to the courteous deprecation of his attitude: "Is there any one you wish to see?"
+
+"I came to see Mr. Boyne," he replied. His intonation, rather than his accent, was faintly American, and Mary, at the familiar note, looked at him more closely. The brim of his soft felt hat cast a shade on his face, which, thus obscured, wore to her short-sighted gaze a look of seriousness, as of a person arriving "on business," and civilly but firmly aware of his rights.
+
+Past experience had made Mary equally sensible to such claims; but she was jealous of her husband's morning hours, and doubtful of his having given any one the right to intrude on them.
+
+"Have you an appointment with Mr. Boyne?" she asked.
+
+He hesitated, as if unprepared for the question.
+
+"Not exactly an appointment," he replied.
+
+"Then I'm afraid, this being his working-time, that he can't receive you now. Will you give me a message, or come back later?"
+
+The visitor, again lifting his hat, briefly replied that he would come back later, and walked away, as if to regain the front of the house. As his figure receded down the walk between the yew hedges, Mary saw him pause and look up an instant at the peaceful house-front bathed in faint winter sunshine; and it struck her, with a tardy touch of compunction, that it would have been more humane to ask if he had come from a distance, and to offer, in that case, to inquire if her husband could receive him. But as the thought occurred to her he passed out of sight behind a pyramidal yew, and at the same moment her attention was distracted by the approach of the gardener, attended by the bearded pepper-and-salt figure of the boiler-maker from Dorchester.
+
+The encounter with this authority led to such far-reaching issues that they resulted in his finding it expedient to ignore his train, and beguiled Mary into spending the remainder of the morning in absorbed confabulation among the greenhouses. She was startled to find, when the colloquy ended, that it was nearly luncheon-time, and she half expected, as she hurried back to the house, to see her husband coming out to meet her. But she found no one in the court but an under-gardener raking the gravel, and the hall, when she entered it, was so silent that she guessed Boyne to be still at work behind the closed door of the library.
+
+Not wishing to disturb him, she turned into the drawing-room, and there, at her writing-table, lost herself in renewed calculations of the outlay to which the morning's conference had committed her. The knowledge that she could permit herself such follies had not yet lost its novelty; and somehow, in contrast to the vague apprehensions of the previous days, it now seemed an element of her recovered security, of the sense that, as Ned had said, things in general had never been "righter."
+
+She was still luxuriating in a lavish play of figures when the parlor-maid, from the threshold, roused her with a dubiously worded inquiry as to the expediency of serving luncheon. It was one of their jokes that Trimmle announced luncheon as if she were divulging a state secret, and Mary, intent upon her papers, merely murmured an absent-minded assent.
+
+She felt Trimmle wavering expressively on the threshold as if in rebuke of such offhand acquiescence; then her retreating steps sounded down the passage, and Mary, pushing away her papers, crossed the hall, and went to the library door. It was still closed, and she wavered in her turn, disliking to disturb her husband, yet anxious that he should not exceed his normal measure of work. As she stood there, balancing her impulses, the esoteric Trimmle returned with the announcement of luncheon, and Mary, thus impelled, opened the door and went into the library.
+
+Boyne was not at his desk, and she peered about her, expecting to discover him at the book-shelves, somewhere down the length of the room; but her call brought no response, and gradually it became clear to her that he was not in the library.
+
+She turned back to the parlor-maid.
+
+"Mr. Boyne must be up-stairs. Please tell him that luncheon is ready."
+
+The parlor-maid appeared to hesitate between the obvious duty of obeying orders and an equally obvious conviction of the foolishness of the injunction laid upon her. The struggle resulted in her saying doubtfully, "If you please, Madam, Mr. Boyne's not up-stairs."
+
+"Not in his room? Are you sure?"
+
+"I'm sure, Madam."
+
+Mary consulted the clock. "Where is he, then?"
+
+"He's gone out," Trimmle announced, with the superior air of one who has respectfully waited for the question that a well-ordered mind would have first propounded.
+
+Mary's previous conjecture had been right, then. Boyne must have gone to the gardens to meet her, and since she had missed him, it was clear that he had taken the shorter way by the south door, instead of going round to the court. She crossed the hall to the glass portal opening directly on the yew garden, but the parlor maid, after another moment of inner conflict, decided to bring out recklessly, "Please, Madam, Mr. Boyne didn't go that way."
+
+Mary turned back. "Where did he go? And when?"
+
+"He went out of the front door, up the drive, Madam." It was a matter of principle with Trimmle never to answer more than one question at a time.
+
+"Up the drive? At this hour?" Mary went to the door herself, and glanced across the court through the long tunnel of bare limes. But its perspective was as empty as when she had scanned it on entering the house.
+
+"Did Mr. Boyne leave no message?" she asked.
+
+Trimmle seemed to surrender herself to a last struggle with the forces of chaos.
+
+"No, Madam. He just went out with the gentleman."
+
+"The gentleman? What gentleman?" Mary wheeled about, as if to front this new factor.
+
+"The gentleman who called, Madam," said Trimmle, resignedly.
+
+"When did a gentleman call? Do explain yourself, Trimmle!"
+
+Only the fact that Mary was very hungry, and that she wanted to consult her husband about the greenhouses, would have caused her to lay so unusual an injunction on her attendant; and even now she was detached enough to note in Trimmle's eye the dawning defiance of the respectful subordinate who has been pressed too hard.
+
+"I couldn't exactly say the hour, Madam, because I didn't let the gentleman in," she replied, with the air of magnanimously ignoring the irregularity of her mistress's course.
+
+"You didn't let him in?"
+
+"No, Madam. When the bell rang I was dressing, and Agnes--"
+
+"Go and ask Agnes, then," Mary interjected. Trimmle still wore her look of patient magnanimity. "Agnes would not know, Madam, for she had unfortunately burnt her hand in trying the wick of the new lamp from town--" Trimmle, as Mary was aware, had always been opposed to the new lamp--" and so Mrs. Dockett sent the kitchen-maid instead."
+
+Mary looked again at the clock. "It's after two! Go and ask the kitchen-maid if Mr. Boyne left any word."
+
+She went into luncheon without waiting, and Trimmle presently brought her there the kitchen-maid's statement that the gentleman had called about one o'clock, that Mr. Boyne had gone out with him without leaving any message. The kitchen-maid did not even know the caller's name, for he had written it on a slip of paper, which he had folded and handed to her, with the injunction to deliver it at once to Mr. Boyne.
+
+Mary finished her luncheon, still wondering, and when it was over, and Trimmle had brought the coffee to the drawing-room, her wonder had deepened to a first faint tinge of disquietude. It was unlike Boyne to absent himself without explanation at so unwonted an hour, and the difficulty of identifying the visitor whose summons he had apparently obeyed made his disappearance the more unaccountable. Mary Boyne's experience as the wife of a busy engineer, subject to sudden calls and compelled to keep irregular hours, had trained her to the philosophic acceptance of surprises; but since Boyne's withdrawal from business he had adopted a Benedictine regularity of life. As if to make up for the dispersed and agitated years, with their "stand-up" lunches and dinners rattled down to the joltings of the dining-car, he cultivated the last refinements of punctuality and monotony, discouraging his wife's fancy for the unexpected; and declaring that to a delicate taste there were infinite gradations of pleasure in the fixed recurrences of habit.
+
+Still, since no life can completely defend itself from the unforeseen, it was evident that all Boyne's precautions would sooner or later prove unavailable, and Mary concluded that he had cut short a tiresome visit by walking with his caller to the station, or at least accompanying him for part of the way.
+
+This conclusion relieved her from farther preoccupation, and she went out herself to take up her conference with the gardener. Thence she walked to the village post-office, a mile or so away; and when she turned toward home, the early twilight was setting in.
+
+She had taken a foot-path across the downs, and as Boyne, meanwhile, had probably returned from the station by the highroad, there was little likelihood of their meeting on the way. She felt sure, however, of his having reached the house before her; so sure that, when she entered it herself, without even pausing to inquire of Trimmle, she made directly for the library. But the library was still empty, and with an unwonted precision of visual memory she immediately observed that the papers on her husband's desk lay precisely as they had lain when she had gone in to call him to luncheon.
+
+Then of a sudden she was seized by a vague dread of the unknown. She had closed the door behind her on entering, and as she stood alone in the long, silent, shadowy room, her dread seemed to take shape and sound, to be there audibly breathing and lurking among the shadows. Her short-sighted eyes strained through them, half discerning an actual presence, something aloof, that watched and knew; and in the recoil from that intangible propinquity she threw herself suddenly on the bell-rope and gave it a desperate pull.
+
+The long, quavering summons brought Trimmle in precipitately with a lamp, and Mary breathed again at this sobering reappearance of the usual.
+
+"You may bring tea if Mr. Boyne is in," she said, to justify her ring.
+
+"Very well, Madam. But Mr. Boyne is not in," said Trimmle, putting down the lamp.
+
+"Not in? You mean he's come back and gone out again?"
+
+"No, Madam. He's never been back."
+
+The dread stirred again, and Mary knew that now it had her fast.
+
+"Not since he went out with -- the gentleman?"
+
+"Not since he went out with the gentleman."
+
+"But who was the gentleman?" Mary gasped out, with the sharp note of some one trying to be heard through a confusion of meaningless noises.
+
+"That I couldn't say, Madam." Trimmle, standing there by the lamp, seemed suddenly to grow less round and rosy, as though eclipsed by the same creeping shade of apprehension.
+
+"But the kitchen-maid knows -- wasn't it the kitchen-maid who let him in?"
+
+"She doesn't know either, Madam, for he wrote his name on a folded paper."
+
+Mary, through her agitation, was aware that they were both designating the unknown visitor by a vague pronoun, instead of the conventional formula which, till then, had kept their allusions within the bounds of custom. And at the same moment her mind caught at the suggestion of the folded paper.
+
+"But he must have a name! Where is the paper?"
+
+She moved to the desk, and began to turn over the scattered documents that littered it. The first that caught her eye was an unfinished letter in her husband's hand, with his pen lying across it, as though dropped there at a sudden summons.
+
+"My dear Parvis," --who was Parvis?--"I have just received your letter announcing Elwell's death, and while I suppose there is now no farther risk of trouble, it might be safer--"
+
+She tossed the sheet aside, and continued her search; but no folded paper was discoverable among the letters and pages of manuscript which had been swept together in a promiscuous heap, as if by a hurried or a startled gesture.
+
+"But the kitchen-maid saw him. Send her here," she commanded, wondering at her dullness in not thinking sooner of so simple a solution.
+
+Trimmle, at the behest, vanished in a flash, as if thankful to be out of the room, and when she reappeared, conducting the agitated underling, Mary had regained her self-possession, and had her questions pat.
+
+The gentleman was a stranger, yes--that she understood. But what had he said? And, above all, what had he looked like? The first question was easily enough answered, for the disconcerting reason that he had said so little--had merely asked for Mr. Boyne, and, scribbling something on a bit of paper, had requested that it should at once be carried in to him.
+
+"Then you don't know what he wrote? You're not sure it was his name?"
+
+The kitchen-maid was not sure, but supposed it was, since he had written it in answer to her inquiry as to whom she should announce.
+
+"And when you carried the paper in to Mr. Boyne, what did he say?"
+
+The kitchen-maid did not think that Mr. Boyne had said anything, but she could not be sure, for just as she had handed him the paper and he was opening it, she had become aware that the visitor had followed her into the library, and she had slipped out, leaving the two gentlemen together.
+
+"But then, if you left them in the library, how do you know that they went out of the house?"
+
+This question plunged the witness into momentary inarticulateness, from which she was rescued by Trimmle, who, by means of ingenious circumlocutions, elicited the statement that before she could cross the hall to the back passage she had heard the gentlemen behind her, and had seen them go out of the front door together.
+
+"Then, if you saw the gentleman twice, you must be able to tell me what he looked like."
+
+But with this final challenge to her powers of expression it became clear that the limit of the kitchen-maid's endurance had been reached. The obligation of going to the front door to "show in" a visitor was in itself so subversive of the fundamental order of things that it had thrown her faculties into hopeless disarray, and she could only stammer out, after various panting efforts at evocation, "His hat, mum, was different-like, as you might say--"
+
+"Different? How different?" Mary flashed out at her, her own mind, in the same instant, leaping back to an image left on it that morning, but temporarily lost under layers of subsequent impressions.
+
+"His hat had a wide brim, you mean? and his face was pale--a youngish face?" Mary pressed her, with a white-lipped intensity of interrogation. But if the kitchen-maid found any adequate answer to this challenge, it was swept away for her listener down the rushing current of her own convictions. The stranger--the stranger in the garden! Why had Mary not thought of him before? She needed no one now to tell her that it was he who had called for her husband and gone away with him. But who was he, and why had Boyne obeyed his call?
+
+IV
+
+It leaped out at her suddenly, like a grin out of the dark, that they had often called England so little--"such a confoundedly hard place to get lost in."
+
+A confoundedly hard place to get lost in! That had been her husband's phrase. And now, with the whole machinery of official investigation sweeping its flash-lights from shore to shore, and across the dividing straits; now, with Boyne's name blazing from the walls of every town and village, his portrait how that wrung her! hawked up and down the country like the image of a hunted criminal; now the little compact, populous island, so policed, surveyed, and administered, revealed itself as a Sphinx-like guardian of abysmal mysteries, staring back into his wife's anguished eyes as if with the malicious joy of knowing something they would never know!
+
+In the fortnight since Boyne's disappearance there had been no word of him, no trace of his movements. Even the usual misleading reports that raise expectancy in tortured bosoms had been few and fleeting. No one but the bewildered kitchen-maid had seen him leave the house, and no one else had seen "the gentleman" who accompanied him. All inquiries in the neighborhood failed to elicit the memory of a stranger's presence that day in the neighborhood of Lyng. And no one had met Edward Boyne, either alone or in company, in any of the neighboring villages, or on the road across the downs, or at either of the local railway-stations. The sunny English noon had swallowed him as completely as if he had gone out into Cimmerian night.
+
+Mary, while every external means of investigation was working at its highest pressure, had ransacked her husband's papers for any trace of antecedent complications, of entanglements or obligations unknown to her, that might throw a faint ray into the darkness. But if any such had existed in the background of Boyne's life, they had disappeared as completely as the slip of paper on which the visitor had written his name. There remained no possible thread of guidance except -- if it were indeed an exception -- the letter which Boyne had apparently been in the act of writing when he received his mysterious summons. That letter, read and reread by his wife, and submitted by her to the police, yielded little enough for conjecture to feed on.
+
+"I have just heard of Elwell's death, and while I suppose there is now no farther risk of trouble, it might be safer--" That was all. The "risk of trouble" was easily explained by the newspaper clipping which had apprised Mary of the suit brought against her husband by one of his associates in the Blue Star enterprise. The only new information conveyed in the letter was the fact of its showing Boyne, when he wrote it, to be still apprehensive of the results of the suit, though he had assured his wife that it had been withdrawn, and though the letter itself declared that the plaintiff was dead. It took several weeks of exhaustive cabling to fix the identity of the "Parvis" to whom the fragmentary communication was addressed, but even after these inquiries had shown him to be a Waukesha lawyer, no new facts concerning the Elwell suit were elicited. He appeared to have had no direct concern in it, but to have been conversant with the facts merely as an acquaintance, and possible intermediary; and he declared himself unable to divine with what object Boyne intended to seek his assistance.
+
+This negative information, sole fruit of the first fortnight's feverish search, was not increased by a jot during the slow weeks that followed. Mary knew that the investigations were still being carried on, but she had a vague sense of their gradually slackening, as the actual march of time seemed to slacken. It was as though the days, flying horror-struck from the shrouded image of the one inscrutable day, gained assurance as the distance lengthened, till at last they fell back into their normal gait. And so with the human imaginations at work on the dark event. No doubt it occupied them still, but week by week and hour by hour it grew less absorbing, took up less space, was slowly but inevitably crowded out of the foreground of consciousness by the new problems perpetually bubbling up from the vaporous caldron of human experience.
+
+Even Mary Boyne's consciousness gradually felt the same lowering of velocity. It still swayed with the incessant oscillations of conjecture; but they were slower, more rhythmical in their beat. There were moments of overwhelming lassitude when, like the victim of some poison which leaves the brain clear, but holds the body motionless, she saw herself domesticated with the Horror, accepting its perpetual presence as one of the fixed conditions of life.
+
+These moments lengthened into hours and days, till she passed into a phase of stolid acquiescence. She watched the familiar routine of life with the incurious eye of a savage on whom the meaningless processes of civilization make but the faintest impression. She had come to regard herself as part of the routine, a spoke of the wheel, revolving with its motion; she felt almost like the furniture of the room in which she sat, an insensate object to be dusted and pushed about with the chairs and tables. And this deepening apathy held her fast at Lyng, in spite of the urgent entreaties of friends and the usual medical recommendation of "change." Her friends supposed that her refusal to move was inspired by the belief that her husband would one day return to the spot from which he had vanished, and a beautiful legend grew up about this imaginary state of waiting. But in reality she had no such belief: the depths of anguish inclosing her were no longer lighted by flashes of hope. She was sure that Boyne would never come back, that he had gone out of her sight as completely as if Death itself had waited that day on the threshold. She had even renounced, one by one, the various theories as to his disappearance which had been advanced by the press, the police, and her own agonized imagination. In sheer lassitude her mind turned from these alternatives of horror, and sank back into the blank fact that he was gone.
+
+No, she would never know what had become of him -- no one would ever know. But the house knew; the library in which she spent her long, lonely evenings knew. For it was here that the last scene had been enacted, here that the stranger had come, and spoken the word which had caused Boyne to rise and follow him. The floor she trod had felt his tread; the books on the shelves had seen his face; and there were moments when the intense consciousness of the old, dusky walls seemed about to break out into some audible revelation of their secret. But the revelation never came, and she knew it would never come. Lyng was not one of the garrulous old houses that betray the secrets intrusted to them. Its very legend proved that it had always been the mute accomplice, the incorruptible custodian of the mysteries it had surprised. And Mary Boyne, sitting face to face with its portentous silence, felt the futility of seeking to break it by any human means.
+
+V
+
+"I don't say it wasn't straight, yet don't say it was straight. It was business."
+
+Mary, at the words, lifted her head with a start, and looked intently at the speaker.
+
+When, half an hour before, a card with "Mr. Parvis" on it had been brought up to her, she had been immediately aware that the name had been a part of her consciousness ever since she had read it at the head of Boyne's unfinished letter. In the library she had found awaiting her a small neutral-tinted man with a bald head and gold eye-glasses, and it sent a strange tremor through her to know that this was the person to whom her husband's last known thought had been directed.
+
+Parvis, civilly, but without vain preamble,--in the manner of a man who has his watch in his hand,--had set forth the object of his visit. He had "run over" to England on business, and finding himself in the neighborhood of Dorchester, had not wished to leave it without paying his respects to Mrs. Boyne; without asking her, if the occasion offered, what she meant to do about Bob Elwell's family.
+
+The words touched the spring of some obscure dread in Mary's bosom. Did her visitor, after all, know what Boyne had meant by his unfinished phrase? She asked for an elucidation of his question, and noticed at once that he seemed surprised at her continued ignorance of the subject. Was it possible that she really knew as little as she said?
+
+"I know nothing -- you must tell me," she faltered out; and her visitor thereupon proceeded to unfold his story. It threw, even to her confused perceptions, and imperfectly initiated vision, a lurid glare on the whole hazy episode of the Blue Star Mine. Her husband had made his money in that brilliant speculation at the cost of "getting ahead" of some one less alert to seize the chance; the victim of his ingenuity was young Robert Elwell, who had "put him on" to the Blue Star scheme.
+
+Parvis, at Mary's first startled cry, had thrown her a sobering glance through his impartial glasses.
+
+"Bob Elwell wasn't smart enough, that's all; if he had been, he might have turned round and served Boyne the same way. It's the kind of thing that happens every day in business. I guess it's what the scientists call the survival of the fittest," said Mr. Parvis, evidently pleased with the aptness of his analogy.
+
+Mary felt a physical shrinking from the next question she tried to frame; it was as though the words on her lips had a taste that nauseated her.
+
+"But then--you accuse my husband of doing something dishonorable?"
+
+Mr. Parvis surveyed the question dispassionately. "Oh, no, I don't. I don't even say it wasn't straight." He glanced up and down the long lines of books, as if one of them might have supplied him with the definition he sought. "I don't say it wasn't straight, and yet I don't say it was straight. It was business." After all, no definition in his category could be more comprehensive than that.
+
+Mary sat staring at him with a look of terror. He seemed to her like the indifferent, implacable emissary of some dark, formless power.
+
+"But Mr. Elwell's lawyers apparently did not take your view, since I suppose the suit was withdrawn by their advice."
+
+"Oh, yes, they knew he hadn't a leg to stand on, technically. It was when they advised him to withdraw the suit that he got desperate. You see, he'd borrowed most of the money he lost in the Blue Star, and he was up a tree. That's why he shot himself when they told him he had no show."
+
+The horror was sweeping over Mary in great, deafening waves.
+
+"He shot himself? He killed himself because of that? "
+
+"Well, he didn't kill himself, exactly. He dragged on two months before he died." Parvis emitted the statement as unemotionally as a gramophone grinding out its "record."
+
+"You mean that he tried to kill himself, and failed? And tried again?"
+
+"Oh, he didn't have to try again," said Parvis, grimly.
+
+They sat opposite each other in silence, he swinging his eyeglass thoughtfully about his finger, she, motionless, her arms stretched along her knees in an attitude of rigid tension.
+
+"But if you knew all this," she began at length, hardly able to force her voice above a whisper, "how is it that when I wrote you at the time of my husband's disappearance you said you didn't understand his letter?"
+
+Parvis received this without perceptible discomfiture. "Why, I didn't understand it -- strictly speaking. And it wasn't the time to talk about it, if I had. The Elwell business was settled when the suit was withdrawn. Nothing I could have told you would have helped you to find your husband."
+
+Mary continued to scrutinize him. "Then why are you telling me now?"
+
+Still Parvis did not hesitate. "Well, to begin with, I supposed you knew more than you appear to -- I mean about the circumstances of Elwell's death. And then people are talking of it now; the whole matter's been raked up again. And I thought, if you didn't know, you ought to."
+
+She remained silent, and he continued: "You see, it's only come out lately what a bad state Elwell's affairs were in. His wife's a proud woman, and she fought on as long as she could, going out to work, and taking sewing at home, when she got too sick-something with the heart, I believe. But she had his bedridden mother to look after, and the children, and she broke down under it, and finally had to ask for help. That attracted attention to the case, and the papers took it up, and a subscription was started. Everybody out there liked Bob Elwell, and most of the prominent names in the place are down on the list, and people began to wonder why--"
+
+Parvis broke off to fumble in an inner pocket. "Here," he continued, "here's an account of the whole thing from the 'Sentinel'--a little sensational, of course. But I guess you'd better look it over."
+
+He held out a newspaper to Mary, who unfolded it slowly, remembering, as she did so, the evening when, in that same room, the perusal of a clipping from the "Sentinel" had first shaken the depths of her security.
+
+As she opened the paper, her eyes, shrinking from the glaring head-lines, "Widow of Boyne's Victim Forced to Appeal for Aid," ran down the column of text to two portraits inserted in it. The first was her husband's, taken from a photograph made the year they had come to England. It was the picture of him that she liked best, the one that stood on the writing-table up-stairs in her bedroom. As the eyes in the photograph met hers, she felt it would be impossible to read what was said of him, and closed her lids with the sharpness of the pain.
+
+"I thought if you felt disposed to put your name down--" she heard Parvis continue.
+
+She opened her eyes with an effort, and they fell on the other portrait. It was that of a youngish man, slightly built, in rough clothes, with features somewhat blurred by the shadow of a projecting hat-brim. Where had she seen that outline before? She stared at it confusedly, her heart hammering in her throat and ears. Then she gave a cry.
+
+"This is the man--the man who came for my husband!"
+
+She heard Parvis start to his feet, and was dimly aware that she had slipped backward into the corner of the sofa, and that he was bending above her in alarm. With an intense effort she straightened herself, and reached out for the paper, which she had dropped.
+
+"It's the man! I should know him anywhere!" she cried in a voice that sounded in her own ears like a scream.
+
+Parvis's voice seemed to come to her from far off, down endless, fog-muffled windings.
+
+"Mrs. Boyne, you're not very well. Shall I call somebody? Shall I get a glass of water?"
+
+"No, no, no!" She threw herself toward him, her hand frantically clenching the newspaper. "I tell you, it's the man! I know him! He spoke to me in the garden!"
+
+Parvis took the journal from her, directing his glasses to the portrait. "It can't be, Mrs. Boyne. It's Robert Elwell."
+
+"Robert Elwell?" Her white stare seemed to travel into space. "Then it was Robert Elwell who came for him."
+
+"Came for Boyne? The day he went away?" Parvis's voice dropped as hers rose. He bent over, laying a fraternal hand on her, as if to coax her gently back into her seat. "Why, Elwell was dead! Don't you remember?"
+
+Mary sat with her eyes fixed on the picture, unconscious of what he was saying.
+
+"Don't you remember Boyne's unfinished letter to me -- the one you found on his desk that day? It was written just after he'd heard of Elwell's death." She noticed an odd shake in Parvis's unemotional voice. "Surely you remember that!" he urged her.
+
+Yes, she remembered: that was the profoundest horror of it. Elwell had died the day before her husband's disappearance; and this was Elwell's portrait; and it was the portrait of the man who had spoken to her in the garden. She lifted her head and looked slowly about the library. The library could have borne witness that it was also the portrait of the man who had come in that day to call Boyne from his unfinished letter. Through the misty surgings of her brain she heard the faint boom of half-forgotten words -- words spoken by Alida Stair on the lawn at Pangbourne before Boyne and his wife had ever seen the house at Lyng, or had imagined that they might one day live there.
+
+"This was the man who spoke to me," she repeated.
+
+She looked again at Parvis. He was trying to conceal his disturbance under what he imagined to be an expression of indulgent commiseration; but the edges of his lips were blue. "He thinks me mad; but I'm not mad," she reflected; and suddenly there flashed upon her a way of justifying her strange affirmation.
+
+She sat quiet, controlling the quiver of her lips, and waiting till she could trust her voice to keep its habitual level; then she said, looking straight at Parvis: "Will you answer me one question, please? When was it that Robert Elwell tried to kill himself?"
+
+"When--when?" Parvis stammered.
+
+"Yes; the date. Please try to remember."
+
+She saw that he was growing still more afraid of her. "I have a reason," she insisted gently.
+
+"Yes, yes. Only I can't remember. About two months before, I should say."
+
+"I want the date," she repeated.
+
+Parvis picked up the newspaper. "We might see here," he said, still humoring her. He ran his eyes down the page. "Here it is. Last October--the--"
+
+She caught the words from him. "The 20th, wasn't it?" With a sharp look at her, he verified. "Yes, the 20th. Then you did know?"
+
+"I know now." Her white stare continued to travel past him. "Sunday, the 20th--that was the day he came first."
+
+Parvis's voice was almost inaudible. "Came here first?"
+
+"Yes."
+
+"You saw him twice, then?"
+
+"Yes, twice." She breathed it at him with dilated eyes. "He came first on the 20th of October. I remember the date because it was the day we went up Meldon Steep for the first time." She felt a faint gasp of inward laughter at the thought that but for that she might have forgotten.
+
+Parvis continued to scrutinize her, as if trying to intercept her gaze.
+
+"We saw him from the roof," she went on. "He came down the lime avenue toward the house. He was dressed just as he is in that picture. My husband saw him first. He was frightened, and ran down ahead of me; but there was no one there. He had vanished."
+
+"Elwell had vanished?" Parvis faltered.
+
+"Yes." Their two whispers seemed to grope for each other. "I couldn't think what had happened. I see now. He tried to come then; but he wasn't dead enough--he couldn't reach us. He had to wait for two months; and then he came back again--and Ned went with him."
+
+She nodded at Parvis with the look of triumph of a child who has successfully worked out a difficult puzzle. But suddenly she lifted her hands with a desperate gesture, pressing them to her bursting temples.
+
+"Oh, my God! I sent him to Ned--I told him where to go! I sent him to this room!" she screamed out.
+
+She felt the walls of the room rush toward her, like inward falling ruins; and she heard Parvis, a long way off, as if through the ruins, crying to her, and struggling to get at her. But she was numb to his touch, she did not know what he was saying. Through the tumult she heard but one clear note, the voice of Alida Stair, speaking on the lawn at Pangbourne.
+
+"You won't know till afterward," it said. "You won't know till long, long afterward."
+
+ONE SEPTEMBER NIGHT a family had gathered round their hearth, and piled it high with the driftwood of mountain streams, the dry cones of the pine, and the splintered ruins of great trees that had come crashing down the precipice. Up the chimney roared the fire, and brightened the room with its broad blaze. The faces of the father and mother had a sober gladness; the children laughed; the eldest daughter was the image of Happiness at seventeen; and the aged grandmother, who sat knitting in the warmest place, was the image of Happiness grown old. They had found the "herb, heart's-ease," in the bleakest spot of all New England. This family were situated in the Notch of the White Hills, where the wind was sharp throughout the year, and pitilessly cold in the winter--giving their cottage all its fresh inclemency before it descended on the valley of the Saco. They dwelt in a cold spot and a dangerous one; for a mountain towered above their heads, so steep, that the stones would often rumble down its sides and startle them at midnight.
+
+The daughter had just uttered some simple jest that filled them all with mirth, when the wind came through the Notch and seemed to pause before their cottage--rattling the door, with a sound of wailing and lamentation, before it passed into the valley. For a moment it saddened them, though there was nothing unusual in the tones. But the family were glad again when they perceived that the latch was lifted by some traveller, whose footsteps had been unheard amid the dreary blast which heralded his approach, and wailed as he was entering, and went moaning away from the door.
+
+Though they dwelt in such a solitude, these people held daily converse with the world. The romantic pass of the Notch is a great artery, through which the life-blood of internal commerce is continually throbbing between Maine, on one side, and the Green Mountains and the shores of the St. Lawrence, on the other. The stage-coach always drew up before the door of the cottage. The way-farer, with no companion but his staff, paused here to exchange a word, that the sense of loneliness might not utterly overcome him ere he could pass through the cleft of the mountain, or reach the first house in the valley. And here the teamster, on his way to Portland market, would put up for the night; and, if a bachelor, might sit an hour beyond the usual bedtime, and steal a kiss from the mountain maid at parting. It was one of those primitive taverns where the traveller pays only for food and lodging, but meets with a homely kindness beyond all price. When the footsteps were heard, therefore, between the outer door and the inner one, the whole family rose up, grandmother, children, and all, as if about to welcome someone who belonged to them, and whose fate was linked with theirs.
+
+The door was opened by a young man. His face at first wore the melancholy expression, almost despondency, of one who travels a wild and bleak road, at nightfall and alone, but soon brightened up when he saw the kindly warmth of his reception. He felt his heart spring forward to meet them all, from the old woman, who wiped a chair with her apron, to the little child that held out its arms to him. One glance and smile placed the stranger on a footing of innocent familiarity with the eldest daughter.
+
+"Ah, this fire is the right thing!" cried he; "especially when there is such a pleasant circle round it. I am quite benumbed; for the Notch is just like the pipe of a great pair of bellows; it has blown a terrible blast in my face all the way from Bartlett."
+
+"Then you are going towards Vermont?" said the master of the house, as he helped to take a light knapsack off the young man's shoulders.
+
+"Yes; to Burlington, and far enough beyond," replied he. "I meant to have been at Ethan Crawford's tonight; but a pedestrian lingers along such a road as this. It is no matter; for, when I saw this good fire, and all your cheerful faces, I felt as if you had kindled it on purpose for me, and were waiting my arrival. So I shall sit down among you, and make myself at home."
+
+The frank-hearted stranger had just drawn his chair to the fire when something like a heavy footstep was heard without, rushing down the steep side of the mountain, as with long and rapid strides, and taking such a leap in passing the cottage as to strike the opposite precipice. The family held their breath, because they knew the sound, and their guest held his by instinct.
+
+"The old mountain has thrown a stone at us, for fear we should forget him," said the landlord, recovering himself. "He sometimes nods his head and threatens to come down; but we are old neighbors, and agree together pretty well upon the whole. Besides we have a sure place of refuge hard by if he should be coming in good earnest."
+
+Let us now suppose the stranger to have finished his supper of bear's meat; and, by his natural felicity of manner, to have placed himself on a footing of kindness with the whole family, so that they talked as freely together as if he belonged to their mountain brood. He was of a proud, yet gentle spirit--haughty and reserved among the rich and great; but ever ready to stoop his head to the lowly cottage door, and be like a brother or a son at the poor man's fireside. In the household of the Notch he found warmth and simplicity of feeling, the pervading intelligence of New England, and a poetry of native growth, which they had gathered when they little thought of it from the mountain peaks and chasms, and at the very threshold of their romantic and dangerous abode. He had travelled far and alone; his whole life, indeed, had been a solitary path; for, with the lofty caution of his nature, he had kept himself apart from those who might otherwise have been his companions. The family, too, though so kind and hospitable, had that consciousness of unity among themselves, and separation from the world at large, which, in every domestic circle, should still keep a holy place where no stranger may intrude. But this evening a prophetic sympathy impelled the refined and educated youth to pour out his heart before the simple mountaineers, and constrained them to answer him with the same free confidence. And thus it should have been. Is not the kindred of a common fate a closer tie than that of birth?
+
+The secret of the young man's character was a high and abstracted ambition. He could have borne to live an undistinguished life, but not to be forgotten in the grave. Yearning desire had been transformed to hope; and hope, long cherished, had become like certainty, that, obscurely as he journeyed now, a glory was to beam on all his pathway-though not, perhaps, while he was treading it. But when posterity should gaze back into the gloom of what was now the present, they would trace the brightness of his footsteps, brightening as meaner glories faded, and confess that a gifted one had passed from his cradle to his tomb with none to recognize him.
+
+"As yet," cried the stranger--his cheek glowing and his eye flashing with enthusiasm--"as yet, I have done nothing. Were I to vanish from the earth tomorrow, none would know so much of me as you: that a nameless youth came up at nightfall from the valley of the Saco, and opened his heart to you in the evening, and passed through the Notch by sunrise, and was seen no more. Not a soul would ask, 'Who was he? Whither did the wanderer go?' But I cannot die till I have achieved my destiny. Then, let Death come! I shall have built my monument!"
+
+There was a continual flow of natural emotion, gushing forth amid abstracted reverie, which enabled the family to understand this young man's sentiments, though so foreign from their own. With quick sensibility of the ludicrous, he blushed at the ardor into which he had been betrayed.
+
+"You laugh at me," said he, taking the eldest daughter's hand, and laughing himself. "You think my ambition as nonsensical as if I were to freeze myself to death on the top of Mount Washington, only that people might spy at me from the country round about. And, truly, that would be a noble pedestal for a man's statue!"
+
+"It is better to sit here by this fire," answered the girl, blushing, "and be comfortable and contented, though nobody thinks about us."
+
+"I suppose," said her father, after a fit of musing, "there is something natural in what the young man says; and if my mind had been turned that way, I might have felt just the same. It is strange, wife, how his talk has set my head running on things that are pretty certain never to come to pass."
+
+"Perhaps they may," observed the wife. "Is the man thinking what he will do when he is a widower?"
+
+"No, no!" cried he, repelling the idea with reproachful kindness. "When I think of your death, Esther, I think of mine, too. But I was wishing we had a good farm in Bartlett, or Bethlehem, or Littleton, or some other township round the White Mountains; but not where they could tumble on our heads. I should want to stand well with my neighbors and be called Squire, and sent to General Court for a term or two; for a plain, honest man may do as much good there as a lawyer. And when I should be grown quite an old man, and you an old woman, so as not to be long apart, I might die happy enough in my bed, and leave you all crying around me. A slate gravestone would suit me as well as a marble one--with just my name and age, and a verse of a hymn, and something to let people know that I lived an honest man and died a Christian."
+
+"There now!" exclaimed the stranger; "it is our nature to desire a monument, be it slate or marble, or a pillar of granite, or a glorious memory in the universal heart of man."
+
+"We're in a strange way, tonight," said the wife, with tears in her eyes. "They say it's a sign of something, when folks' minds go a-wandering so. Hark to the children!"
+
+They listened accordingly. The younger children had been put to bed in another room, but with an open door between, so that they could be heard talking busily among themselves. One and all seemed to have caught the infection from the fireside circle, and were outvying each other in wild wishes, and childish projects, of what they would do when they came to be men and women. At length a little boy, instead of addressing his brothers and sisters, called out to his mother.
+
+"I'll tell you what I wish, mother," cried he. "I want you and father and grandma'm, and all of us, and the stranger too, to start right away, and go and take a drink out of the basin of the Flume!"
+
+Nobody could help laughing at the child's notion of leaving a warm bed, and dragging them from a cheerful fire, to visit the basin of the Flume--a brook, which tumbles over the precipice, deep within the Notch. The boy had hardly spoken when a wagon rattled along the road, and stopped a moment before the door. It appeared to contain two or three men, who were cheering their hearts with the rough chorus of a song, which resounded, in broken notes, between the cliffs, while the singers hesitated whether to continue their journey or put up here for the night.
+
+"Father," said the girl, "they are calling you by name."
+
+But the good man doubted whether they had really called him, and was unwilling to show himself too solicitous of gain by inviting people to patronize his house. He therefore did not hurry to the door; and the lash being soon applied, the travellers plunged into the Notch, still singing and laughing, though their music and mirth came back drearily from the heart of the mountain.
+
+"There, mother!" cried the boy, again. "They'd have given us a ride to the Flume."
+
+Again they laughed at the child's pertinacious fancy for a night ramble. But it happened that a light cloud passed over the daughter's spirit; she looked gravely into the fire, and drew a breath that was almost a sigh. It forced its way, in spite of a little struggle to repress it. Then starting and blushing, she looked quickly round the circle, as if they had caught a glimpse into her bosom. The stranger asked what she had been thinking of.
+
+"Nothing," answered she, with a downcast smile. "Only I felt lonesome just then."
+
+"Oh, I have always had a gift of feeling what is in other people's hearts," said he, half seriously. "Shall I tell the secrets of yours? For I know what to think when a young girl shivers by a warm hearth, and complains of lonesomeness at her mother's side. Shall I put these feelings into words?"
+
+"They would not be a girl's feelings any longer if they could be put into words," replied the mountain nymph, laughing, but avoiding his eye.
+
+All this was said apart. Perhaps a germ of love was springing in their hearts, so pure that it might blossom in Paradise, since it could not be matured on earth; for women worship such gentle dignity as his; and the proud, contemplative, yet kindly soul is oftenest captivated by simplicity like hers. But while they spoke softly, and he was watching the happy sadness, the lightsome shadows, the shy yearnings of a maiden's nature, the wind through the Notch took a deeper and drearier sound. It seemed, as the fanciful stranger said, like the choral strain of the spirits of the blast, who in old Indian times had their dwelling among these mountains, and made their heights and recesses a sacred region.
+
+There was a wail along the road, as if a funeral were passing. To chase away the gloom, the family threw pine branches on their fire, till the dry leaves crackled and the flame arose, discovering once again a scene of peace and humble happiness. The light hovered about them fondly, and caressed them all. There were the little faces of the children, peeping from their bed apart, and here the father's frame of strength, the mother's subdued and careful mien, the high-browed youth, the budding girl, and the good old grandam, still knitting in the warmest place. The aged woman looked up from her task, and, with fingers ever busy, was the next to speak.
+
+"Old folks have their notions," said she, "as well as young ones. You've been wishing and planning; and letting your heads run on one thing and another, till you've set my mind a-wandering too. Now what should an old woman wish for, when she can go but a step or two before she comes to her grave? Children, it will haunt me night and day till I tell you."
+
+"What is it, mother?" cried the husband and wife at once.
+
+Then the old woman, with an air of mystery which drew the circle closer round the fire, informed them that she had provided her grave-clothes some years before--a nice linen shroud, a cap with a muslin ruff, and everything of a finer sort than she had worn since her wedding day. But this evening an old superstition had strangely recurred to her. It used to be said, in her younger days, that if anything were amiss with a corpse, if only the ruff were not smooth, or the cap did not set right, the corpse in the coffin and beneath the clods would strive to put up its cold hands and arrange it. The bare thought made her nervous.
+
+"Don't talk so, grandmother!" said the girl, shuddering.
+
+"Now," continued the old woman, with singular earnestness, yet smiling strangely at her own folly, "I want one of you, my children- when your mother is dressed and in the coffin--I want one of you to hold a looking-glass over my face. Who knows but I may take a glimpse at myself, and see whether all's right?"
+
+"Old and young, we dream of graves and monuments," murmured the stranger youth. "I wonder how mariners feel when the ship is sinking, and they, unknown and undistinguished, are to be buried together in the ocean--that wide and nameless sepulchre?"
+
+For a moment, the old woman's ghastly conception so engrossed the minds of her hearers that a sound abroad in the night, rising like the roar of a blast, had grown broad, deep, and terrible, before the fated group were conscious of it. The house and all within it trembled; the foundations of the earth seemed to be shaken, as if this awful sound were the peal of the last trump. Young and old exchanged one wild glance, and remained an instant, pale, affrighted, without utterance, or power to move. Then the same shriek burst simultaneously from all their lips.
+
+"The Slide! The Slide!"
+
+The simplest words must intimate, but not portray, the unutterable horror of the catastrophe. The victims rushed from their cottage, and sought refuge in what they deemed a safer spot--where, in contemplation of such an emergency, a sort of barrier had been reared. Alas! they had quitted their security, and fled right into the pathway of destruction. Down came the whole side of the mountain, in a cataract of ruin. Just before it reached the house, the stream broke into two branches--shivered not a window there, but overwhelmed the whole vicinity, blocked up the road, and annihilated everything in its dreadful course. Long ere the thunder of the great Slide had ceased to roar among the mountains, the mortal agony had been endured, and the victims were at peace. Their bodies were never found.
+
+The next morning, the light smoke was seen stealing from the cottage chimney up the mountain side. Within, the fire was yet smouldering on the hearth, and the chairs in a circle round it, as if the inhabitants had but gone forth to view the devastation of the Slide, and would shortly return, to thank Heaven for their miraculous escape. All had left separate tokens, by which those who had known the family were made to shed a tear for each. Who has not heard their name? The story has been told far and wide, and will forever be a legend of these mountains. Poets have sung their fate.
+
+There were circumstances which led some to suppose that a stranger had been received into the cottage on this awful night, and had shared the catastrophe of all its inmates. Others denied that there were sufficient grounds for such a conjecture. Wo for the high-souled youth, with his dream of Earthly Immortality! His name and person utterly unknown; his history, his way of life, his plans, a mystery never to be solved, his death and his existence equally a doubt! Whose was the agony of that death moment?
+
+North Richmond Street, being blind, was a quiet street except at the hour when the Christian Brothers' School set the boys free. An uninhabited house of two storeys stood at the blind end, detached from its neighbours in a square ground. The other houses of the street, conscious of decent lives within them, gazed at one another with brown imperturbable faces.
+
+The former tenant of our house, a priest, had died in the back drawing-room. Air, musty from having been long enclosed, hung in all the rooms, and the waste room behind the kitchen was littered with old useless papers. Among these I found a few paper-covered books, the pages of which were curled and damp: The Abbot, by Walter Scott, The Devout Communicant, and The Memoirs of Vidocq. I liked the last best because its leaves were yellow. The wild garden behind the house contained a central apple-tree and a few straggling bushes, under one of which I found the late tenant's rusty bicycle-pump. He had been a very charitable priest; in his will he had left all his money to institutions and the furniture of his house to his sister.
+
+When the short days of winter came, dusk fell before we had well eaten our dinners. When we met in the street the houses had grown sombre. The space of sky above us was the colour of ever-changing violet and towards it the lamps of the street lifted their feeble lanterns. The cold air stung us and we played till our bodies glowed. Our shouts echoed in the silent street. The career of our play brought us through the dark muddy lanes behind the houses, where we ran the gauntlet of the rough tribes from the cottages, to the back doors of the dark dripping gardens where odours arose from the ashpits, to the dark odorous stables where a coachman smoothed and combed the horse or shook music from the buckled harness. When we returned to the street, light from the kitchen windows had filled the areas. If my uncle was seen turning the corner, we hid in the shadow until we had seen him safely housed. Or if Mangan's sister came out on the doorstep to call her brother in to his tea, we watched her from our shadow peer up and down the street. We waited to see whether she would remain or go in and, if she remained, we left our shadow and walked up to Mangan's steps resignedly. She was waiting for us, her figure defined by the light from the half-opened door. Her brother always teased her before he obeyed, and I stood by the railings looking at her. Her dress swung as she moved her body, and the soft rope of her hair tossed from side to side.
+
+Every morning I lay on the floor in the front parlour watching her door. The blind was pulled down to within an inch of the sash so that I could not be seen. When she came out on the doorstep my heart leaped. I ran to the hall, seized my books and followed her. I kept her brown figure always in my eye and, when we came near the point at which our ways diverged, I quickened my pace and passed her. This happened morning after morning. I had never spoken to her, except for a few casual words, and yet her name was like a summons to all my foolish blood.
+
+Her image accompanied me even in places the most hostile to romance. On Saturday evenings when my aunt went marketing I had to go to carry some of the parcels. We walked through the flaring streets, jostled by drunken men and bargaining women, amid the curses of labourers, the shrill litanies of shop-boys who stood on guard by the barrels of pigs' cheeks, the nasal chanting of street-singers, who sang a come-all-you about O'Donovan Rossa, or a ballad about the troubles in our native land. These noises converged in a single sensation of life for me: I imagined that I bore my chalice safely through a throng of foes. Her name sprang to my lips at moments in strange prayers and praises which I myself did not understand. My eyes were often full of tears I could not tell why and at times a flood from my heart seemed to pour itself out into my bosom. I thought little of the future. I did not know whether I would ever speak to her or not or, if I spoke to her, how I could tell her of my confused adoration. But my body was like a harp and her words and gestures were like fingers running upon the wires.
+
+One evening I went into the back drawing-room in which the priest had died. It was a dark rainy evening and there was no sound in the house. Through one of the broken panes I heard the rain impinge upon the earth, the fine incessant needles of water playing in the sodden beds. Some distant lamp or lighted window gleamed below me. I was thankful that I could see so little. All my senses seemed to desire to veil themselves and, feeling that I was about to slip from them, I pressed the palms of my hands together until they trembled, murmuring: 'O love! O love!' many times.
+
+At last she spoke to me. When she addressed the first words to me I was so confused that I did not know what to answer. She asked me was I going to Araby. I forgot whether I answered yes or no. It would be a splendid bazaar; she said she would love to go.
+
+'And why can't you?' I asked.
+
+While she spoke she turned a silver bracelet round and round her wrist. She could not go, she said, because there would be a retreat that week in her convent. Her brother and two other boys were fighting for their caps, and I was alone at the railings. She held one of the spikes, bowing her head towards me. The light from the lamp opposite our door caught the white curve of her neck, lit up her hair that rested there and, falling, lit up the hand upon the railing. It fell over one side of her dress and caught the white border of a petticoat, just visible as she stood at ease.
+
+'It's well for you,' she said.
+
+'If I go,' I said, 'I will bring you something.'
+
+What innumerable follies laid waste my waking and sleeping thoughts after that evening! I wished to annihilate the tedious intervening days. I chafed against the work of school. At night in my bedroom and by day in the classroom her image came between me and the page I strove to read. The syllables of the word Araby were called to me through the silence in which my soul luxuriated and cast an Eastern enchantment over me. I asked for leave to go to the bazaar on Saturday night. My aunt was surprised, and hoped it was not some Freemason affair. I answered few questions in class. I watched my master's face pass from amiability to sternness; he hoped I was not beginning to idle. I could not call my wandering thoughts together. I had hardly any patience with the serious work of life which, now that it stood between me and my desire, seemed to me child's play, ugly monotonous child's play.
+
+On Saturday morning I reminded my uncle that I wished to go to the bazaar in the evening. He was fussing at the hallstand, looking for the hat-brush, and answered me curtly:
+
+'Yes, boy, I know.'
+
+As he was in the hall I could not go into the front parlour and lie at the window. I felt the house in bad humour and walked slowly towards the school. The air was pitilessly raw and already my heart misgave me.
+
+When I came home to dinner my uncle had not yet been home. Still it was early. I sat staring at the clock for some time and, when its ticking began to irritate me, I left the room. I mounted the staircase and gained the upper part of the house. The high, cold, empty, gloomy rooms liberated me and I went from room to room singing. From the front window I saw my companions playing below in the street. Their cries reached me weakened and indistinct and, leaning my forehead against the cool glass, I looked over at the dark house where she lived. I may have stood there for an hour, seeing nothing but the brown-clad figure cast by my imagination, touched discreetly by the lamplight at the curved neck, at the hand upon the railings and at the border below the dress.
+
+When I came downstairs again I found Mrs Mercer sitting at the fire. She was an old, garrulous woman, a pawnbroker's widow, who collected used stamps for some pious purpose. I had to endure the gossip of the tea-table. The meal was prolonged beyond an hour and still my uncle did not come. Mrs Mercer stood up to go: she was sorry she couldn't wait any longer, but it was after eight o'clock and she did not like to be out late, as the night air was bad for her. When she had gone I began to walk up and down the room, clenching my fists. My aunt said:
+
+'I'm afraid you may put off your bazaar for this night of Our Lord.'
+
+At nine o'clock I heard my uncle's latchkey in the hall door. I heard him talking to himself and heard the hallstand rocking when it had received the weight of his overcoat. I could interpret these signs. When he was midway through his dinner I asked him to give me the money to go to the bazaar. He had forgotten.
+
+'The people are in bed and after their first sleep now,' he said.
+
+I did not smile. My aunt said to him energetically:
+
+'Can't you give him the money and let him go? You've kept him late enough as it is.'
+
+My uncle said he was very sorry he had forgotten. He said he believed in the old saying: 'All work and no play makes Jack a dull boy.' He asked me where I was going and, when I told him a second time, he asked me did I know The Arab's Farewell to his Steed. When I left the kitchen he was about to recite the opening lines of the piece to my aunt.
+
+I held a florin tightly in my hand as I strode down Buckingham Street towards the station. The sight of the streets thronged with buyers and glaring with gas recalled to me the purpose of my journey. I took my seat in a third-class carriage of a deserted train. After an intolerable delay the train moved out of the station slowly. It crept onward among ruinous houses and over the twinkling river. At Westland Row Station a crowd of people pressed to the carriage doors; but the porters moved them back, saying that it was a special train for the bazaar. I remained alone in the bare carriage. In a few minutes the train drew up beside an improvised wooden platform. I passed out on to the road and saw by the lighted dial of a clock that it was ten minutes to ten. In front of me was a large building which displayed the magical name.
+
+I could not find any sixpenny entrance and, fearing that the bazaar would be closed, I passed in quickly through a turnstile, handing a shilling to a weary-looking man. I found myself in a big hall girded at half its height by a gallery. Nearly all the stalls were closed and the greater part of the hall was in darkness. I recognized a silence like that which pervades a church after a service. I walked into the centre of the bazaar timidly. A few people were gathered about the stalls which were still open. Before a curtain, over which the words Café Chantant were written in coloured lamps, two men were counting money on a salver. I listened to the fall of the coins.
+
+Remembering with difficulty why I had come, I went over to one of the stalls and examined porcelain vases and flowered tea-sets. At the door of the stall a young lady was talking and laughing with two young gentlemen. I remarked their English accents and listened vaguely to their conversation.
+
+'O, I never said such a thing!'
+
+'O, but you did!'
+
+'O, but I didn't!'
+
+'Didn't she say that?'
+
+'Yes. I heard her.'
+
+'O, there's a. . . fib!'
+
+Observing me, the young lady came over and asked me did I wish to buy anything. The tone of her voice was not encouraging; she seemed to have spoken to me out of a sense of duty. I looked humbly at the great jars that stood like eastern guards at either side of the dark entrance to the stall and murmured:
+
+'No, thank you.'
+
+The young lady changed the position of one of the vases and went back to the two young men. They began to talk of the same subject. Once or twice the young lady glanced at me over her shoulder.
+
+I lingered before her stall, though I knew my stay was useless, to make my interest in her wares seem the more real. Then I turned away slowly and walked down the middle of the bazaar. I allowed the two pennies to fall against the sixpence in my pocket. I heard a voice call from one end of the gallery that the light was out. The upper part of the hall was now completely dark.
+
+Gazing up into the darkness I saw myself as a creature driven and derided by vanity; and my eyes burned with anguish and anger.
+The Baron Von Koëldwethout, of Grogzwig in Germany, was as likely a young baron as you would wish to see. I needn't say that he lived in a castle, because that's of course; neither need I say that he lived in an old castle; for what German baron ever lived in a new one? There were many strange circumstances connected with this venerable building, among which, not the least startling and mysterious were, that when the wind blew, it rumbled in the chimneys, or even howled among the trees in the neighboring forest; and that when the moon shone, she found her way through certain small loopholes in the wall, and actually made some parts of the wide halls and galleries quite light, while she left others in gloomy shadow. I believe that one of the baron's ancestors, being short of money, had inserted a dagger in a gentleman who called one night to ask his way, and it was supposed that these miraculous occurrences took place in consequence. And yet I hardly know how that could have been, either, because the baron's ancestor, who was an amiable man, felt very sorry afterwards for having been so rash, and laying violent hands upon a quantity of stone and timber which belonged to a weaker baron, built a chapel as an apology, and so took a receipt from Heaven, in full of all demands.
+
+Talking of the baron's ancestor puts me in mind of the baron's great claims to respect, on the score of his pedigree. I am afraid to say, I am sure, how many ancestors the baron had; but I know that he had a great many more than any other man of his time; and I only wish that he had lived in these latter days, that he might have had more. It is a very hard thing upon the great men of past centuries, that they should have come into the world so soon, because a man who was born three or four hundred years ago, cannot reasonably be expected to have had as many relations before him, as a man who is born now. The last man, whoever he is - and he may be a cobbler or some low vulgar dog for aught we know - will have a longer pedigree than the greatest nobleman now alive; and I contend that this is not fair.
+
+Well, but the Baron Von Koëldwethout of Grogwig! He was a fine swarthy fellow, with dark hair and large moustachios, who rode a-hunting in clothes of Lincoln green, with russet boots on his feet, and a bugle slung over his shoulder, like the guard of a long stage. When he blew this bugle, four-and-twenty other gentlemen of inferior rank, in Lincoln green a little coarser, and russet boots with a little thicker soles, turned out directly; and away galloped the whole train, with spears in their hands like lackered area railings, to hunt down the boars, or perhaps encounter a bear: in which latter case the baron killed him first, and greased his whiskers with him afterwards.
+
+This was a merry life for the Baron of Grogzwig, and a merrier still for the baron's retainers, who drank Rhine wine every night till they fell under the table, and then had the bottles on the floor, and called for pipes. Never were such jolly, roystering, rollicking, merry-making blades, as the jovial crew of Grogzwig.
+
+But the pleasures of the table, or the pleasures of under the table, require a little variety; especially when the same five-and-twenty people sit daily down to the same board, to discuss the same subjects, and tell the same stories. The baron grew weary, and wanted excitement. He took to quarrelling with his gentlemen, and tried kicking two or three of them every day after dinner. This was a pleasant change at first; but it became monotonous after a week or so, and the baron felt quite out of sorts, and cast about, in despair, for some new amusement.
+
+One night, after a day's sport in which he had outdone Nimrod or Gillingwater, and slaughtered "another fine bear", and brought him home in triumph, the Baron Von Koëldwethout sat moodily at the head of his table, eyeing the smoky roof of the hall with a discontented aspect. He swallowed huge bumpers of wine, but the more he swallowed, the more he frowned. The gentlemen who had been honoured with the dangerous distinction of sitting on his right and left, imitated him to a miracle in the drinking, and frowned at each other.
+
+"I will!" cried the baron suddenly, smiting the table with his right hand, and twirling his moustache with his left. "Fill to the Lady of Grogzwig!"
+
+The four-and-twenty Lincoln greens turned pale, with the exception of their four-and-twenty noses, which were unchangeable.
+
+"I said to the Lady of Grogzwig," repeated the baron, looking round the board.
+
+"To the Lady of Grogzwig!" shouted the Lincoln greens; and down their four-and-twenty throats went four-and-twenty imperial pints of such rare old hock, that they smacked their eight-and-forty lips, and winked again.
+
+"The fair daughter of the Baron Von Swillenhausen," said Koëldwethout, condescending to explain. "We will demand her in marriage of her father, ere the sun goes down tomorrow. If he refuse our suit, we will cut off his nose."
+
+A hoarse murmur arose from the company; every man touched, first the hilt of his sword, and then the tip of his nose, with appalling significance.
+
+What a pleasant thing filial piety is, to contemplate! If the daughter of the Baron Von Swillenhausen had pleaded a preoccupied heart, or fallen at her father's feet and corned them in salt tears, or only fainted away, and complimented the old gentleman in frantic ejaculations, the odds are a hundred to one, but Swillenhausen castle would have been turned out at window, or rather the baron turned out at window, and the castle demolished. The damsel held her peace, however, when an early messenger bore the request of Von Koëldwethout next morning, and modestly retired to her chamber, from the casement of which she watched the coming of the suitor and his retinue. She was no sooner assured that the horseman with the large moustachios was her proferred husband, than she hastened to her father's presence, and expressed her readiness to sacrifice herself to secure his peace. The venerable baron caught his child into his arms, and shed a wink of joy.
+
+There was a great feasting at the castle, that day. The four-and-twenty Lincoln greens of Von Koëldwethout exchanged vows of eternal friendship with twelve Lincoln greens of Von Swillenhausen, and promised the old baron that they would drink his wine "Till all was blue" - meaning probably until their whole countenances had acquired the same tint as their noses. Everybody slapped everybody else's back, when the time for parting came; and the Baron Von Koëldwethout and his followers rode gaily home.
+
+For six mortal weeks, the bears and boars had a holiday. The houses of Koëldwethout and Swillenhausen were united; the spears rusted; and the baron's bugle grew hoarse for lack of blowing.
+
+Those were great times for the four-and-twenty; but, alas! their high and palmy days had taken boots to themselves, and were already walking off.
+
+"My dear," said the baroness.
+
+"My love," said the baron.
+
+"Those coarse, noisy men--"
+
+"Which, ma'am?" said the baron starting.
+
+The baroness pointed, from the window at which they stood, to the courtyard beneath, where the unconscious Lincoln greens were taking a copious stirrup-cup, preparatory to issuing forth, after a boar or two.
+
+"My hunting train, ma'am," said the baron.
+
+"Disband them, love," murmured the baroness.
+
+"Disband them!" cried the baron, in amazement.
+
+"To please me, love," replied the baroness.
+
+"To please the devil, ma'am," answered the baron.
+
+Whereupon the baroness uttered a great cry, and swooned away at the baron's feet.
+
+What could the baron do? He called for the lady's maid, and roared for the doctor; and then, rushing into the yard, kicked the two Lincoln greens who were the most used to it, and cursing the others all round, bade them go - but never mind where, I don't know the German for it, or I would put it delicately that way.
+
+It is not for me to say by what means or by what degrees, some wives manage to keep down some husbands as they do, although I may have my private opinion on the subject, and may think that no Member of Parliament ought to be married, inasmuch as three married members out of every four, must vote according to their wives' consciences if there be such things, and not according to their own. All I need say, just now, is, that the Baroness Von Koëldwethout somehow or other acquired great control over the Baron Von Koëldwethout, and that, little by little, and bit by bit, and day by day, and year by year, the baron got the worst of some disputed question, or was slily unhorsed from some old hobby; and that by the time he was a fat hearty fellow of forty-eight or thereabouts, he had no feasting, no revelry, no hunting train, and no hunting - nothing in short that he liked, or used to have; and that, although he was as fierce as a lion and as bold as brass, he was decidedly snubbed and put down, by his own lady, in his own castle of Grogzwig.
+
+Nor was this the whole extent of the baron's misfortunes. About a year after his nuptials, there came into the world a lusty young baron, in whose honour a great many fireworks were let off, and a great many dozens of wine drunk; but next year there came a young baroness, and next year another young baron, and so on, every year, either a baron or baroness and one year both together, until the baron found himself the father of a small family of twelve. Upon every one of these anniversaries, the venerable Baroness Von Swillenhausen was nervously sensitive for the well-being of her child the Baroness Von Koëldwethout and although it was not found that the good lady ever did anything material towards contributing to her child's recovery, still she made it a point of duty to be as nervous as possible at the castle at Grogzwig, and to divide her time between moral observations on the baron's housekeeping, and bewailing the hard lot of her unhappy daughter. And if the Baron of Grogzwig, a little hurt and irritated at this, took heart, and ventured to suggest that his wife was at least no worse off than the wives of other barons, the Baroness Von Swillenhausen begged all persons to take notice, that nobody but she, sympathized with her dear daughter's sufferings; upon which, her relations and friends remarked, that to be sure she did cry a great deal more than her son-in-law, and that if there were a hard-hearted brute alive, it was that Baron of Grogzwig.
+
+The poor baron bore it all, as long as he could, and when he could bear it no longer lost his appetite and his spirits, and sat himself gloomily and dejectedly down. But there were worse troubles yet in store for him, and as they came on, his melancholy and sadness increased. Times changed. He got into debt. The Grogzwig coffers ran low, though the Swillenhausen family had looked upon them as inexhaustible; and just when the baroness was on the point of making a thirteenth addition to the family pedigree, Von Koëldwethout discovered that he had no means of replenishing them.
+
+"I don't see what is to be done," said the baron. "I think I'll kill myself."
+
+This was a bright idea. The baron took an old hunting-knife from a cupboard hard by, and having sharpened it on his boot, made what boys call "an offer" at his throat.
+
+"Hem!" said the baron, stopping short. "Perhaps it's not sharp enough."
+
+The baron sharpened it again, and made another offer, when his hand was arrested by a loud screaming among the young barons and baronesses, who had a nursery in an upstairs tower with iron bars outside the window, to prevent their tumbling out into the moat.
+
+"If I had been a bachelor," said the baron sighing, "I might have done it fifty times over, without being interrupted. Hallo! Put a flask of wine and the largest pipe, in the little vaulted room behind the hall."
+
+One of the domestics, in a very kind manner, executed the baron's order in the course of half an hour or so, and Von Koëldwethout being apprised thereof, strode to the vaulted room, the walls of which, being of dark shining wood, gleamed in the light of the blazing logs which were piled upon the hearth. The bottle and pipe were ready, and, upon the whole, the place looked very comfortable.
+
+"Leave the lamp," said the baron.
+
+"Anything else, my lord?" inquired the domestic.
+
+"The room," replied the baron. The domestic obeyed, and the baron locked the door.
+
+"I'll smoke a last pipe," said the baron, "and then I'll be off." So, putting the knife upon the table till he wanted it, and tossing off a goodly measure of wine, the Lord of Grogzwig threw himself back in his chair, stretched his legs out before the fire, and puffed away.
+
+He thought about a great many things - about his present troubles and past days of bachelorship, and about the Lincoln greens, long since disappeared up and down the country, no one knew whither: with the exception of two who had been unfortunately beheaded, and four who had killed themselves with drinking. His mind was running upon bears and boars, when, in the process of draining his glass to the bottom, he raised his eyes, and saw, for the first time and with unbounded astonishment, that he was not alone.
+
+No, he was not; for, on the opposite side of the fire, there sat with folded arms a wrinkled hideous figure, with deeply sunk and bloodshot eyes, and an immensely long, cadaverous face, shadowed by jagged and matted locks of coarse black hair. He wore a kind of tunic of a dull bluish colour, which, the baron observed, on regarding it attentively, was clasped or ornamented down the front, with coffin handles. His legs too, were encased in coffin plates as though in armour; and over his left shoulder he wore a short dusky cloak, which seemed made of remnant of some pall. He took no notice of the baron, but was intently eyeing the fire.
+
+"Halloa!" said the baron, stamping his foot to attract attention.
+
+"Halloa!" replied the stranger, moving his eyes towards the baron, but not his face or himself. "What now?"
+
+"What now?" replied the baron, nothing daunted by his hollow voice and lustreless eyes, "I should ask that question. How did you get here?"
+
+"Through the door," replied the figure.
+
+"What are you?" says the baron.
+
+"A man," replied the figure.
+
+"I don't believe it," says the baron.
+
+"Disbelieve it then," says the figure.
+
+"I will," rejoined the baron.
+
+The figure looked at the bold Baron of Grogzwig for some time, and then said familiarly,
+
+"There's no coming over you, I see. I'm not a man!"
+
+"What are you then?" asked the baron.
+
+"A genius," replied the figure.
+
+"You don't look much like one," returned the baron scornfully.
+
+"I am the Genius of Despair and Suicide," said the apparition. "Now you know me."
+
+With these words the apparition turned towards the baron, as if composing himself for a talk - and, what was very remarkable, was, that he threw his cloak aside, and displaying a stake, which was run through the centre of his body, pulled it out with a jerk, and laid it on the table, as composedly as if it had been a walking-stick.
+
+"Now," said the figure, glancing at the hunting-knife, "are you ready for me?"
+
+"Not quite," rejoined the baron; "I must finish this pipe first."
+
+"Look sharp then," said the figure.
+
+You seem in a hurry," said the baron.
+
+"Why, yes, I am," answered the figure; "they're doing a pretty brisk business in my way, over in England and France just now, and my time is a good deal taken up."
+
+"Do you drink?" said the baron, touching the bottle with the bowl of his pipe.
+
+"Nine times out of ten, and then very hard," rejoined the figure, drily.
+
+"Never in moderation?" asked the baron.
+
+"Never," replied the figure, with a shudder, "that breeds cheerfulness."
+
+The baron took another look at his new friend, whom he thought an uncommonly queer customer, and at length inquired whether he took any active part in such little proceedings as that which he had in contemplation.
+
+"No," replied the figure evasively; "but I am always present."
+
+"Just to see fair, I suppose?" said the baron.
+
+"Just that," replied the figure playing with the stake, and examining the ferule.
+
+"Be as quick as you can, will you, for there's a young gentleman who is afflicted with too much money and leisure wanting me now, I find."
+
+"Going to kill himself because he has too much money!" exclaimed the baron, quite tickled: "Ha! ha! that's a good one." This was the first time the baron had laughed for many a long day.
+
+"I say," expostulated the figure, looking very much scared; "don't do that again."
+
+"Why not?" demanded the baron.
+
+"Because it gives me pain all over," replied the figure. "Sigh as much as you please; that does me good."
+
+The baron sighed mechanically, at the mention of the word; the figure, brightening up again, handed him the hunting-knife with the most winning politeness.
+
+"It's not a bad idea though," said the baron, feeling the edge of the weapon; "a man killing himself because he has too much money."
+
+"Pooh!" said the apparition, petulantly, "no better than a man's killing himself because he has none or little."
+
+Whether the genius unintentionally committed himself in saying this, or whether he thought the baron's mind was so thoroughly made up that it didn't matter what he said, I have no means of knowing. I only know that the baron stopped his hand, all of a sudden, opened his eyes wide, and looked as if quite a new light had come upon him for the first time.
+
+"Why, certainly," said Von Koëldwethout, "nothing is too bad to be retrieved."
+
+"Except empty coffers," cried the genius.
+
+"Well, but they may be one day filled again," said the baron.
+
+"Scolding wives," snarled the genius.
+
+"Oh! They may be made quiet," said the baron.
+
+"Thirteen children," shouted the genius.
+
+"Can't all go wrong, surely," said the baron.
+
+The genius was evidently growing very savage with the baron, for holding these opinions all at once; but he tried to laugh it off, and said if he would let him know when he had left off joking, he should feel obliged to him.
+
+"But I am not joking; I was never farther from it," remonstrated the baron.
+
+"Well, I am glad to hear that," said the genius, looking very grim, "because a joke, without any figure of speech, is the death of me. come! Quit this dreary world at once."
+
+"I don't know," said the baron, playing with the knife; "it's a dreary one certainly, but I don't think yours is much better, for you have not the appearance of being particularly comfortable. That puts me in mind - what security have I, that I shall be any the better for going out of the world after all!" he cried, starting up; "I never thought of that."
+
+"Dispatch," cried the figure, gnashing its teeth.
+
+"Keep off!" said the baron, "I'll brood over miseries no longer, but put a good face on the matter, and try the fresh air and the bears again; and if that don't do, I'll talk to the baroness soundly, and cut the Von Swillenhausens dead." With this the baron fell into his chair, and laughed so loud and boisterously, that the room rang with it.
+
+The figure fell back a pace or two, regarding the baron meanwhile with a look of intense terror, and when he had ceased, caught up the stake, plunged it violently into its body, uttered a frightful howl, and disappeared.
+
+Von Koëldwethout never saw it again. Having once made up his mind to action, he soon brought the baroness and the Von Swillenhausens to reason, and died many years afterwards; not a rich man that I am aware of, but certainly a happy one: leaving behind him a numerous family, who had been carefully educated in bear- and boar-hunting under his own personal eye. And my advice to all men is, that if ever they become hipped and melancholy from similar causes as very many men do, they look at both sides of the question, applying a magnifying glass to the best one; and if they still feel tempted to retire without leave, that they smoke a large pipe and drink a full bottle first, and profit by the laudable example of the baron of Grogzwig.
+
+HOW STRANGE are those old recollections which haunt us without our being able to get rid of them! This one is so very old that I cannot understand how it has clung so vividly and tenaciously to my memory. Since then I have seen so many sinister things, either affecting or terrible, that I am astonished at not being able to pass a single day without the face of Mother Bellflower recurring to my mind's eye, just as I knew her formerly long, long ago, when I was ten or twelve years old.
+
+She was an old seamstress who came to my parents' house once a week, every Thursday, to mend the linen. My parents lived in one of those country houses called chateaux, which are merely old houses with pointed roofs, to which are attached three or four adjacent farms.
+
+The village, a large village, almost a small market town, was a few hundred yards off and nestled round the church, a red brick church, which had become black with age.
+
+Well, every Thursday Mother Bellflower came between half-past six and seven in the morning and went immediately into the linen room and began to work. She was a tall, thin, bearded or rather hairy woman, for she had a beard all over her face, a surprising, an unexpected beard, growing in improbable tufts, in curly bunches which looked as if they had been sown by a madman over that great face, the face of a gendarme in petticoats. She had them on her nose, under her nose, round her nose, on her chin, on her cheeks, and her eyebrows, which were extraordinarily thick and long and quite gray, bushy and bristling, looked exactly like a pair of mustaches stuck on there by mistake.
+
+She limped, not like lame people generally do, but like a ship pitching. When she planted her great bony, vibrant body on her sound leg, she seemed to be preparing to mount some enormous wave, and then suddenly she dipped as if to disappear in an abyss and buried herself in the ground. Her walk reminded one of a ship in a storm, and her head, which was always covered with an enormous white cap, whose ribbons fluttered down her back, seemed to traverse the horizon from north to south and from south to north at each limp.
+
+I adored Mother Bellflower. As soon as I was up I used to go into the linen room, where I found her installed at work with a foot warmer under her feet. As soon as I arrived she made me take the foot warmer and sit upon it, so that I might not catch cold in that large chilly room under the roof.
+
+"That draws the blood from your head," she would say to me.
+
+She told me stories while mending the linen with her long, crooked, nimble fingers; behind her magnifying spectacles, for age had impaired her sight, her eyes appeared enormous to me, strangely profound, double.
+
+As far as I can remember from the things which she told me and by which my childish heart was moved, she had the large heart of a poor woman. She told me what had happened in the village, how a cow had escaped from the cow house and had been found the next morning in front of Prosper Malet's mill looking at the sails turning, or about a hen's egg which had been found in the church belfry without anyone being able to understand what creature had been there to lay it, or the queer story of Jean Pila's dog who had gone ten leagues to bring back his master's breeches which a tramp had stolen while they were hanging up to dry out of doors after he had been caught in the rain. She told me these simple adventures in such a manner that in my mind they assumed the proportions of never-to-be-forgotten dramas, of grand and mysterious poems; and the ingenious stories invented by the poets, which my mother told me in the evening, had none of the flavor, none of the fullness or of the vigor of the peasant woman's narratives.
+
+Well, one Thursday when I had spent all the morning in listening to Mother Clochette, I wanted to go upstairs to her again during the day after picking hazelnuts with the manservant in the wood behind the farm. I remember it all as clearly as what happened only yesterday.
+
+On opening the door of the linen room I saw the old seamstress lying on the floor by the side of her chair, her face turned down and her arms stretched out, but still holding her needle in one hand and one of my shirts in the other. One of her legs in a blue stocking, the longer one no doubt, was extended under her chair, and her spectacles glistened by the wall, where they had rolled away from her.
+
+I ran away uttering shrill cries. They all came running, and in a few minutes I was told that Mother Clochette was dead.
+
+I cannot describe the profound, poignant, terrible emotion which stirred my childish heart. I went slowly down into the drawing room and hid myself in a dark corner in the depths of a great old armchair, where I knelt and wept. I remained there for a long time, no doubt, for night came on. Suddenly someone came in with a lamp--without seeing me, however--and heard my father and mother talking with the medical man, whose voice recognized.
+
+He had been sent for immediately, and he was explaining the cause of the accident, of which I understood nothing, however. Then he sat down and had a glass of liqueur and a biscuit.
+
+He went on talking, and what he then said will remain engraved on my mind until I die. I think that I can give the exact words which he used.
+
+"Ah!" he said. "The poor woman! she broke her leg the day of my arrival here. I had not even had time to wash my hands after getting off the diligence before I was sent for in all haste, for it was a bad case, very bad.
+
+"She was seventeen and a pretty girl, very pretty! Would anyone believe it? I have never told her story before; in fact, no one but myself and one other person, who is no longer living in this part of the country, ever knew it. Now that she is dead I may be less discreet.
+
+"A young assistant teacher had just come to live in the village; he was good looking and had the bearing of a soldier. All the girls ran after him, but he was disdainful. Besides that, he was very much afraid of his superior, the schoolmaster, old Grabu, who occasionally got out of bed the wrong foot first.
+
+"Old Grabu already employed pretty Hortense, who has just died here and who was afterward nicknamed Clochette. The assistant master singled out the pretty young girl who was no doubt flattered at being chosen by this disdainful conqueror; at any rate, she fell in love with him, and he succeeded in persuading her to give him a first meeting in the hayloft behind the school at night after she had done her day's sewing.
+
+"She pretended to go home, but instead of going downstairs when she left the Grabus', she went upstairs and hid among the hay to wait for her lover. He soon joined her, and he was beginning to say pretty things to her, when the door of the hayloft opened and the schoolmaster appeared and asked: 'What are you doing up there, Sigisbert?' Feeling sure that he would be caught, the young schoolmaster lost his presence of mind and replied stupidly: 'I came up here to rest a little among the bundles of hay, Monsieur Grabu.'
+
+"The loft was very large and absolutely dark. Sigisbert pushed the frightened girl to the farther end and said: 'Go, there and hide yourself. I shall lose my situation, so get away and hide yourself.'
+
+"When the schoolmaster heard the whispering he continued: 'Why, you are not by yourself.'
+
+"'Yes, I am, Monsieur Grabu!'
+
+"'But you are not, for you are talking.'
+
+"'I swear I am, Monsieur Grabu.'
+
+"'I will soon find out,' the old man replied and, double-locking the door, he went down to get a light.
+
+"Then the young man, who was a coward such as one sometimes meets, lost his head, and he repeated, having grown furious all of a sudden: 'Hide yourself, so that he may not find you. You will deprive me of my bread for my whole life; you will ruin my whole career! Do hide yourself!'
+
+"They could hear the key turning in the lock again, and Hortense ran to the window which looked out onto the street, opened it quickly and then in a low and determined voice said: 'You will come and pick me up when he is gone,' and she jumped out.
+
+"Old Grabu found nobody and went down again in great surprise! A quarter of an hour later Monsieur Sigisbert came to me and related his adventure. The girl had remained at the foot of the wall, unable to get up, as she had fallen from the second story, and I went with him to fetch her. It was raining in torrents, and I brought the unfortunate girl home with me, for the right leg was broken in three places, and the bones had come out through the flesh. She did not complain and merely said with admirable resignation: 'I am punished, well punished!'
+
+"I sent for assistance and for the workgirl's friends and told them a made-up story of a runaway carriage which had knocked her down and lamed her outside my door. They believed me, and the gendarmes for a whole month tried in vain to find the author of this accident.
+
+"That is all! Now I say that this woman was a heroine and had the fiber of those who accomplish the grandest deeds in history.
+
+"That was her only love affair, and she died a virgin. She was a martyr, a noble soul, a sublimely devoted woman! And if I did not absolutely admire her I should not have told you this story, which I would never tell anyone during her life; you understand why."
+
+The doctor ceased; Mamma cried, and Papa said some words which I did not catch; then they left the room, and I remained on my knees in the armchair and sobbed, while I heard a strange noise of heavy footsteps and something knocking against the side of the staircase.
+
+They were carrying away Clochette's body.

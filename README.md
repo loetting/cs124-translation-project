@@ -13,4 +13,12 @@ Note: There is a function built for a 4.8k Spanish-English dictionary too, but w
 
 COMMIT/PUSH NAME: Input Data Needed to Build Dictionaries
 This commits the data files needed to build our custom dictionary and the language models. Files are called in the Driver class, showing each files use case.
-____
+
+
+COMMIT/PUSH NAME: Added Fluency Processor, Updated Dictionary, Updated Driver
+This commit includes a fluency processor (of English sentences) that uses bigram probability scoring with stupid backoff. It also uses trigram probability scoring with Laplace smoothing. Both probability scores are combined, and the highest score is the most fluent English sentence.
+
+The Dictionary class was also updated to reflect necessary data items needed to build the fluency processor. No changes aside from those discussed with Alessandro, were made to the custom dictionary (our corpus of 15 Spanish sentences).
+
+Driver was updated to show how to use the fluency processor.
+___
