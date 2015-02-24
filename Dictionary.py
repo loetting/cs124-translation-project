@@ -4,7 +4,7 @@ import os
 import re
 import collections
 import urllib2
-
+# from sets import Set
 
 class Dictionary:
     
@@ -38,22 +38,22 @@ class Dictionary:
         """
         1) CCAE Dictionaries
         """
-        self.english_bigram_dict = collections.defaultdict(lambda:0)
-        self.english_bigram_dict_total = 0
-        self.english_trigram_dict = collections.defaultdict(lambda:0)
-        self.english_trigram_dict_total = 0
-        self.english_fourgram_dict = collections.defaultdict(lambda:0)
-        self.english_fourgram_dict_total = 0
-        self.english_fivegram_dict = collections.defaultdict(lambda:0)
-        self.english_fivegram_dict_total = 0
+        self.english_bigram_dict = collections.defaultdict(lambda:[])
+        self.english_bigram_dict_unigram_dict = collections.defaultdict(lambda:0)
+        self.english_trigram_dict = collections.defaultdict(lambda:[])
+        self.english_trigram_dict_unigram_dict = collections.defaultdict(lambda:0)
+        self.english_fourgram_dict = collections.defaultdict(lambda:[])
+        self.english_fourgram_dict_unigram_dict = collections.defaultdict(lambda:0)
+        self.english_fivegram_dict = collections.defaultdict(lambda:[])
+        self.english_fivegram_dict_unigram_dict = collections.defaultdict(lambda:0)
 
         """
         2) Custom bigram/trigram dictionaries (in English)
         """
         self.custom_bigram_dict = collections.defaultdict(lambda:0)
-        self.custom_bigram_dict_total = 0
+        self.custom_bigram_dict_unigram_dict = collections.defaultdict(lambda:0)
         self.custom_trigram_dict = collections.defaultdict(lambda:0)
-        self.cutom_trigram_dict_total = 0
+        self.custom_trigram_dict_unigram_dict = collections.defaultdict(lambda:0)
 
         """
         Extra dictionary, we will probably not use this one
@@ -84,7 +84,7 @@ class Dictionary:
             line = line.replace("\n", "")
             indexed_line = re.split("[\t]", line)
 
-            bigram = indexed_line[1] + " " + indexed_line[2]
+            bigram = indexed_line[1].lower() + " " + indexed_line[2].lower()
             info_list = []
             count = indexed_line[0]
             pos_tag = [indexed_line[3], indexed_line[4]]
@@ -93,7 +93,9 @@ class Dictionary:
 
             self.english_bigram_dict[bigram] = info_list
 
-            self.english_bigram_dict_total = self.english_bigram_dict_total + count
+            self.english_bigram_dict_unigram_dict[indexed_line[1].lower()] += 1
+            self.english_bigram_dict_unigram_dict[indexed_line[2].lower()] += 1
+
 
     def build_english_trigrams(self, filename, dir_name):
         path = os.path.join(dir_name, filename)
@@ -105,7 +107,7 @@ class Dictionary:
             line = line.replace("\n", "")
             indexed_line = re.split("[\t]", line)
 
-            trigram = indexed_line[1] + " " + indexed_line[2] + " " + indexed_line[3]
+            trigram = indexed_line[1].lower() + " " + indexed_line[2].lower() + " " + indexed_line[3].lower()
             info_list = []
             count = indexed_line[0]
             pos_tag = [indexed_line[4], indexed_line[5], indexed_line[6]]
@@ -113,8 +115,11 @@ class Dictionary:
             info_list.append(pos_tag)
 
             self.english_trigram_dict[trigram] = info_list
+            self.english_trigram_dict_unigram_dict[indexed_line[1].lower()] += 1
+            self.english_trigram_dict_unigram_dict[indexed_line[2].lower()] += 1
+            self.english_trigram_dict_unigram_dict[indexed_line[3].lower()] += 1
 
-            self.english_trigram_dict_total = self.english_trigram_dict_total + count
+        
 
     def build_english_fourgrams(self, filename, dir_name):
         path = os.path.join(dir_name, filename)
@@ -126,7 +131,7 @@ class Dictionary:
             line = line.replace("\n", "")
             indexed_line = re.split("[\t]", line)
 
-            fourgram = indexed_line[1] + " " + indexed_line[2] + " " + indexed_line[3] + " " + indexed_line[4]
+            fourgram = indexed_line[1].lower() + " " + indexed_line[2].lower() + " " + indexed_line[3].lower() + " " + indexed_line[4].lower()
             info_list = []
             count = indexed_line[0]
             pos_tag = [indexed_line[5], indexed_line[6], indexed_line[7], indexed_line[8]]
@@ -135,11 +140,16 @@ class Dictionary:
 
             self.english_fourgram_dict[fourgram] = info_list
 
-            self.english_fourgram_dict_total = self.english_fourgram_dict_total + count
+            self.english_fourgram_dict_unigram_dict[indexed_line[1].lower()] += 1
+            self.english_fourgram_dict_unigram_dict[indexed_line[2].lower()] += 1
+            self.english_fourgram_dict_unigram_dict[indexed_line[3].lower()] += 1
+            self.english_fourgram_dict_unigram_dict[indexed_line[4].lower()] += 1
+
 
     def build_english_fivegrams(self, filename, dir_name):
         path = os.path.join(dir_name, filename)
         file_stream = open(path, 'r')
+
         #in trigram file
         for line in file_stream:
             
@@ -147,7 +157,7 @@ class Dictionary:
             line = line.replace("\n", "")
             indexed_line = re.split("[\t]", line)
 
-            fivegram = indexed_line[1] + " " + indexed_line[2] + " " + indexed_line[3] + " " + indexed_line[4] + " " + indexed_line[5]
+            fivegram = indexed_line[1].lower() + " " + indexed_line[2].lower() + " " + indexed_line[3].lower() + " " + indexed_line[4].lower() + " " + indexed_line[5].lower()
             info_list = []
             count = indexed_line[0]
             pos_tag = [indexed_line[6], indexed_line[7], indexed_line[8], indexed_line[9], indexed_line[10]]
@@ -156,7 +166,12 @@ class Dictionary:
 
             self.english_fivegram_dict[fivegram] = info_list
 
-            self.english_fivegram_dict_total = self.english_fivegram_dict_total + count
+            self.english_fivegram_dict_unigram_dict[indexed_line[1].lower()] += 1
+            self.english_fivegram_dict_unigram_dict[indexed_line[2].lower()] += 1
+            self.english_fivegram_dict_unigram_dict[indexed_line[3].lower()] += 1
+            self.english_fivegram_dict_unigram_dict[indexed_line[4].lower()] += 1
+            self.english_fivegram_dict_unigram_dict[indexed_line[5].lower()] += 1
+
 
     """
     Description: Reads from any English corpus delimited by sentences. Extracts bigrams and trigrams
@@ -168,37 +183,48 @@ class Dictionary:
         file_stream = open(path, 'r')
 
         sentence_word_list = []
+        sentences = []
+        for line in file_stream:
+            # print line
+            line = line.replace(",", "")
+            line = line.replace(";", "")
+            line = line.replace("(", "")
+            line = line.replace(")", "")
+            line = line.replace(":", "")
+            line = line.replace("!", "")
+            line = line.replace("\n", "")
+            line = line.replace("\"", "")
 
-        for sentence in file_stream:
-            print sentence
+            #assumption: abbreviations are relatively rare, so just ignore them and their ".", e.g. "Mr."
+            line = re.sub(" [A-Z][a-z0-9]*?\.", "", line)
+            sentences_in_line = re.split("\.", line)
+
+
+            for sentence in sentences_in_line:
+                # print sentence
+                # print "#"
+                sentences.append(sentence)
+
+        for sentence in sentences:
+            # print sentence
+            # print "#"
             if re.findall("[A-Za-z0-9]", sentence):
-                entence = sentence.replace(".", "")
-                sentence = sentence.replace(",", "")
-                sentence = sentence.replace(";", "")
-                sentence = sentence.replace("(", "")
-                sentence = sentence.replace(")", "")
-                sentence = sentence.replace(":", "")
-                sentence = sentence.replace("\n", "")
-                sentence = sentence.replace("\"", "")
-
                 sentence_word_list_temp = re.split(" ", sentence)
                 sentence_word_list = []
                 for word in sentence_word_list_temp:
                     if re.findall("[A-Za-z0-9]", word):
-                        sentence_word_list.append(word)
+                        sentence_word_list.append(word.lower())
 
-                # print sentence_word_list
-
-                # print sentence_word_list
                 #make bigram dictionary of custom corpus
                 if len(sentence_word_list) >= 2:
-                    count = 0
+                    
                     for i in xrange(0, len(sentence_word_list)-1):
                         word1 = sentence_word_list[i]
                         word2 = sentence_word_list[i+1]
                         bigram = word1 + " " + word2
                         self.custom_bigram_dict[bigram] = self.custom_bigram_dict[bigram] + 1
-                        count = count + 1
+                        
+                        self.custom_bigram_dict_unigram_dict[word1]
 
                     bigram1 = "-" + " " + sentence_word_list[0]
                     bigram2 = sentence_word_list[len(sentence_word_list)-1] + " " + "-"
@@ -206,19 +232,20 @@ class Dictionary:
                     self.custom_bigram_dict[bigram1] = self.custom_bigram_dict[bigram1] + 1
                     self.custom_bigram_dict[bigram2] = self.custom_bigram_dict[bigram2] + 1
 
-                    self.custom_bigram_dict_total = self.custom_bigram_dict_total + count + 2
+                    self.custom_bigram_dict_unigram_dict[len(sentence_word_list)-1]
 
 
                 #make trigram dictionary of custom corpus
                 if len(sentence_word_list) >= 3:
-                    count = 0
+                    
                     for i in xrange(0, len(sentence_word_list)-2):
                         word1 = sentence_word_list[i]
                         word2 = sentence_word_list[i+1]
                         word3 = sentence_word_list[i+2]
                         trigram = word1 + " " + word2 + " " + word3
                         self.custom_trigram_dict[trigram] = self.custom_trigram_dict[trigram] + 1
-                        count = count + 1
+                        self.custom_trigram_dict_unigram_dict[word1]
+                        
 
                     trigram1 = "-" + " " + "-" + " " + sentence_word_list[0]
                     trigram2 = "-" + " " + sentence_word_list[0] + " " + sentence_word_list[1]
@@ -230,7 +257,8 @@ class Dictionary:
                     self.custom_trigram_dict[trigram3] = self.custom_trigram_dict[trigram3] + 1
                     self.custom_trigram_dict[trigram4] = self.custom_trigram_dict[trigram4] + 1
 
-                    self.custom_trigram_dict_total = self.custom_trigram_dict_total + count + 4
+                    self.custom_trigram_dict_unigram_dict[len(sentence_word_list)-2]
+                    self.custom_trigram_dict_unigram_dict[len(sentence_word_list)-1]
 
 
 
@@ -435,11 +463,11 @@ class Dictionary:
         """
         self.custom_dict["Úrsula"] = [["Úrsula", "noun"]]
         self.custom_dict["aureliano"] = [["aureliano", "unknown"]]
-        self.custom_dict["quiene"] = [["who", "pronoun"], ["nobody", "pronoun"]]
+        self.custom_dict["quienes"] = [["who", "pronoun"], ["nobody", "pronoun"]]
         self.custom_dict["otro"] = [["other", "adjective"], ["another", "adjective"], ["one more", "adjective"], ["a second", "adjective"], ["next", "adjective"], ["following", "adjective"]]
         self.custom_dict["pulido"] = [["polished", "adjective"], ["well-polished", "adjective"], ["refined", "adjective"], ["polishing", "noun"]]
         self.custom_dict["soldado"] = [["soldier", "noun"]]
-        self.custom_dict["fláccido"] = [["flacid", "adjective"], ["flabby", "adjective"]]
+        self.custom_dict["fláccido"] = [["flaccid", "adjective"], ["flabby", "adjective"]]
         self.custom_dict["buendía"] = [["Buendía", "noun"]]
         self.custom_dict["encías"] = [["gum", "noun"]]
         # self.custom_dict["gitano"] = [["gypsy", "noun"], ["gypsy", "adjective"], ["conniver", "noun"], ["trickster", "noun"]]
@@ -471,6 +499,7 @@ class Dictionary:
         self.custom_dict["seca"] = [["dry", "adjective"]]
         self.custom_dict["animal"] = [["animal", "noun"], ["beast", "noun"], ["brute", "noun"], ["violent", "adjective"], ["wild", "adjective"], ["crazy", "adjective"], ["lunatic", "noun"]]
         self.custom_dict["macondo"] = [["macondo", "unknown"]]
+        self.custom_dict["a la"] = [["on the", "preposition"]]
 
 
 
