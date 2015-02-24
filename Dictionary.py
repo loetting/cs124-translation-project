@@ -462,7 +462,7 @@ class Dictionary:
         Custom Entry for sparse Translations
         """
         self.custom_dict["Úrsula"] = [["Úrsula", "noun"]]
-        self.custom_dict["aureliano"] = [["aureliano", "unknown"]]
+        self.custom_dict["aureliano"] = [["Aureliano", "noun"]]
         self.custom_dict["quienes"] = [["who", "pronoun"], ["nobody", "pronoun"]]
         self.custom_dict["otro"] = [["other", "adjective"], ["another", "adjective"], ["one more", "adjective"], ["a second", "adjective"], ["next", "adjective"], ["following", "adjective"]]
         self.custom_dict["pulido"] = [["polished", "adjective"], ["well-polished", "adjective"], ["refined", "adjective"], ["polishing", "noun"]]
