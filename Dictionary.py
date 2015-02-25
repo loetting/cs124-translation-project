@@ -470,12 +470,12 @@ class Dictionary:
             even_odd_line += 1
             # print sentence
 
-        build_custom_dictionary_manual()
+        self.build_custom_dictionary_manual()
 
     """
     Custom Entry for sparse Translations
     """
-    def build_custom_dictionary_manual():
+    def build_custom_dictionary_manual(self):
         self.custom_dict["Úrsula"] = [["Úrsula", "noun"]]
         self.custom_dict["aureliano"] = [["Aureliano", "noun"]]
         self.custom_dict["quienes"] = [["who", "pronoun"], ["nobody", "pronoun"]]
