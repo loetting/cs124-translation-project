@@ -4,6 +4,7 @@ import os
 import re
 import collections
 import urllib2
+import snowballstemmer
 # from sets import Set
 
 class Dictionary:
@@ -389,6 +390,9 @@ class Dictionary:
         # page = urllib2.urlopen("https://translate.google.com/#es/en").read()
         # print page
         #es/en/verde
+
+        spanish_stemmer = snowballstemmer.stemmer('spanish');
+
         path = os.path.join(dir_name, filename)
         file_stream = open(path, 'r')
 
@@ -465,7 +469,7 @@ class Dictionary:
                 translation = sentence
                 translation = translation.replace("\n", "")
                 translation_list.append([translation, word_type])
-                self.custom_dict[spanish_word] = translation_list
+                self.custom_dict[spanish_stemmer.stemWord(spanish_word)] = translation_list
 
             even_odd_line += 1
             # print sentence
