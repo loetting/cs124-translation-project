@@ -26,7 +26,7 @@ def loadList(path):
 def main():
 	path = ""
 	if (len(sys.argv) < 2 or sys.argv[1] == 'dev'):
-		path = "data/Project_Corpus_Sentences.txt"
+		path = "data/Project_Dev_Sentences.txt"
 	elif (sys.argv[1] == 'test'):
 		path = "data/test.txt"
 	
