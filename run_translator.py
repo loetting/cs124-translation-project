@@ -8,12 +8,14 @@ def loadList(path):
     lines = []
     with open(path) as f:
     	for line in f:
+    		line = line.replace(".", "")
         	line = line.replace(",", "")
         	line = line.replace(";", "")
         	line = line.replace("(", "")
         	line = line.replace(")", "")
         	line = line.replace(":", "")
         	line = line.replace("!", "")
+        	line = line.replace("\"", "")
         	line = line.strip('\n')
         	lines.append(line)
     for line in lines:
@@ -39,12 +41,23 @@ def main():
 	for sentence in sentences:
 		trSentences.append(tr.translate(sentence))
 
+	baseline_translation = []
 	for s in trSentences:
 		sentence = ""
 		for w in s:
 			sentence += w + " "
-		print sentence
+		baseline_translation.append(sentence)
+		# print sentence
+		# print
+
+	#show Spanish sentence originals with their naive English translations below
+	for i in xrange(0, len(baseline_translation)):
+		print sentences[i]
 		print
+		print baseline_translation[i]
+		print
+		print
+
 
 if __name__ == '__main__':
     main()

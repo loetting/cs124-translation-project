@@ -5,7 +5,7 @@ import re
 import collections
 import urllib2
 import snowballstemmer
-# from sets import Set
+from sets import Set
 
 class Dictionary:
     
@@ -395,6 +395,7 @@ class Dictionary:
 
         path = os.path.join(dir_name, filename)
         file_stream = open(path, 'r')
+        exact_spanish_words = Set()
 
         for sentence in file_stream:
             if re.findall("[A-Za-z0-9]", sentence):
@@ -418,7 +419,8 @@ class Dictionary:
                         sentence_word_list.append(word)
 
                 for word in sentence_word_list:
-                    self.custom_dict[word] = []
+                #     self.custom_dict[word] = []
+                    exact_spanish_words.add(word)
 
         path = os.path.join(dir_name, google_translate_file)
         file_stream = open(path, 'r')
@@ -476,6 +478,8 @@ class Dictionary:
 
         self.build_custom_dictionary_manual()
 
+        return list(exact_spanish_words)
+
     """
     Custom Entry for sparse Translations
     """
@@ -517,7 +521,7 @@ class Dictionary:
         self.custom_dict["cañabrava"] = [["reed", "unknown"]]
         self.custom_dict["seca"] = [["dry", "adjective"]]
         self.custom_dict["animal"] = [["animal", "noun"], ["beast", "noun"], ["brute", "noun"], ["violent", "adjective"], ["wild", "adjective"], ["crazy", "adjective"], ["lunatic", "noun"]]
-        self.custom_dict["macondo"] = [["macondo", "unknown"]]
+        self.custom_dict["macondo"] = [["Macondo", "noun"]]
         self.custom_dict["a la"] = [["on the", "preposition"]]
 
 

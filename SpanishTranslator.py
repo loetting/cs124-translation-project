@@ -4,16 +4,25 @@ from ExamplePreProcessor import ExamplePreProcessor
 from Dictionary import Dictionary
 import snowballstemmer
 import re
+from StemHelper import StemHelper
 #import PostProcessor
 
 class SpanishTranslator:
 	def __init__(self):
 		self.dict = Dictionary()
+		self.stem_helper_inst = StemHelper()
+
 		self.preProcessors = [ExamplePreProcessor()]
 		corpusFilename = "Project_Corpus_Sentences.txt"
 		googleTranslate = "Read_Automatic_Translation.txt"
 		self.dict.build_custom_dictionary(corpusFilename, "data", googleTranslate)
+
+		for word in self.dict.custom_dict:
+			print word
+		# print self.dict.custom_dict["quienes"]
+
 		self.spanish_stemmer = snowballstemmer.stemmer('spanish');
+
 
 	def translate(self, original):
 
@@ -45,9 +54,21 @@ class SpanishTranslator:
 			self.translations.append(tokens)
 		else:
 			options = self.dict.custom_dict[tokens[position]]
+
 			if not options:
 				newTokens = tokens[:]
-				newTokens[position] = "UNK"
+
+				#augmenting automated stemmer to help us find matching Spanish words in our dictionary
+				matching_dict_word = self.stem_helper_inst.find_dictionary_match(tokens[position], self.dict)
+				options = self.dict.custom_dict[matching_dict_word]
+				
+				if not options:
+					newTokens[position] = "UNK"
+				else:
+					newTokens[position] = options[0][0]
+				
+
+				# newTokens[position] = options[0][0]
 				self.generateTranslations(newTokens, position + 1)
 			else:
 				newTokens = tokens[:]
