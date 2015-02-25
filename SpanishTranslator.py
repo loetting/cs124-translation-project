@@ -13,7 +13,7 @@ class SpanishTranslator:
 		self.stem_helper_inst = StemHelper()
 
 		self.preProcessors = [ExamplePreProcessor()]
-		corpusFilename = "Project_Corpus_Sentences.txt"
+		corpusFilename = "Project_Dev_Sentences.txt"
 		googleTranslate = "Read_Automatic_Translation.txt"
 		self.dict.build_custom_dictionary(corpusFilename, "data", googleTranslate)
 
