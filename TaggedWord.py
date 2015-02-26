@@ -12,6 +12,7 @@ class TaggedWord:
 		self.plural_noun = False
 		self.plurality = 0
 		self.mood = 'indicative'
+		self.aspect = 0
 		self.person = 0
 		self.gender = 0	
 
