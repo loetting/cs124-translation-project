@@ -14,12 +14,12 @@ class SpanishTranslator:
 
 		self.preProcessors = [ExamplePreProcessor()]
 		corpusFilename = "Project_Dev_Sentences.txt"
-		googleTranslate = "Read_Automatic_Translation.txt"
+		googleTranslate = "Translation_Strict_Keys.txt"
 		self.dict.build_custom_dictionary(corpusFilename, "data", googleTranslate)
 
 		for word in self.dict.custom_dict:
 			print word
-		# print self.dict.custom_dict["quienes"]
+			print self.dict.custom_dict[word]
 
 		self.spanish_stemmer = snowballstemmer.stemmer('spanish');
 
@@ -38,6 +38,9 @@ class SpanishTranslator:
 		for pre in self.preProcessors:
 			tokens = pre.apply(tokens)
 
+		print original
+		print tokens
+
 		#generate possible translations
 		self.translations = []
 		self.generateTranslations(tokens, 0)
@@ -54,6 +57,8 @@ class SpanishTranslator:
 			self.translations.append(tokens)
 		else:
 			options = self.dict.custom_dict[tokens[position]]
+
+			print tokens[position]
 
 			if not options:
 				newTokens = tokens[:]
