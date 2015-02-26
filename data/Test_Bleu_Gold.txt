@@ -1,0 +1,6 @@
+The dog barked at the man.
+The dog woofed at the man.
+*
+The man called the dog.
+The man asked for the dog.
+*

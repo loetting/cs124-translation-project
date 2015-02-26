@@ -24,4 +24,8 @@ Driver was updated to show how to use the fluency processor.
 
 
 COMMIT/PUSH NAME: Refactored Dictionary and Fluency Processing. Added Bleu Score Evaluator given by CS124 Staff for translation evaluation.
+
+
+COMMIT/PUSH NAME: Bleu Evaluator Running
+Added Bleu SCore Evaluator with updates to score n number of gold standard translation sentences per original Spanish sentence. The program has a main function that calls two file arguments: one reference file and one evaluation file. The references are translation sentences delimited by "*" for each original sentence. The evaluations are just one original translation sentence per line.
 ___

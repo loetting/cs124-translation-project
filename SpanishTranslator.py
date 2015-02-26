@@ -18,7 +18,7 @@ class SpanishTranslator:
 		self.preProcessors = [ConjugationPreProcessor()]
 		self.postProcessors = [AdjectivePostProcessor()]
 		corpusFilename = "Project_Dev_Sentences.txt"
-		googleTranslate = "Read_Automatic_Translation.txt"
+		googleTranslate = "Translation_Strict_Keys.txt"
 		self.dict.build_custom_dictionary(corpusFilename, "data", googleTranslate)
 		self.spanish_stemmer = snowballstemmer.stemmer('spanish');
 
@@ -35,6 +35,9 @@ class SpanishTranslator:
 		#apply preprocessing strategies
 		for pre in self.preProcessors:
 			tokens = pre.apply(tokens)
+
+		print original
+		print tokens
 
 		#generate possible translations
 		self.translations = []
