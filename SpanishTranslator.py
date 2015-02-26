@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 from Processor import Processor
 from ConjugationPreProcessor import ConjugationPreProcessor
+from PluralPreProcessor import PluralPreProcessor
 from AdjectivePostProcessor import AdjectivePostProcessor
+from PluralPostProcessor import PluralPostProcessor
 from Dictionary import Dictionary
 import snowballstemmer
 import re
@@ -14,8 +16,8 @@ class SpanishTranslator:
 	def __init__(self):
 		self.dict = Dictionary()
 		self.stem_helper_inst = StemHelper()
-		self.preProcessors = [ConjugationPreProcessor()]
-		self.postProcessors = [AdjectivePostProcessor()]
+		self.preProcessors = [ConjugationPreProcessor(), PluralPreProcessor()]
+		self.postProcessors = [AdjectivePostProcessor(), PluralPostProcessor()]
 		corpusFilename = "Project_Dev_Sentences.txt"
 		googleTranslate = "Translation_Strict_Keys.txt"
 		self.dict.build_custom_dictionary(corpusFilename, "data", googleTranslate)
@@ -29,7 +31,6 @@ class SpanishTranslator:
 		tokens = TaggedWord.TagText(original)
 		for t in tokens:
 			t.lower()
-			#t.setStem(self.spanish_stemmer.stemWord(t.word))
 
 		#apply preprocessing strategies
 		for pre in self.preProcessors:
