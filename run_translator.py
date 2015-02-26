@@ -28,7 +28,7 @@ def main():
 	if (len(sys.argv) < 2 or sys.argv[1] == 'dev'):
 		path = "data/Project_Dev_Sentences.txt"
 	elif (sys.argv[1] == 'test'):
-		path = "data/test.txt"
+		path = "data/Project_Test_Sentences.txt"
 	
 	#load sentences into list
 	sentences = loadList(path)
@@ -44,11 +44,9 @@ def main():
 	baseline_translation = []
 	for s in trSentences:
 		sentence = ""
-		for w in s:
-			sentence += w + " "
+		for token in s:
+			sentence += token.word + "(" + token.pos + ") "
 		baseline_translation.append(sentence)
-		# print sentence
-		# print
 
 	#show Spanish sentence originals with their naive English translations below
 	for i in xrange(0, len(baseline_translation)):

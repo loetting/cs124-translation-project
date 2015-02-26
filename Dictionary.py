@@ -471,7 +471,7 @@ class Dictionary:
                 translation = sentence
                 translation = translation.replace("\n", "")
                 translation_list.append([translation, word_type])
-                self.custom_dict[spanish_stemmer.stemWord(spanish_word)] = translation_list
+                self.custom_dict[spanish_word] = translation_list
 
             even_odd_line += 1
             # print sentence

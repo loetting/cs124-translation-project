@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from PreProcessor import PreProcessor
+from Processor import Processor
 
-class ExamplePreProcessor(PreProcessor):
+class ExamplePreProcessor(Processor):
 
 	def apply(self, tokens):
 		newTokens = []

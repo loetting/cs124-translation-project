@@ -1,38 +1,36 @@
 # -*- coding: utf-8 -*-
-from PreProcessor import PreProcessor
-from ExamplePreProcessor import ExamplePreProcessor
+from Processor import Processor
+from ConjugationPreProcessor import ConjugationPreProcessor
+from AdjectivePostProcessor import AdjectivePostProcessor
 from Dictionary import Dictionary
 import snowballstemmer
 import re
 from StemHelper import StemHelper
+import treetaggerwrapper
+from TaggedWord import TaggedWord
+from posTagger import posTagger
 #import PostProcessor
 
 class SpanishTranslator:
 	def __init__(self):
 		self.dict = Dictionary()
 		self.stem_helper_inst = StemHelper()
-
-		self.preProcessors = [ExamplePreProcessor()]
+		self.preProcessors = [ConjugationPreProcessor()]
+		self.postProcessors = [AdjectivePostProcessor()]
 		corpusFilename = "Project_Dev_Sentences.txt"
 		googleTranslate = "Read_Automatic_Translation.txt"
 		self.dict.build_custom_dictionary(corpusFilename, "data", googleTranslate)
-
-		for word in self.dict.custom_dict:
-			print word
-		# print self.dict.custom_dict["quienes"]
-
 		self.spanish_stemmer = snowballstemmer.stemmer('spanish');
-
 
 	def translate(self, original):
 
 		translated = ""
 
 		#do all the tokenizing, POS-tagging, etc here
-		original = original.lower()
-		tokens = original.split()
-
-		tokens = self.spanish_stemmer.stemWords(tokens);
+		tokens = posTagger.TagText(original)
+		for t in tokens:
+			t.lower()
+			#t.setStem(self.spanish_stemmer.stemWord(t.word))
 
 		#apply preprocessing strategies
 		for pre in self.preProcessors:
@@ -43,6 +41,9 @@ class SpanishTranslator:
 		self.generateTranslations(tokens, 0)
 
 		#post-processing
+		for post in self.postProcessors:
+			for i,translation in enumerate(self.translations):
+				self.translations[i] = post.apply(translation)
 
 		#select best translation
 				
@@ -53,26 +54,20 @@ class SpanishTranslator:
 		if (position == len(tokens)):
 			self.translations.append(tokens)
 		else:
-			options = self.dict.custom_dict[tokens[position]]
+			options = self.dict.custom_dict[tokens[position].word]
+			newTokens = tokens[:]
 
+			for opt in options:
+				if not tokens[position].posMatch(opt[1]):
+					print "REMOVED MATCH"
+					options.remove(opt)
+				
 			if not options:
-				newTokens = tokens[:]
-
-				#augmenting automated stemmer to help us find matching Spanish words in our dictionary
-				matching_dict_word = self.stem_helper_inst.find_dictionary_match(tokens[position], self.dict)
-				options = self.dict.custom_dict[matching_dict_word]
-				
-				if not options:
-					newTokens[position] = "UNK"
-				else:
-					newTokens[position] = options[0][0]
-				
-
-				# newTokens[position] = options[0][0]
-				self.generateTranslations(newTokens, position + 1)
+				newTokens[position].word = '-' + newTokens[position].pos + '-'
 			else:
-				newTokens = tokens[:]
-				newTokens[position] = options[0][0]
-				self.generateTranslations(newTokens, position + 1)
+				newTokens[position].word = options[0][0]
+
+			newTokens[position].word = options[0][0]
+			self.generateTranslations(newTokens, position + 1)
 
 			

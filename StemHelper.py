@@ -14,6 +14,9 @@ class StemHelper:
 
         dict_word_list = []
 
+        if spanish_word in custom_dict:
+            return spanish_word
+
         for word in custom_dict:
             if len(custom_dict[word]) > 0:
                 dict_word_list.append(word)
