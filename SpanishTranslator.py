@@ -70,7 +70,6 @@ class SpanishTranslator:
 			else:
 				newTokens[position].word = options[0][0]
 
-			newTokens[position].word = options[0][0]
 			self.generateTranslations(newTokens, position + 1)
 
 			
