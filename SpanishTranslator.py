@@ -4,6 +4,7 @@ from ConjugationPreProcessor import ConjugationPreProcessor
 from PluralPreProcessor import PluralPreProcessor
 from AdjectivePostProcessor import AdjectivePostProcessor
 from PluralPostProcessor import PluralPostProcessor
+from ArticlePostProcessor import ArticlePostProcessor
 from Dictionary import Dictionary
 import snowballstemmer
 import re
@@ -17,7 +18,7 @@ class SpanishTranslator:
 		self.dict = Dictionary()
 		self.stem_helper_inst = StemHelper()
 		self.preProcessors = [ConjugationPreProcessor(), PluralPreProcessor()]
-		self.postProcessors = [AdjectivePostProcessor(), PluralPostProcessor()]
+		self.postProcessors = [AdjectivePostProcessor(), PluralPostProcessor(), ArticlePostProcessor()]
 		corpusFilename = "Project_Dev_Sentences.txt"
 		googleTranslate = "Translation_Strict_Keys.txt"
 		self.dict.build_custom_dictionary(corpusFilename, "data", googleTranslate)
@@ -61,7 +62,7 @@ class SpanishTranslator:
 			for opt in options:
 				if tokens[position].posMatch(opt[1]):
 					match_options.append(opt)
-				
+
 			if match_options:
 				newTokens[position].word = match_options[0][0]
 			elif options:
