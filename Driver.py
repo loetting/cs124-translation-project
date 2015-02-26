@@ -2,6 +2,7 @@
 from Dictionary import Dictionary
 from FluencyProcessing import FluencyProcessing
 import sys
+from Stemming import Stemming
 
 
 """
@@ -59,9 +60,9 @@ Corpus of 15 sentences: Custom dictionary for project
 """
 def validate_custom_dict(dict_inst):
     for word in dict_inst.custom_dict:
-        # if len(dict_inst.custom_dict[word]) == 0:
-        print word + ": " + str(dict_inst.custom_dict[word])
-        print ""
+        if len(dict_inst.custom_dict[word]) == 0:
+            print word + ": " + str(dict_inst.custom_dict[word])
+            print ""
 
 """
 Corpus of 15 sentences: Show words
@@ -90,8 +91,8 @@ def validate_fluency_processor(dict_inst, fluency_processing_inst):
     # trigram_dict_unigram_dict = dict_inst.custom_trigram_dict_unigram_dict
 
     #TESITNG AREA:
-    # test_english_sentences = ["The cat jumped over the fence", "The cat hopped over the fence", "The cat moved over the fence", "The cat skipped over the fence"]
-    test_english_sentences = ["The dog barks at the guy", "The dog barks at the fellow", "The dog barks at the male", "The dog barks at the man", "The dog barks at the human", "The dog barks at the homo sapien"]
+    test_english_sentences = ["The cat jumped over the fence", "The cat hopped over the fence", "The cat moved over the fence", "The cat skipped over the fence"]
+    # test_english_sentences = ["The dog barks at the guy", "The dog barks at the fellow", "The dog barks at the male", "The dog barks at the man", "The dog barks at the human", "The dog barks at the homo sapien"]
     # test_english_sentences = ["The man is well read", "The man is literary", "The man is knowledgeable", "The man is erudite", "The man is smart", "The man is intelligent", "The man is a genius"]
     
     #EXAMPLE: chooses "The verdant witch"
@@ -105,11 +106,31 @@ def validate_fluency_processor(dict_inst, fluency_processing_inst):
     bigram_prob_list = fluency_processing_inst.find_fluent_translation_stupidbackoff(test_english_sentences, bigram_dict, bigram_dict_unigram_dict, ccae_flag)
     trigram_prob_list = fluency_processing_inst.find_fluent_translation_trigrams(test_english_sentences, trigram_dict, trigram_dict_unigram_dict, ccae_flag, bigram_dict, bigram_dict_unigram_dict)
 
-    fluent_sentence = fluency_processing_inst.find_combined_fluency(test_english_sentences, bigram_prob_list, trigram_prob_list)
+    """
+    Linear interpolation between language models: bigram with stupidbackoff and trigram with Laplace smoothing
+    """
+    bigram_weight = .5
+    trigram_weight = .5
+    fluent_sentence = fluency_processing_inst.find_combined_fluency(test_english_sentences, bigram_prob_list, trigram_prob_list, bigram_weight, trigram_weight)
     print "Test English Sentences:"
     print test_english_sentences
 
     print "Most fluent sentence: " + fluent_sentence
+
+"""
+Test the stemming class to find the matching dictionary entry for any parsed Spanish word
+"""
+def find_matching_word(spanish_words, dict_inst):
+    stemming_inst = Stemming()
+
+    for spanish_word in spanish_words:
+        match = stemming_inst.find_dictionary_match(spanish_word, dict_inst)
+        print "Exact Spanish word: " + spanish_word
+        print "Dictionary match: " + match
+        print "Translations: " + str(dict_inst.custom_dict[match])
+        print " "
+
+
 
 
 """
@@ -134,8 +155,8 @@ def main(dir_name):
     # validate_dictionary(dict_inst, 4)
     # validate_dictionary(dict_inst, 5)
     
-    custom_doc = "Test_English_Corpus_Read.txt"
-    dict_inst.build_english_corpus(custom_doc, sys.argv[1])
+    # custom_doc = "Test_English_Corpus_Read.txt"
+    # dict_inst.build_english_corpus(custom_doc, sys.argv[1])
     # validate_custom_bigram_dict(dict_inst)
     # validate_custom_trigram_dict(dict_inst)
 
@@ -155,9 +176,11 @@ def main(dir_name):
 
     # working_corpus_filename = "Project_Corpus_Sentences.txt"
     # google_translate_doc = "Read_Automatic_Translation.txt"
-    # dict_inst.build_custom_dictionary(working_corpus_filename, sys.argv[1], google_translate_doc)
+    # exact_spanish_words = dict_inst.build_custom_dictionary(working_corpus_filename, sys.argv[1], google_translate_doc)
 
     # validate_custom_dict(dict_inst)
+
+    # find_matching_word(exact_spanish_words, dict_inst)
 
 
 """
