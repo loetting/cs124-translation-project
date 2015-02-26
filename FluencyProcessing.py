@@ -231,6 +231,9 @@ class FluencyProcessing:
     """
     Function combines scores from bigram with stupid backoff and trigram with Laplace smoothing for an overall score
     Combines probability score for each English sentence: bigram with stupid backoff and for trigram with Laplace smoothing.
+    The weight of bigrams and weight of trigrams input must both add to 1. It is a linear interpolation between two language models,
+    so that we have choice in how much weight to give to a specific language model (depending on human evaluation of this automated
+    fluency processor)
     """
     def find_combined_fluency(self, english_sentences, bigram_prob_list, trigram_prob_list, weight_bigrams, weight_trigrams):
         max_score = float("-inf")
