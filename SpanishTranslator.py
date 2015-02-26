@@ -8,7 +8,6 @@ import re
 from StemHelper import StemHelper
 import treetaggerwrapper
 from TaggedWord import TaggedWord
-from posTagger import posTagger
 #import PostProcessor
 
 class SpanishTranslator:
@@ -27,7 +26,7 @@ class SpanishTranslator:
 		translated = ""
 
 		#do all the tokenizing, POS-tagging, etc here
-		tokens = posTagger.TagText(original)
+		tokens = TaggedWord.TagText(original)
 		for t in tokens:
 			t.lower()
 			#t.setStem(self.spanish_stemmer.stemWord(t.word))
@@ -35,9 +34,6 @@ class SpanishTranslator:
 		#apply preprocessing strategies
 		for pre in self.preProcessors:
 			tokens = pre.apply(tokens)
-
-		print original
-		print tokens
 
 		#generate possible translations
 		self.translations = []
@@ -60,14 +56,14 @@ class SpanishTranslator:
 			options = self.dict.custom_dict[tokens[position].word]
 			newTokens = tokens[:]
 
+			match_options = []
 			for opt in options:
-				if not tokens[position].posMatch(opt[1]):
-					print "REMOVED MATCH"
-					options.remove(opt)
+				if tokens[position].posMatch(opt[1]):
+					match_options.append(opt)
 				
-			if not options:
-				newTokens[position].word = '-' + newTokens[position].pos + '-'
-			else:
+			if match_options:
+				newTokens[position].word = match_options[0][0]
+			elif options:
 				newTokens[position].word = options[0][0]
 
 			self.generateTranslations(newTokens, position + 1)
