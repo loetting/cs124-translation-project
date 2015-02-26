@@ -5,11 +5,11 @@ from PluralPreProcessor import PluralPreProcessor
 from AdjectivePostProcessor import AdjectivePostProcessor
 from PluralPostProcessor import PluralPostProcessor
 from ArticlePostProcessor import ArticlePostProcessor
+from QuePreProcessor import QuePreProcessor
 from Dictionary import Dictionary
 import snowballstemmer
 import re
 from StemHelper import StemHelper
-import treetaggerwrapper
 from TaggedWord import TaggedWord
 #import PostProcessor
 
@@ -17,7 +17,7 @@ class SpanishTranslator:
 	def __init__(self):
 		self.dict = Dictionary()
 		self.stem_helper_inst = StemHelper()
-		self.preProcessors = [ConjugationPreProcessor(), PluralPreProcessor()]
+		self.preProcessors = [ConjugationPreProcessor(), PluralPreProcessor(), QuePreProcessor()]
 		self.postProcessors = [AdjectivePostProcessor(), PluralPostProcessor(), ArticlePostProcessor()]
 		corpusFilename = "Project_Dev_Sentences.txt"
 		googleTranslate = "Translation_Strict_Keys.txt"
