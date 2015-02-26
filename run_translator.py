@@ -45,7 +45,7 @@ def main():
 	for s in trSentences:
 		sentence = ""
 		for token in s:
-			sentence += token.word + "(" + token.pos + ") "
+			sentence += token.word.decode('utf-8') + " "
 		baseline_translation.append(sentence)
 
 	#show Spanish sentence originals with their naive English translations below

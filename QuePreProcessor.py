@@ -14,7 +14,7 @@ class QuePreProcessor(Processor):
 					t.word = 'that'
 			elif (t.word == 'en que'):
 				t.word == 'in which'
-			elif (t.word == 'así que'):
+			elif (t.word == u'así que'):
 				t.word = 'so'
 				
 		return tokens

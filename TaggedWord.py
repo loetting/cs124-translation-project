@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 
 class TaggedWord:
@@ -8,13 +9,13 @@ class TaggedWord:
 		self.pos = triple[1]
 		self.lemma = triple[2]
 		self.verb = False
-		self.tense = 'present'
+		self.tense = 'INFINITIVE'
 		self.plural_noun = False
-		self.plurality = 0
-		self.mood = 'indicative'
-		self.aspect = 0
-		self.person = 0
-		self.gender = 0	
+		self.plurality = 'SG'
+		self.mood = None
+		self.aspect = None
+		self.person = None
+		self.gender = None
 
 
 		self.dict_to_pos = {

@@ -4,6 +4,8 @@ from PluralPreProcessor import PluralPreProcessor
 from AdjectivePostProcessor import AdjectivePostProcessor
 from PluralPostProcessor import PluralPostProcessor
 from ArticlePostProcessor import ArticlePostProcessor
+from ConjugationPreProcessor import ConjugationPreProcessor
+from ConjugationPostProcessor import ConjugationPostProcessor
 from QuePreProcessor import QuePreProcessor
 from Dictionary import Dictionary
 import snowballstemmer
@@ -16,8 +18,8 @@ class SpanishTranslator:
 	def __init__(self):
 		self.dict = Dictionary()
 		self.stem_helper_inst = StemHelper()
-		self.preProcessors = [PluralPreProcessor(), QuePreProcessor()]
-		self.postProcessors = [AdjectivePostProcessor(), PluralPostProcessor(), ArticlePostProcessor()]
+		self.preProcessors = [ConjugationPreProcessor(), PluralPreProcessor(), QuePreProcessor()]
+		self.postProcessors = [AdjectivePostProcessor(), PluralPostProcessor(), ArticlePostProcessor(), ConjugationPostProcessor()]
 		corpusFilename = "Project_Dev_Sentences.txt"
 		googleTranslate = "Translation_Strict_Keys.txt"
 		self.dict.build_custom_dictionary(corpusFilename, "data", googleTranslate)
