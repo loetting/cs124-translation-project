@@ -240,7 +240,12 @@ class FluencyProcessing:
         max_index = 0
 
         if weight_bigrams + weight_trigrams != 1:
-            return "Linear interpolation requires weight of bigrams and trigrams to add to 1."
+            print "Linear interpolation requires weight of bigrams and trigrams to add to 1."
+            print "Default weights set: bigrams with stupid backoff (.5), trigrams with Laplace smoothing (.5)"
+
+            weight_bigrams = .5
+            weight_trigrams = .5
+
 
         for i in xrange(0, len(english_sentences)):
             print english_sentences[i]
