@@ -12,19 +12,27 @@ import snowballstemmer
 import re
 from StemHelper import StemHelper
 from TaggedWord import TaggedWord
+from FluencyProcessing import FluencyProcessing
 #import PostProcessor
 
 class SpanishTranslator:
 	def __init__(self):
 		self.dict = Dictionary()
-		self.stem_helper_inst = StemHelper()
+		#build CCAE dictionaries:
+		bigram_filename = "CAE_bigrams.txt"
+		trigram_filename = "CAE_trigrams.txt"
+		self.dict.build_english_bigrams(bigram_filename, "data")
+		self.dict.build_english_trigrams(trigram_filename, "data")
+
+		# self.stem_helper_inst = StemHelper()
 		self.preProcessors = [ConjugationPreProcessor(), PluralPreProcessor(), QuePreProcessor()]
 		#add plural processor back in
-		self.postProcessors = [AdjectivePostProcessor(), ArticlePostProcessor(), ConjugationPostProcessor()]
+		self.postProcessors = [AdjectivePostProcessor(), ArticlePostProcessor(), ConjugationPostProcessor(), PluralPostProcessor()]
 		corpusFilename = "Project_Dev_Sentences.txt"
 		googleTranslate = "Translation_Strict_Keys.txt"
 		self.dict.build_custom_dictionary(corpusFilename, "data", googleTranslate)
 		self.spanish_stemmer = snowballstemmer.stemmer('spanish');
+		self.fluency_processor_inst = FluencyProcessing()
 
 	def translate(self, original):
 
@@ -35,7 +43,7 @@ class SpanishTranslator:
 		for t in tokens:
 			t.lower()
 
-		#apply preprocessing strategies
+		# apply preprocessing strategies
 		for pre in self.preProcessors:
 			tokens = pre.apply(tokens)
 
@@ -44,12 +52,32 @@ class SpanishTranslator:
 		self.generateTranslations(tokens, 0)
 
 		#post-processing
-		for post in self.postProcessors:
-			for i,translation in enumerate(self.translations):
-				self.translations[i] = post.apply(translation)
-				
-		return self.translations
+		for i,translation in enumerate(self.translations):
+			for post in self.postProcessors:
+				translation = post.apply(translation)
+			self.translations[i] =translation
 
+		# select best translation
+		english_sentences = []
+		for translation in self.translations:
+			sentence = ""
+			for token in translation:
+				sentence += token.word.decode('utf-8') + " "
+			english_sentences.append(sentence)
+
+		ccae_flag = True
+		bigram_prob_list = self.fluency_processor_inst.find_fluent_translation_stupidbackoff(english_sentences, self.dict.english_bigram_dict, self.dict.english_bigram_dict_unigram_dict, ccae_flag)
+		trigram_prob_list = self.fluency_processor_inst.find_fluent_translation_trigrams(english_sentences, self.dict.english_trigram_dict, self.dict.english_trigram_dict_unigram_dict, ccae_flag, self.dict.english_bigram_dict, self.dict.english_bigram_dict_unigram_dict)
+		
+		#can modify weight of each language model
+		bigram_weight = .5
+		trigram_weight = .5
+
+		fluent_sentence = self.fluency_processor_inst.find_combined_fluency(english_sentences, bigram_prob_list, trigram_prob_list, bigram_weight, trigram_weight)
+
+		return fluent_sentence
+		#to test without the fluency_processor, comment out above line and add:
+		#return english_sentences[0]
 
 	def generateTranslations(self, tokens, position):
 		if (position == len(tokens)):
@@ -65,9 +93,10 @@ class SpanishTranslator:
 
 			if match_options:
 				count = 0
-				for opt in match_options:
-					newTokens[position].word = opt[0]
+				while (count < 2 and count < len(match_options)):
+					newTokens[position].word = match_options[count][0]
 					self.generateTranslations(newTokens, position + 1)
+					count = count + 1
 			elif options:
 				newTokens[position].word = options[0][0]
 				self.generateTranslations(newTokens, position + 1)
