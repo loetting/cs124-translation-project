@@ -19,7 +19,8 @@ class SpanishTranslator:
 		self.dict = Dictionary()
 		self.stem_helper_inst = StemHelper()
 		self.preProcessors = [ConjugationPreProcessor(), PluralPreProcessor(), QuePreProcessor()]
-		self.postProcessors = [AdjectivePostProcessor(), PluralPostProcessor(), ArticlePostProcessor(), ConjugationPostProcessor()]
+		#add plural processor back in
+		self.postProcessors = [AdjectivePostProcessor(), ArticlePostProcessor(), ConjugationPostProcessor()]
 		corpusFilename = "Project_Dev_Sentences.txt"
 		googleTranslate = "Translation_Strict_Keys.txt"
 		self.dict.build_custom_dictionary(corpusFilename, "data", googleTranslate)
@@ -46,10 +47,8 @@ class SpanishTranslator:
 		for post in self.postProcessors:
 			for i,translation in enumerate(self.translations):
 				self.translations[i] = post.apply(translation)
-
-		#select best translation
 				
-		return self.translations[0]
+		return self.translations
 
 
 	def generateTranslations(self, tokens, position):
@@ -65,10 +64,14 @@ class SpanishTranslator:
 					match_options.append(opt)
 
 			if match_options:
-				newTokens[position].word = match_options[0][0]
+				count = 0
+				for opt in match_options:
+					newTokens[position].word = opt[0]
+					self.generateTranslations(newTokens, position + 1)
 			elif options:
 				newTokens[position].word = options[0][0]
-
-			self.generateTranslations(newTokens, position + 1)
+				self.generateTranslations(newTokens, position + 1)
+			else:
+				self.generateTranslations(newTokens, position + 1)
 
 			
