@@ -46,6 +46,7 @@ def main():
 		sentence = ""
 		for token in s:
 			# sentence += token.word.decode('utf-8') + " "
+			#this token is not an oject but a string (after calling FluencyProcessing)
 			sentence += token
 		baseline_translation.append(sentence)
 	#show Spanish sentence originals with their naive English translations below
