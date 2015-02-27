@@ -248,7 +248,7 @@ class FluencyProcessing:
 
 
         for i in xrange(0, len(english_sentences)):
-            print english_sentences[i]
+            # print english_sentences[i]
 
             bigram_score = bigram_prob_list[i]
             trigram_score = trigram_prob_list[i]
@@ -267,6 +267,8 @@ class FluencyProcessing:
                 max_index = i
 
         combined_fluent_sentence = english_sentences[max_index]
+        # print combined_fluent_sentence
+        
         return combined_fluent_sentence
 
 

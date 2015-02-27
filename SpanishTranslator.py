@@ -38,37 +38,53 @@ class SpanishTranslator:
 		translated = ""
 
 		#do all the tokenizing, POS-tagging, etc here
-		tokens = TaggedWord.TagText(original)
+		tokens = re.split(" ", original)
+		# tokens = TaggedWord.TagText(original)
 		for t in tokens:
 			t.lower()
 
 		#apply preprocessing strategies
-		for pre in self.preProcessors:
-			tokens = pre.apply(tokens)
+		# for pre in self.preProcessors:
+		# 	tokens = pre.apply(tokens)
 
 		#generate possible translations
 		self.translations = []
 		self.generateTranslations(tokens, 0)
 
 		#post-processing
-		for post in self.postProcessors:
-			for i,translation in enumerate(self.translations):
-				self.translations[i] = post.apply(translation)
+		# for post in self.postProcessors:
+		# 	for i,translation in enumerate(self.translations):
+		# 		self.translations[i] = post.apply(translation)
 
 		# select best translation
 		
 		#assumming self.translations is a list of English sentences
 		#this code is buggy: having problems seeing output to validate work
+		english_sentences = []
+		for translation in self.translations:
+			sentence = ""
+			for token in translation:
+				# sentence += token.word.decode('utf-8') + " "
+				sentence += token + " "
+			english_sentences.append(sentence)
+
+		print english_sentences
+		#random characters to test fluency processor (this sentence addition is highly unlikely because of the b's)
+		#so it should not be picked relative to our machine translation
+		#PASS
+
+		english_sentences.append("b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b b")
+
 		ccae_flag = True
-		bigram_prob_list = self.fluency_processor_inst.find_fluent_translation_stupidbackoff(self.translations, self.dict.english_bigram_dict, self.dict.english_bigram_dict_unigram_dict, ccae_flag)
-		trigram_prob_list = self.fluency_processor_inst.find_fluent_translation_trigrams(self.translations, self.dict.english_trigram_dict, self.dict.trigram_dict_unigram_dict, ccae_flag, self.dict.english_bigram_dict, self.dict.english_bigram_dict_unigram_dict)
+		bigram_prob_list = self.fluency_processor_inst.find_fluent_translation_stupidbackoff(english_sentences, self.dict.english_bigram_dict, self.dict.english_bigram_dict_unigram_dict, ccae_flag)
+		trigram_prob_list = self.fluency_processor_inst.find_fluent_translation_trigrams(english_sentences, self.dict.english_trigram_dict, self.dict.english_trigram_dict_unigram_dict, ccae_flag, self.dict.english_bigram_dict, self.dict.english_bigram_dict_unigram_dict)
 		
 		# modify weight of each language model
 		bigram_weight = .5
 		trigram_weight = .5
 
 		# return most fluent translation amongst n translations
-		fluent_sentence = self.fluency_processor_inst.find_combined_fluency(self.translations, bigram_prob_list, trigram_prob_list, bigram_weight, trigram_weight)
+		fluent_sentence = self.fluency_processor_inst.find_combined_fluency(english_sentences, bigram_prob_list, trigram_prob_list, bigram_weight, trigram_weight)
 
 		return fluent_sentence
 
@@ -79,18 +95,21 @@ class SpanishTranslator:
 		if (position == len(tokens)):
 			self.translations.append(tokens)
 		else:
-			options = self.dict.custom_dict[tokens[position].word]
+			# options = self.dict.custom_dict[tokens[position].word]
+			options = self.dict.custom_dict[tokens[position]]
 			newTokens = tokens[:]
 
 			match_options = []
-			for opt in options:
-				if tokens[position].posMatch(opt[1]):
-					match_options.append(opt)
+			# for opt in options:
+			# 	if tokens[position].posMatch(opt[1]):
+			# 		match_options.append(opt)
 
 			if match_options:
-				newTokens[position].word = match_options[0][0]
+				# newTokens[position].word = match_options[0][0]
+				newTokens[position] = match_options[0][0]
 			elif options:
-				newTokens[position].word = options[0][0]
+				# newTokens[position].word = options[0][0]
+				newTokens[position]= options[0][0]
 
 			self.generateTranslations(newTokens, position + 1)
 
