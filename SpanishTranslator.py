@@ -13,6 +13,7 @@ import re
 from StemHelper import StemHelper
 from TaggedWord import TaggedWord
 from FluencyProcessing import FluencyProcessing
+import copy
 #import PostProcessor
 
 class SpanishTranslator:
@@ -65,6 +66,9 @@ class SpanishTranslator:
 				sentence += token.word.decode('utf-8') + " "
 			english_sentences.append(sentence)
 
+		for sentence in english_sentences:
+			print sentence
+
 		ccae_flag = True
 		bigram_prob_list = self.fluency_processor_inst.find_fluent_translation_stupidbackoff(english_sentences, self.dict.english_bigram_dict, self.dict.english_bigram_dict_unigram_dict, ccae_flag)
 		trigram_prob_list = self.fluency_processor_inst.find_fluent_translation_trigrams(english_sentences, self.dict.english_trigram_dict, self.dict.english_trigram_dict_unigram_dict, ccae_flag, self.dict.english_bigram_dict, self.dict.english_bigram_dict_unigram_dict)
@@ -84,7 +88,12 @@ class SpanishTranslator:
 			self.translations.append(tokens)
 		else:
 			options = self.dict.custom_dict[tokens[position].word]
+			#comment out this code below for shallow copy (no distinct translations shown)
 			newTokens = tokens[:]
+			#IMPORTANT NOTE:
+			#comment this code below to generate all possible translations.
+			#deep copy forces recursion to form distinct translations
+			# newTokens = copy.deepcopy(tokens[:])
 
 			match_options = []
 			for opt in options:
