@@ -14,6 +14,7 @@ from StemHelper import StemHelper
 from TaggedWord import TaggedWord
 from FluencyProcessing import FluencyProcessing
 import copy
+import random
 #import PostProcessor
 
 class SpanishTranslator:
@@ -62,7 +63,6 @@ class SpanishTranslator:
 
 		# select best translation
 		english_sentences = []
-		# print len(self.translations)
 		for translation in self.translations:
 			sentence = ""
 			for token in translation:
@@ -84,32 +84,13 @@ class SpanishTranslator:
 
 		fluent_sentence = self.fluency_processor_inst.find_combined_fluency(english_sentences, bigram_prob_list, trigram_prob_list, bigram_weight, trigram_weight)
 
-		# return fluent_sentence
+		return fluent_sentence
 		#to test without the fluency_processor, comment out above line and add:
-		return english_sentences[1]
+		# return english_sentences[1]
 
 	def generateTranslations(self, tokens, position):
 		# if (position == len(tokens)):
-		all_english_words = True
-		# for token in tokens:
-		# 	dict_entry = self.dict.custom_dict[token.word]
-		# 	if len(dict_entry) > 0:
-		# 		all_english_words = False
-		last_three = []
-		len_tokens = len(tokens)
-		
-		last_three.append(tokens[len_tokens-1])
-		last_three.append(tokens[len_tokens-2])
-		# last_three.append(tokens[len_tokens-3])
-		for token in last_three:
-			dict_entry = self.dict.custom_dict[token.word]
-			# print token.word
-			# print dict_entry
-			if len(dict_entry) > 0:
-				all_english_words = False
-
-		# position <= len(tokens) and 
-		if position <= len(tokens) and all_english_words == True:
+		if position == len(tokens):
 			sentence = ""
 			for token in tokens:
 				sentence += token.word.decode('utf-8') + " "
@@ -117,47 +98,30 @@ class SpanishTranslator:
 			print position
 
 			self.translations.append(tokens)
-			# self.translations.append(sentence)
 		else:
-			# print len(tokens)
-			# print position
 			options = self.dict.custom_dict[tokens[position].word]
-			# print tokens[position].word
 			newTokens = copy.deepcopy(tokens[:])
+			# newTokens = tokens[:]
 
 			match_options = []
 			for opt in options:
 				if tokens[position].posMatch(opt[1]):
 					match_options.append(opt)
 
-			# if match_options:
-			# print options
-
 			if len(match_options) > 1:
-				count = 0
-				# while (count < 2 and count < len(match_options)):
-				while (count < 2 and count < len(match_options)):
-					# print options
-					# print options[count][0]
-					# newTokens[position].word = match_options[count][0]
-					# print count
-					# print options[count][0]
+				#ADJUST randomized selection to choose 2 translations on word
+				if random.random() <= .2:
+					count = 0
+					while (count < 2 and count < len(match_options)):
 
-					# print options
-					# newTokens = copy.deepcopy(token)
-					newTokens[position].word = options[count][0]
-					
-					# sentence = ""
-					# for token in newTokens:
-					# 	sentence += token.word.decode('utf-8') + " "
-					
-					# print sentence
-					# print position
-
-					count = count + 1
+						newTokens[position].word = match_options[count][0]
+						self.generateTranslations(newTokens, position + 1)
+						count = count + 1
+				else:
+					newTokens[position].word = match_options[0][0]
 					self.generateTranslations(newTokens, position + 1)
-					# count = count + 1
-			elif len(match_options) == 1:
+
+			elif match_options:
 				newTokens[position].word = match_options[0][0]
 				self.generateTranslations(newTokens, position + 1)
 			else:
