@@ -23,13 +23,18 @@ class SpanishTranslator:
 		#build CCAE dictionaries:
 		bigram_filename = "CAE_bigrams.txt"
 		trigram_filename = "CAE_trigrams.txt"
-		self.dict.build_english_bigrams(bigram_filename, "data")
-		self.dict.build_english_trigrams(trigram_filename, "data")
-
+		# self.dict.build_english_bigrams(bigram_filename, "data")
+		# self.dict.build_english_trigrams(trigram_filename, "data")
+		self.dict.build_english_corpus("google_translate.txt", "data")
 		# self.stem_helper_inst = StemHelper()
+		# self.preProcessors = [ConjugationPreProcessor(), PluralPreProcessor(), QuePreProcessor()]
 		self.preProcessors = [ConjugationPreProcessor(), PluralPreProcessor(), QuePreProcessor()]
+		# self.preProcessors = []
 		#add plural processor back in
+		# self.postProcessors = [AdjectivePostProcessor(), ArticlePostProcessor(), ConjugationPostProcessor(), PluralPostProcessor()]
 		self.postProcessors = [AdjectivePostProcessor(), ArticlePostProcessor(), ConjugationPostProcessor(), PluralPostProcessor()]
+		# self.postProcessors = []
+
 		corpusFilename = "Project_Dev_Sentences.txt"
 		googleTranslate = "Translation_Strict_Keys.txt"
 		self.dict.build_custom_dictionary(corpusFilename, "data", googleTranslate)
@@ -67,26 +72,30 @@ class SpanishTranslator:
 			sentence = ""
 			for token in translation:
 				sentence += token.word.decode('utf-8') + " "
+			sentence = sentence.replace(".","")
 			english_sentences.append(sentence)
+
 			# english_sentences.append(translation)
 
 		for sentence in english_sentences:
 			print sentence
 			print
 
-		ccae_flag = True
-		bigram_prob_list = self.fluency_processor_inst.find_fluent_translation_stupidbackoff(english_sentences, self.dict.english_bigram_dict, self.dict.english_bigram_dict_unigram_dict, ccae_flag)
-		trigram_prob_list = self.fluency_processor_inst.find_fluent_translation_trigrams(english_sentences, self.dict.english_trigram_dict, self.dict.english_trigram_dict_unigram_dict, ccae_flag, self.dict.english_bigram_dict, self.dict.english_bigram_dict_unigram_dict)
+		# ccae_flag = True
+		ccae_flag = False
+		bigram_prob_list = self.fluency_processor_inst.find_fluent_translation_stupidbackoff(english_sentences, self.dict.custom_bigram_dict, self.dict.custom_bigram_dict_unigram_dict, ccae_flag)
+		trigram_prob_list = self.fluency_processor_inst.find_fluent_translation_trigrams(english_sentences, self.dict.custom_trigram_dict, self.dict.custom_trigram_dict_unigram_dict, ccae_flag, self.dict.custom_bigram_dict, self.dict.custom_bigram_dict_unigram_dict)
 		
 		#can modify weight of each language model
-		bigram_weight = .5
-		trigram_weight = .5
+		# bigram_weight = .5
+		bigram_weight = .2
+		trigram_weight = .8
 
 		fluent_sentence = self.fluency_processor_inst.find_combined_fluency(english_sentences, bigram_prob_list, trigram_prob_list, bigram_weight, trigram_weight)
 
 		return fluent_sentence
 		#to test without the fluency_processor, comment out above line and add:
-		# return english_sentences[1]
+		# return english_sentences[0]
 
 	def generateTranslations(self, tokens, position):
 		# if (position == len(tokens)):
@@ -94,7 +103,7 @@ class SpanishTranslator:
 			sentence = ""
 			for token in tokens:
 				sentence += token.word.decode('utf-8') + " "
-			print sentence
+			# print sentence
 			print position
 
 			self.translations.append(tokens)
@@ -109,7 +118,6 @@ class SpanishTranslator:
 					match_options.append(opt)
 
 			if len(match_options) > 1:
-				#ADJUST randomized selection to choose 2 translations on word
 				if random.random() <= .2:
 					count = 0
 					while (count < 2 and count < len(match_options)):
